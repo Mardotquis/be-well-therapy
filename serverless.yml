@@ -1,0 +1,29 @@
+service: be-well-therapy
+
+custom:
+  # setting up a custom variable for the env option passed in
+  env: ${opt:env}
+  # pulling domain URLs for APIs
+  secrets: ${file(secrets.json)}
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: ${self:custom.env}
+  environment:
+    # telling npm this is the production version
+    NODE_ENV: production
+    CURRENT_STAGE: ${self:custom.env}
+    DEV_DOMAIN: ${self:custom.secrets.DEV_DOMAIN}
+    PROD_DOMAIN: ${self:custom.secrets.PROD_DOMAIN}
+  # setting the APIG stage to mimic the custom env variable
+  region: us-east-1
+
+functions:
+  server:
+    handler: index.server
+    events:
+      - http: ANY /
+      - http: ANY /{proxy+}
+
+# TODO - add R53 mapping

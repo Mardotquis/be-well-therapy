@@ -1,0 +1,33 @@
+{
+  "name": "be-well-therapy",
+  "version": "1.0.0",
+  "description": "Be Well Therapy project.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "next -p 8080",
+    "start": "nodemon server.js",
+    "build": "next build",
+    "deploy:dev": "next build && sls deploy --env development",
+    "deploy:prod": "next build && sls deploy --env production"
+  },
+  "author": "Marquis Mitchell <marquis0403@gmail.com> (https://hellomarquis.com)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "next": "^9.0.7",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "serverless-http": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}
