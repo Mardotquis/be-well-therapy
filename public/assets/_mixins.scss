@@ -1,0 +1,9 @@
+@mixin box($height-width){
+  height: $height-width;
+  width: $height-width;
+}
+
+@mixin rect($height, $width){
+  height: $height;
+  width: $width;
+}
