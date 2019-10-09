@@ -24,5 +24,6 @@ module.exports = {
   rules: {
     "react/jsx-filename-extension": "off", // Next doesn't like .jsx extensions :)
     "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
   },
 };

@@ -3,7 +3,7 @@ import Default from '../layouts/default';
 
 export default function Home() {
   return (
-    <Default>
+    <Default meta={{ title: 'Home' }}>
       Home Page
     </Default>
   );
