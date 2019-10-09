@@ -1,14 +1,14 @@
 // essentials
-@import "./assets/reset.scss";
+@import "./assets/partials/reset.scss";
 
-@import "./assets/fonts.scss";
+@import "./assets/partials/fonts.scss";
 
-@import "./assets/variables.scss";
+@import "./assets/partials/variables.scss";
 
-@import "./assets/mixins.scss";
+@import "./assets/partials/mixins.scss";
 
 // page content
-@import "./assets/navbar.scss";
+@import "./assets/partials/navbar.scss";
 
 // components
-@import "./assets/Logo.scss";
+@import "./assets/partials/Logo.scss";

@@ -9,7 +9,6 @@ export default function Navbar() {
     <nav className="nav">
       <div className="nav__logo"><Logo /></div>
       <div className="nav__content">
-        {/* TODO - add Links */}
         <ul className="nav__content__links__list">
           <Link href="/about-us">
             <li className="nav__content__links__list-item">About Us</li>
@@ -26,9 +25,7 @@ export default function Navbar() {
         </ul>
         <div className="nav__content__info">
           <a className="nav__content__info-text nav__content__info-text-phn" href="tel:704-334-3170">704.334.3170</a>
-          {/* TODO - ask Montell about XD file vs website  */}
           <a href={googleMapsLink} className="nav__content__info-text" target="_blank" rel="noopener noreferrer">1923 J N Pease Place Ste. 201 Charlotte, NC</a>
-          {/* TODO - link to site */}
         </div>
       </div>
     </nav>
