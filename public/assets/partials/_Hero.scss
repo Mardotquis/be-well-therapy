@@ -1,0 +1,55 @@
+$white: #F4EFEF;
+
+.home-hero {// TODO - ask Montell about hero being offset from nav?
+  @include rect(100vh, 100%);
+  max-height: 740px;
+  background-image: url('/img/home/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  &__content {
+    position: absolute;
+    //TODO - ask Montell about percentages
+    top: 290px;
+    left: 15%;
+    &__lgtext {
+      font-size: 40px;
+      font-family: $poppins;
+      margin-bottom: 30.5px;
+      font-weight: 400;
+      color: $white;
+      // TODO - line height?
+    }
+    &__btn {
+      background-color: $teal;
+      filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.2));
+      padding: 22px 10px;
+      font-family: $futura;
+      font-size: 21px;
+      color: $sand;
+      border-radius: 10px;
+      border-color: transparent;
+      text-transform: uppercase;
+      &:hover {
+        // TODO - hover styles?
+      }
+    }
+  }
+}
+
+.home_hero__subcontent {
+  background-color: #27918D;
+  text-align: center;
+  color: $sand;
+  &__lgtext {
+    padding-top: 32px;
+    font: 32px $poppins ;
+    text-transform: lowercase;
+
+  }
+  &__smtext {
+    margin-top: 43px;
+    padding: 0 150px 74px 150px;
+    font: 20px $futura;
+  }
+}
