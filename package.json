@@ -7,8 +7,10 @@
     "dev": "next -p 8080",
     "start": "nodemon server.js",
     "build": "next build",
+    "export": "next export",
     "deploy:dev": "next build && sls deploy --env development",
-    "deploy:prod": "next build && sls deploy --env production"
+    "deploy:prod": "next build && sls deploy --env production",
+    "netlify-deploy": "npm run build && npm run export"
   },
   "author": "Marquis Mitchell <marquis0403@gmail.com> (https://hellomarquis.com)",
   "license": "ISC",
