@@ -36,3 +36,20 @@ $white: #F4EFEF;
     }
   }
 }
+
+.home_hero__subcontent {
+  background-color: #27918D;
+  text-align: center;
+  color: $sand;
+  &__lgtext {
+    padding-top: 32px;
+    font: 32px $poppins ;
+    text-transform: lowercase;
+
+  }
+  &__smtext {
+    margin-top: 43px;
+    padding: 0 150px 74px 150px;
+    font: 20px $futura;
+  }
+}
