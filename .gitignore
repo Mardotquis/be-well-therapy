@@ -8,3 +8,7 @@ secrets.json
 
 # Next directories
 .next
+out
+
+# misc
+.DS_Store
