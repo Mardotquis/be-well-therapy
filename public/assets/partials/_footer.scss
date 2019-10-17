@@ -1,0 +1,25 @@
+$footer-breakpoint: 1200px;
+// TODO - ask Montell about this
+
+.footer {
+  @include rect(80px, 100%);
+  background-color: #3C3C3C;
+  display: flex;
+  align-items: center;
+  &__text {
+    font: 20px $futura;
+    color: #fff;
+    &-left {
+      margin-left: 122px;
+      @media (max-width: $footer-breakpoint) {
+        margin-left: 6.35%;
+      }
+    }
+    &-right {
+      margin: 0 153px 0 auto;
+      @media (max-width: $footer-breakpoint) {
+        margin: 0 8% 0 auto;
+      }
+    }
+  }
+}
