@@ -36,4 +36,13 @@ export default function MainContentInfo({ modalInfo }) {
       </MainContentInfoWrapper>
     );
   }
+  return (
+    <MainContentInfoWrapper>
+      <div className="home-maincontent__info__content home-maincontent__info__content-short">
+        <p className="home-maincontent__info__content_mainsentence home-maincontent__info__content_mainsentence-short">
+          {modalInfo.mainSentence}
+        </p>
+      </div>
+    </MainContentInfoWrapper>
+  );
 }

@@ -101,8 +101,11 @@ $line-color: #8DCD89;
       // TODO - suggest consistency across modal info(width of this)
       flex-direction: column;
       align-items: center;
-      margin: 0 auto auto auto;
+      margin: auto;
       padding: 0 130px;
+      &-short  {
+        padding: 0;
+      }
       max-height: 500px;
       overflow-y: auto;
       // TODO - suggest scroll inside for responsiveness
@@ -119,10 +122,19 @@ $line-color: #8DCD89;
       &_mainsentence {
         margin: 20px auto;
         line-height: 39px;
+        &-short {
+          max-width: 50%;
+          line-height: 50px;
+        }
       }
       &_listitems {
         &-heading {
-          margin: 18px 0 44px 0;
+          margin-top: 18px;
+          font-family: Poppins;
+          text-decoration: underline;
+          font-size: 20px;
+          line-height: 60px;
+
         }
         li {
           line-height: 55px;
