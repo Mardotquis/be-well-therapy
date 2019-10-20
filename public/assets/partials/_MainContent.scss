@@ -1,0 +1,140 @@
+$modal-background: #65A5AD;
+$line-color: #8DCD89;
+
+.home-maincontent {
+  background-color: $sand;
+  color: $vidaloca;
+  &__lgtext {
+    padding-top: 43px;
+    width: 100%;
+    text-transform: lowercase;
+    font: 32px $poppins;
+    text-align: center;
+    &__border_bottom {
+      margin-top: 12px;
+      color: $iroko;
+      @include rect(1px, 378px);
+      margin-bottom: 5em;
+      text-align: center;
+      margin: 12px auto 0 auto;
+    }
+  }
+
+  &__cards {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-around;
+    &__card {
+      border: 3px solid red;
+      @include rect(387px, 377px);
+      // TODO - add min
+      position: relati-ve;
+      &-img {
+        // background-image will be passed in through props
+        @include rect(265px, 100%);
+        background-size: cover;
+        background-color: blue;
+        border: 3px solid pink;
+      }
+      &__text_wrapper {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        @include rect(297px, 291px);
+        background-color: white;
+        &__lgtext{
+          margin: auto;
+          @include box(100%);
+          font: 24px $poppins;
+
+        }
+      }
+    }
+  }
+
+  &__info {
+    @include rect(90vh, 1065px);
+    @media (max-width: 1220px) {
+      width: 85vw;
+    }
+    background-color: $modal-background;
+    background-image: url('/img/enlarged-logo.png');
+    background: $modal-background url('/img/enlarged-logo.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__top_lines {
+      padding-top: 30px;
+    }
+    &__bottom_lines {
+      padding-bottom: 30px;
+      > div {
+        // targeting the horizontal line
+        margin: 0 auto 12.5px auto;
+      }
+    }
+    &_lines {
+      &_vertical {
+        margin: auto;
+        height: 140px;
+        width: 1px;
+        background-color: $line-color;
+      }
+      &_horizontal {
+        margin: 12.5px auto 0 auto;
+        height: 1px;
+        width: 518px;
+        background-color: $line-color;
+      }
+    }
+    p, li {
+      color: #FDFDFD;
+      font-size: 18px;
+      font-family: $poppins;
+      font-weight: 400;
+      // TODO - add normal/400 font weight poppins
+    }
+    &__content {
+      // TODO - suggest consistency across modal info(width of this)
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto auto auto;
+      padding: 0 130px;
+      max-height: 500px;
+      overflow-y: auto;
+      // TODO - suggest scroll inside for responsiveness
+    &::-webkit-scrollbar {
+      width: 10px;
+      background: $line-color;
+      border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+
+    }
+      &_mainsentence {
+        margin: 20px auto;
+        line-height: 39px;
+      }
+      &_listitems {
+        &-heading {
+          margin: 18px 0 44px 0;
+        }
+        li {
+          line-height: 55px;
+        }
+        &-long {
+          columns: 2;
+          column-gap: 140px;
+          li {
+            line-height: 45px;
+          }
+        }
+      }
+    }
+  }
+}
