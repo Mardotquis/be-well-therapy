@@ -1,5 +1,6 @@
 $modal-background: #65A5AD;
 $line-color: #8DCD89;
+$modal-breakpoint: 800px;
 
 .home-maincontent {
   background-color: $sand;
@@ -28,7 +29,10 @@ $line-color: #8DCD89;
       border: 3px solid red;
       @include rect(387px, 377px);
       // TODO - add min
-      position: relati-ve;
+      position: relative;
+      &:hover {
+        cursor: pointer;
+      }
       &-img {
         // background-image will be passed in through props
         @include rect(265px, 100%);
@@ -66,6 +70,21 @@ $line-color: #8DCD89;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    cursor: initial;// overwriting the curser set by &__card
+    &-close {
+      @include box(20px);
+      background-image: url('/img/close.png');
+      // overwrititng button styles
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      top: 50px;
+      right: 80px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
     &__top_lines {
       padding-top: 30px;
     }
@@ -86,7 +105,7 @@ $line-color: #8DCD89;
       &_horizontal {
         margin: 12.5px auto 0 auto;
         height: 1px;
-        width: 518px;
+        width: 50%;
         background-color: $line-color;
       }
     }
@@ -99,10 +118,11 @@ $line-color: #8DCD89;
     }
     &__content {
       // TODO - suggest consistency across modal info(width of this)
-      flex-direction: column;
-      align-items: center;
       margin: auto;
       padding: 0 130px;
+      @media (max-width: $modal-breakpoint) {
+        padding: 0 65px;
+      }
       &-short  {
         padding: 0;
       }
@@ -116,6 +136,7 @@ $line-color: #8DCD89;
     }
     &::-webkit-scrollbar-thumb {
       border-radius: 10px;
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 
     }
@@ -125,6 +146,9 @@ $line-color: #8DCD89;
         &-short {
           max-width: 50%;
           line-height: 50px;
+          @media (max-width: $modal-breakpoint) {
+            max-width: 80%;
+          }
         }
       }
       &_listitems {
@@ -144,6 +168,9 @@ $line-color: #8DCD89;
           column-gap: 140px;
           li {
             line-height: 45px;
+          }
+          @media (max-width: $modal-breakpoint) {
+            columns: 1;
           }
         }
       }
