@@ -1,0 +1,21 @@
+.modal {
+  overflow: hidden;
+  @include rect(100vh, 100vw);
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  z-index: 2;
+  &__overlay {
+    position: absolute;
+    background: transparent;
+    backdrop-filter: blur(8.09844970703125px);// TODO - fix for Firefox
+    -webkit-backdrop-filter: blur(8.09844970703125px);
+    // for Safari, have to find a Firefox fix
+    @include rect(100vh, 100vw);
+    opacity: .8;
+  }
+  &__child {
+    z-index: 3;
+    margin: auto;
+  }
+}
