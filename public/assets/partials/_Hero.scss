@@ -1,5 +1,5 @@
 $white: #F4EFEF;
-
+$hero-breakpoint: 1000px;
 .home-hero {// TODO - ask Montell about hero being offset from nav?
   @include rect(100vh, 100%);
   max-height: 740px;
@@ -51,5 +51,9 @@ $white: #F4EFEF;
     margin-top: 43px;
     padding: 0 150px 74px 150px;
     font: 20px $futura;
+    line-height: 30px;
+    @media (max-width: $hero-breakpoint) {
+      padding: 0 50px 24px 50px;// TODO - discuss w/ Montell
+    }
   }
 }
