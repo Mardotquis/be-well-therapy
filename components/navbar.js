@@ -7,7 +7,7 @@ const googleMapsLink = 'https://www.google.com/maps/dir//1923+J+N+Pease+Pl+STE+2
 export default function Navbar() {
   return (
     <nav className="nav">
-      <div className="nav__logo"><Logo /></div>
+      <Link href="/"><div className="nav__logo"><Logo /></div></Link>
       <div className="nav__content">
         <ul className="nav__content__links__list">
           <Link href="/about-us">

@@ -1,6 +1,6 @@
 $lg-break: 1530px; // TODO - change later after revised design
 .nav {
-  background-color: #F5F5F5;
+  background-color: $sand;
   @include rect(140px, 100%);
   display: flex;
   padding: 0 115px 0 146px;
@@ -9,6 +9,9 @@ $lg-break: 1530px; // TODO - change later after revised design
   // TODO - update font from Montell
   &__logo {// TODO - ask Montell if nav is a little too far off?
     margin: auto 0 27px 0;
+    &:hover {
+      cursor: pointer;
+    }
   }
   &__content {
     width: 100%;

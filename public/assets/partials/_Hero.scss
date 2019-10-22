@@ -1,4 +1,4 @@
-$white: #F4EFEF;
+$hero-white: #F4EFEF;
 $hero-breakpoint: 1000px;
 .home-hero {// TODO - ask Montell about hero being offset from nav?
   @include rect(100vh, 100%);
@@ -17,7 +17,7 @@ $hero-breakpoint: 1000px;
       font-family: $poppins;
       margin-bottom: 30.5px;
       font-weight: 400;
-      color: $white;
+      color: $hero-white;
       // TODO - line height?
     }
     &__btn {
