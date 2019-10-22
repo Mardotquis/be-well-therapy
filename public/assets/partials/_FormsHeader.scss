@@ -11,9 +11,14 @@ $subheader-small-breakpoint: 900px;
       font-family: $poppins;
       font-size: 34px;
       line-height: 82px;
-      letter-spacing: 5px;
-      padding: 48px auto;
+      padding: 48px 0;
       margin-left: 22%;// TODO - discuss w/ Montell
+      font-weight: 400;
+      text-transform: uppercase;
+      border: 1px solid rgba(0, 0, 0, 0);
+      @media (max-width: $subheader-small-breakpoint) {
+        padding: 24px;// TODO - discuss w/ Montell
+      }
     }
   }
   &__subheader{
