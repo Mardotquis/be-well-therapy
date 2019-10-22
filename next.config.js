@@ -28,3 +28,4 @@ module.exports = withPlugins(
     },
   },
 );
+// TODO - put assets over a CDN

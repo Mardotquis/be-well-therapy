@@ -57,6 +57,7 @@ $modal-breakpoint: 800px;
     }
   }
 
+  // TODO - add animation
   &__info {
     @include rect(90vh, 1065px);
     @media (max-width: 1220px) {
