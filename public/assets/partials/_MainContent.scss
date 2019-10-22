@@ -57,6 +57,7 @@ $modal-breakpoint: 800px;
     }
   }
 
+  // TODO - add animation
   &__info {
     @include rect(90vh, 1065px);
     @media (max-width: 1220px) {
@@ -110,7 +111,7 @@ $modal-breakpoint: 800px;
       }
     }
     p, li {
-      color: #FDFDFD;
+      color: $white;
       font-size: 18px;
       font-family: $poppins;
       font-weight: 400;

@@ -7,7 +7,9 @@ import '../public/App.scss';
 export default ({ children, meta }) => (
   < >
     <Meta {...meta} />
-    <Navbar />
+    <header>
+      <Navbar />
+    </header>
     {children}
     <Footer />
   </ >
