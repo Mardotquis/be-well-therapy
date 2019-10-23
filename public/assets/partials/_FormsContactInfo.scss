@@ -1,0 +1,50 @@
+.form__contact_info {
+  @include rect(100%, 380px);
+  background-color: $forms_teal;
+  position: absolute;
+  top: 0;
+  right: 155px;
+  border-radius: 10px 10px 0px 0px;
+
+  &__office_hours {
+    &-lgtext {
+      font-family: $poppins;
+      font-size: 25px;
+      color: #fdfdfd;
+      text-transform: uppercase;
+      margin: 43px 0 25px 34px;
+    }
+    &_hours_list {
+      margin-left: 34px;
+      margin-right: 30px;
+      &_item {
+        display: flex;
+        justify-content: space-between;
+        color: $sand;
+        font-size: 16px;
+        font-family: $futura;
+        font-weight: 500;
+        padding-bottom: 4px;
+        border-bottom: 1px solid rgba(255, 255, 255, .45);
+        margin-bottom: 30px;
+        &:last-child{
+          border-bottom: none;
+        }
+        &_day {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &_contact_details {
+    margin-left: 34px;
+    &-lgtext {
+      font-family: $poppins;
+      font-size: 25px;
+      color: $sand;
+      text-transform: uppercase;
+      margin-bottom: 34px;
+    }
+  }
+}
