@@ -1,6 +1,6 @@
 import React from 'react';
 import OfficeHoursListItem from './officeHoursListItem';
-import { hours } from './constants';
+import { hours } from '../../../constants';
 
 function displayHours() {
   return hours.map((info) => (

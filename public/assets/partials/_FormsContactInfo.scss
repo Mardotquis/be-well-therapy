@@ -1,5 +1,6 @@
 .form__contact_info {
-  @include rect(100%, 380px);
+  // 99.5 for the small space on bottom
+  @include rect(99.5%, 380px);
   background-color: $forms_teal;
   position: absolute;
   top: 0;
@@ -46,5 +47,42 @@
       text-transform: uppercase;
       margin-bottom: 34px;
     }
+  &_items {
+    &_item {
+      display: block;
+      margin-bottom: 18px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &-icon {
+        background-size: contain;
+        background-position: left center;
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 17px;
+        &-location {
+          background-image: url('/img/forms/location.png');
+          @include rect(17.5px, 24.5px);
+          background-position: 17% center;
+          margin-right: 16.5px;
+        }
+        &-email {
+          background-image: url('/img/forms/email.png');
+          @include rect(11.4px, 20px);
+          margin-right: 21px;
+        }
+        &-phone {
+          background-image: url('/img/forms/phone.png');
+          @include rect(18px, 22.75px);
+          margin-right: 17px;
+        }
+      }
+      &-text {
+        font-family: $futura;
+        font-size: 16px;
+        color: $sand;
+      }
+    }
+  }
   }
 }
