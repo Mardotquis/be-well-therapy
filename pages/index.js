@@ -1,6 +1,6 @@
 import React from 'react';
 import Default from '../layouts/default';
-import Hero from '../components/hero/hero';
+import Hero from '../components/home/hero/hero';
 import MainContent from '../components/home/mainContent/mainContent';
 
 export default function Home() {

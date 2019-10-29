@@ -110,14 +110,12 @@ $modal-breakpoint: 800px;
       }
     }
     p, li {
-      color: #FDFDFD;
+      color: $white;
       font-size: 18px;
       font-family: $poppins;
       font-weight: 400;
-      // TODO - add normal/400 font weight poppins
     }
     &__content {
-      // TODO - suggest consistency across modal info(width of this)
       margin: auto;
       padding: 0 130px;
       @media (max-width: $modal-breakpoint) {

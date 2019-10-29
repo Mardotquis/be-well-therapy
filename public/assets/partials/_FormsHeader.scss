@@ -1,0 +1,77 @@
+$forms-teal: #498F8C;
+$forms-grey: #908E8E;
+$subheader-large-breakpoint: 1400px;
+$subheader-small-breakpoint: 900px;
+
+.forms {
+  &__header {
+    background-color: $forms-teal;
+    &-lgtext {
+      color: $white;
+      font-family: $poppins;
+      font-size: 34px;
+      line-height: 82px;
+      padding: 48px 0;
+      margin-left: 22%;
+      font-weight: 400;
+      text-transform: uppercase;
+      border: 1px solid rgba(0, 0, 0, 0);
+      @media (max-width: $subheader-small-breakpoint) {
+        padding: 24px;
+      }
+    }
+  }
+  &__subheader{
+    background-color: $sand;
+    display: flex;
+    justify-content: space-evenly;
+    &-smtext {
+      margin: 61px 0 40px 0;
+      margin-left: 8%;
+      max-width: 795px;
+      font-family: $futura;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      color: $forms-grey;
+      &-green {
+        color: $vidaloca;
+      }
+    }
+    &__ctas {
+      // TODO - ask Montell about these being offset from the right
+      display: flex;
+      margin-top: 80px;
+      > * {// targetting the individual CTA's
+        @media (min-width: $subheader-large-breakpoint) {
+          &:first-child {
+            margin-left: 8px;
+          }
+        }
+        margin-right: 30px;
+      }
+      @media (max-width: $subheader-large-breakpoint) {
+        flex-wrap: wrap;
+        margin: 31px 0 0 8px;
+        justify-content: center;
+      }
+    }
+    @media (max-width: $subheader-large-breakpoint) {
+      justify-content: space-around;
+      &-smtext {
+        margin-top: 31px;
+      }
+    }
+    @media (max-width: $subheader-small-breakpoint) {
+      flex-direction: column;
+      &-smtext {
+        margin-left: 4%;
+        margin-right: 4%;
+      }
+      &__ctas {
+        margin-bottom: 20px;
+        // TODO - add margin for smaller breakpoint
+      }
+    }
+  }
+}
