@@ -24,7 +24,7 @@ export default function Contact() {
         </p>
         <form action="" className="form__contact_content_form_wrapper" onSubmit={submitForm}>
           <Input name="name" bind={bind} label="Your Name (required)" />
-          <Input name="email" bind={bind} label="Your Email (required)" />
+          <Input type="email" name="email" bind={bind} label="Your Email (required)" />
           <Input name="subject" bind={bind} label="Subject" />
           <Input name="message" bind={bind} label="Your Message" textarea />
           <CTA height="58px" width="100%" type="submit">Send</CTA>
