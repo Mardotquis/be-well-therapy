@@ -3,8 +3,6 @@ $footer-breakpoint: 1200px;
 
 .footer {
   @include rect(80px, 100%);
-  position: fixed;
-  bottom: 0;
   background-color: #3C3C3C;
   display: flex;
   align-items: center;

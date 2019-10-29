@@ -10,7 +10,9 @@ export default ({ children, meta }) => (
     <header>
       <Navbar />
     </header>
-    {children}
+    <main>
+      {children}
+    </main>
     <Footer />
   </ >
 );
