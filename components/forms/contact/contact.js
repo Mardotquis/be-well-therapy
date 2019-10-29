@@ -8,10 +8,11 @@ export default function Contact() {
   // initializing the hook once to keep state in one central place
   const { bind, formState } = useInput();
 
-  function submitForm(event) {
+  async function submitForm(event) {
     event.preventDefault();
     const formHelper = new Form(formState);
-    formHelper.validateInput();
+    if (!formHelper.validateInput()) return;
+    await formHelper.sendData();
   }
 
   return (
@@ -19,7 +20,8 @@ export default function Contact() {
       <div className="form__contact_content">
         <h1 className="form__contact_content-header">Have questions for our counselors?</h1>
         <p className="form__contact_content-smtext">
-          Complete the form fill below to send us any questions, comments or concerns you may have about our practice or the
+          Complete the form fill below to send us any questions, comments or
+          concerns you may have about our practice or the
           counseling services we offer. A member of our team will be in touch with you shortly!
         </p>
         <form action="" className="form__contact_content_form_wrapper" onSubmit={submitForm}>
