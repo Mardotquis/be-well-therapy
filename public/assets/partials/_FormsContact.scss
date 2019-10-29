@@ -2,13 +2,11 @@ $form-header-color: #5A5656;
 $forms-input-background: #DDDBDB;
 
 .form__contact {
-  // TODO - remove height later
-  // @include rect(60vh, 100%);
+  // TODO - make responsive
   background-color: $sand;
   &_content {
-    // margin-left: 30%;
     margin: 0 auto;
-    max-width: 55%;//hmm...
+    max-width: 55%;
     &-header {
       padding-top: 64px;
       font-family: $poppins;
@@ -47,20 +45,17 @@ $forms-input-background: #DDDBDB;
         font-family: $futura;
         font-size: 20px;
         font-weight: 400;
-        // color: $forms-grey;
-        &:last-child {
-          margin-bottom: 51px;
-        }
       }
       &_textarea {
         min-height: 110px;
+        margin-bottom: 26px;
       }
       &_error {
         margin-top: 4px;
         color: $forms-grey;
         font-family: $futura;
       }
-      padding-bottom: 79px;
+      padding-bottom: 32px;
     }
   }
 }
