@@ -1,11 +1,13 @@
 $form-header-color: #5A5656;
+$forms-input-background: #DDDBDB;
 
 .form__contact {
   // TODO - remove height later
-  @include rect(60vh, 100%);
+  // @include rect(60vh, 100%);
   background-color: $sand;
   &_content {
-    margin-left: 30%;
+    // margin-left: 30%;
+    margin: 0 auto;
     max-width: 55%;//hmm...
     &-header {
       padding-top: 64px;
@@ -17,6 +19,56 @@ $form-header-color: #5A5656;
     }
     &-smtext {
       margin-top: 25px;
+      font-size: 20px;
+      font-family: $futura;
+      font-weight: 500;
+      font-style: normal;
+      color: $forms-grey;
+      line-height: 24px;
+    }
+    &_form_wrapper {
+      margin-top: 57px;
+      display: flex;
+      flex-direction: column;
+      &_label {
+        font-size: 16px;
+        font-family: $futura;
+        font-weight: 500;
+        color: $forms-grey;
+
+      }
+      &_input, &_textarea {
+        background-color: $forms-input-background;
+        border: none;
+        margin-top: 10px;
+        padding: 15px 20px;
+        color: #5A5656;
+        margin-bottom: 21px;
+        font-family: $futura;
+        font-size: 20px;
+        font-weight: 400;
+        // color: $forms-grey;
+        &:last-child {
+          margin-bottom: 51px;
+        }
+      }
+      &_textarea {
+        min-height: 110px;
+      }
+      &_error {
+        margin-top: 4px;
+        color: $forms-grey;
+        font-family: $futura;
+      }
+      padding-bottom: 79px;
     }
   }
+}
+
+.label-error {
+  color: red;
+}
+
+.input-error {
+  border: 1px solid red;
 }
