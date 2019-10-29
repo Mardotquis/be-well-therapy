@@ -1,11 +1,17 @@
 import React from 'react';
 
-export default function Input({ name, bind }) {
+export default function Input({
+  name, bind, label, textarea = false,
+}) {
   return (
     < >
-      <label htmlFor={name} className="form__contact_content_form_wrapper_label">
-        <input id={name} type="text" className="form__contact_content_form_wrapper_input" name={name} {...bind(name)} />
+      <label htmlFor={name} id={`label-${name}`} className="form__contact_content_form_wrapper_label">
+        {label}
       </label>
+      <span className="form__contact_content_form_wrapper_error" id={`error-${name}`} />
+      {textarea
+        ? <textarea id={name} type="text" className="form__contact_content_form_wrapper_textarea" name={name} {...bind(name)} />
+        : <input id={name} type="text" className="form__contact_content_form_wrapper_input" name={name} {...bind(name)} />}
     </ >
   );
 }
