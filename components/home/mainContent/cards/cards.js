@@ -7,7 +7,7 @@ const random = require('uuid/v4');
 
 function displayCards() {
   return cards.map((obj) => (
-    <Card modalInfo={obj.modalInfo} key={random()} />
+    <Card header={obj.header} subheader={obj.subheader} backgroundImg={obj.backgroundImg} modalInfo={obj.modalInfo} key={random()} />
   ));
 }
 
