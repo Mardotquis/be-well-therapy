@@ -1,0 +1,39 @@
+.about_us__bottom_hero {
+  margin-top: 36px;
+  @include rect(850px, 100%);
+  background: linear-gradient(rgba(60, 60, 60, .28),
+  rgba(60, 60, 60, .28)),
+  url('/img/about-us/group-picture.jpeg');
+  background-size: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  &_text_wrapper {
+    margin: 316px auto auto auto;
+    &-lgtext {
+      font-family: $poppins;
+      font-size: 24px;
+      color: $white;
+      line-height: 40px;// TODO - add line height back to everything?
+    }
+    &_lists {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 106px;
+    }
+    &_list-left, &_list-right {
+      margin-top: 60px;
+      li {
+        font-size: 21px;
+        font-family: $futura;
+        font-weight: 500;
+        color: $white;
+        text-transform: uppercase;
+        line-height: 66px;
+      }
+    }
+    &_list-left {
+      margin-right: 294px;
+    }
+  }
+}

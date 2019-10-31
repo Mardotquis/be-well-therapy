@@ -1,0 +1,40 @@
+$about-us-green: #75BF2A;
+.about_us__mission {
+  padding-top: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &_icon {
+    @include box(52px);
+    margin: auto;
+    background-image: url('/img/about-us/notepad.png');
+  }
+  &-lgtext {
+    font-size: 32px;
+    font-family: $poppins;
+    color: $about-us-green;
+  }
+  &-medtext {
+    margin-top: 16px;
+    font-size: 25px;
+    font-family: $futura;
+    font-weight: 500;
+    line-height: 35px;
+    max-width: 888px;// TODO - change later
+    color: $scorpion;
+  }
+  &_quote {
+    margin-top: 25px;
+    border-left: 2px solid rgba(112, 112, 112, .45);
+    padding: 15px 27px;
+    p:first-of-type {
+      margin-bottom: 39px;
+    }
+    p {
+      font-size: 17px;
+      font-family: $futura;
+      line-height: 25px;
+      max-width: 655px;
+    }
+  }
+}
