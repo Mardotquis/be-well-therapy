@@ -25,36 +25,61 @@ $modal-breakpoint: 800px;
     margin-top: 96px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    // TODO - work on later
+    // @media (max-width: 1635px) {
+    //   display: grid;
+    //   grid-template-columns: 1fr 1fr;
+    // }
     &__card {
-      border: 3px solid red;
+      // border: 3px solid red;
+      margin: 0 32px;
       @include rect(387px, 377px);
       // TODO - add min
       position: relative;
       &:hover {
         cursor: pointer;
+        // TODO - discuss with Montell
+        // transform: scale(1.0125);
+        // transition: transform 0.3s linear;
+        // .home-maincontent__cards__card-img, .home-maincontent__cards__card__text_wrapper {
+        //   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        //   transition: box-shadow 0.3s linear;
+        // }
       }
       &-img {
         // background-image will be passed in through props
         @include rect(265px, 100%);
         background-size: cover;
-        background-color: blue;
-        border: 3px solid pink;
+        border-radius: 10px;
       }
       &__text_wrapper {
         position: absolute;
-        bottom: 0;
+        top: 154px;// eyeballed...
         left: 50%;
         transform: translate(-50%);
-        @include rect(297px, 291px);
-        background-color: white;
+        @include rect(221px, 291px);
+        background-color: $plain;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 3px 78px #00000029;
+        display: flex;
+        flex-direction: column;
         &__lgtext{
-          margin: auto;
-          @include box(100%);
           font: 24px $poppins;
-
+          line-height: 32px;
+          text-transform: uppercase;
+        }
+        &__smtext {
+          display: block;
+          font: 16px $poppins;
+          text-transform: uppercase;
         }
       }
     }
+    padding-bottom: 176px;
   }
 
   &__info {
