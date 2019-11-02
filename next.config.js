@@ -25,6 +25,7 @@ module.exports = withPlugins(
         '/': { page: '/' },
         '/forms': { page: '/forms' },
         '/about-us': { page: '/about-us' },
+        '/our-staff': { page: '/our-staff' },
       };
     },
   },
