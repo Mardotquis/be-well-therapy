@@ -1,15 +1,17 @@
 .employee_cards {
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 40px;
-  // padding: 0 187px;// tried...
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  grid-gap: 36px 5%;
+  justify-items: center;
+  align-items: center;
+  margin: 50px auto 40px auto;
+  max-width: 1350px;
+  padding: 0 20px;
   &__card {
     @include rect(592px, 381px);
     // TODO - discuss making dimmensions larger due to text being bigger
-    margin: 0 5% 36px 5%;// or 100px L/R but screen is too big
     padding: 0;
+    // TODO - add box shadow
     &__img {
       @include rect(390px, 100%);
       padding: 0;
