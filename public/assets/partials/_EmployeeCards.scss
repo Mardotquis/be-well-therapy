@@ -91,9 +91,6 @@
     &-picture {
       margin-top: 25px;
       @include rect(230px, 215px);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
       align-self: center;
     }
     &__text {
