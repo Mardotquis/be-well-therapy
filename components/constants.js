@@ -4,7 +4,7 @@ export const services = [
     header: 'Kids',
     longerHeader: 'Child and Adolescent Therapy',
     backgroundImg: '/img/home/small-girl.png',
-    rectangleBackgroundImg: '/img/our-services/writing-rect.png',
+    rectangleBackgroundImg: '/img/our-services/small-girl-rect.png',
     subheader: '(Child/Teen)',
     homepage: true,
     mainSentence: 'Licensed Counselors use a variety of techniques and methods to help children and adolescents who are experiencing difficulties with their emotions, behavior and resolve problems.',
@@ -17,7 +17,7 @@ export const services = [
   {
     header: 'Individual',
     backgroundImg: '/img/home/man-close-up.png',
-    rectangleBackgroundImg: '/img/our-services/writing-rect.png',
+    rectangleBackgroundImg: '/img/our-services/man-close-up-rect.png',
     homepage: true,
     mainSentence: 'Stop suffering alone. Heal, educate and empower yourself to change the things that are not working in your life.',
     modalInfo: {
@@ -31,7 +31,7 @@ export const services = [
     header: 'Family',
     longerHeader: 'Relationship, Marriage and Family Therapy',
     backgroundImg: '/img/home/family.png',
-    rectangleBackgroundImg: '/img/our-services/writing-rect.png',
+    rectangleBackgroundImg: '/img/our-services/family-rect.png',
     homepage: true,
     mainSentence: 'Connections with spouse, family members and loved ones are often the most fulfilling, yet sometimes, also the most challenging relationships in our lives. Sessions are designed to identify family or relationship patterns that contribute to the problems and help members break those habits.',
     modalInfo: {
@@ -52,8 +52,7 @@ export const services = [
   },
   {
     header: 'Mindful Yoga and Meditation Program',
-    backgroundImg: '/img/home/writing.png',
-    rectangleBackgroundImg: '/img/our-services/writing-rect.png',
+    rectangleBackgroundImg: '/img/our-services/yoga-rect.png',
     mainSentence: 'Equipping students on how to regulate their emotions in a healthy way and improve cognitive focus is paramount to healthy development.',
     modalInfo: {
       name: 'mindful-yoga',
@@ -62,8 +61,7 @@ export const services = [
   },
   {
     header: 'School and After-School Counseling',
-    backgroundImg: '/img/home/writing.png',
-    rectangleBackgroundImg: '/img/our-services/writing-rect.png',
+    rectangleBackgroundImg: '/img/our-services/school-rect.png',
     mainSentence: 'We provide licensed counselors for charter schools, private schools and after school programs.',
     modalInfo: {
       name: 'school-counseling',
