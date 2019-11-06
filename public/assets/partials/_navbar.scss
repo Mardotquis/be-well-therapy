@@ -1,4 +1,4 @@
-$lg-break: 1530px; // TODO - change later after revised design
+$lg-break: 1600px; // TODO - change later after revised design
 .nav {
   background-color: $sand;
   @include rect(140px, 100%);
@@ -50,6 +50,47 @@ $lg-break: 1530px; // TODO - change later after revised design
           margin-bottom: 11px;
         }
       }
+    }
+  }
+
+  &_mobile {
+    // only displayed at breakpoint(changed further down)
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    &__hamburger_icon {
+      margin-left: 23.5px;
+      @include rect(18px, 33px);
+      background-image: url('/img/home/hamburger.png');
+      background-size: contain;
+      background-position: center;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &__logo {
+      // TODO - break it down at another breakpoint
+    }
+    &__thing {
+      margin-right: 15px;
+      @include rect(29px, 77px);
+      background-color: $teal;
+    }
+    &__content {
+
+
+      &-hidden {
+        visibility: hidden;
+        position: absolute;// TODO - think more about this...
+      }
+    }
+  }
+
+  // removing desktop nav at breakpoint and showing mobile navbar
+  @media (max-width: $lg-break) {
+    display: none;
+    &_mobile {
+      display: flex;
     }
   }
 }
