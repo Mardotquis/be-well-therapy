@@ -12,7 +12,7 @@ export default function Details() {
       <div className="form__contact_info_contact_details_items">
         <div className="form__contact_info_contact_details_items_item">
           <span className="form__contact_info_contact_details_items_item-icon form__contact_info_contact_details_items_item-icon-location" />
-          <a href={googleMapsLink} className="form__contact_info_contact_details_items_item-text" target="_blank" rel="noopener noreferrer">{address}</a>
+          <a href={googleMapsLink} className="form__contact_info_contact_details_items_item-text form__contact_info_contact_details_items_item-text_location" target="_blank" rel="noopener noreferrer">{address}</a>
         </div>
         <div className="form__contact_info_contact_details_items_item">
           <span className="form__contact_info_contact_details_items_item-icon form__contact_info_contact_details_items_item-icon-email" />
