@@ -1,12 +1,17 @@
 import React from 'react';
 import Card from './card';
-import { cards } from '../cardsInfo';
+import { services } from '../../../constants';
 
 const random = require('uuid/v4');
 
 
 function displayCards() {
-  return cards.map((obj) => (
+  /** ********
+   first filtering out the ones that belong on the homepage
+   then mapping those out
+  ********* */
+  return services.filter((obj) => obj.homepage).map((obj) => (
+    // eslint-disable-next-line max-len
     <Card header={obj.header} subheader={obj.subheader} backgroundImg={obj.backgroundImg} modalInfo={obj.modalInfo} key={random()} />
   ));
 }
