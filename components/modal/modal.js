@@ -11,11 +11,11 @@ export default function Modal({ children, modalOpen, toggleModal }) {
   }, [modalOpen]);
 
   /* eslint-disable */
-  if (modalOpen) return (
-    <div className="modal" onClick={toggleModal}>
-      <div className="modal__overlay" />
-      <div className="modal__child">{children}</div>
-    </div>
-  );
-  else return true
+    return (
+      // hiding the modal using visibility property when modalOpen is false
+      <div className={`modal ${!modalOpen && 'modal-hidden'}`} onClick={toggleModal}>
+        <div className="modal__overlay" />
+        <div className="modal__child">{children}</div>
+      </div>
+    )
 }
