@@ -6,6 +6,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /**********
+  because it overlaps over other elements,
+  this will allow for the pointer to click elements behind it
+  **********/
+  pointer-events: none;
   &-lgtext {
     // because of the larger text on the back
     z-index: 2;

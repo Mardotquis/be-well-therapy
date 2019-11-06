@@ -1,0 +1,36 @@
+.our_services__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  // max-width: 1525px;
+  &__card {
+    @include rect(287px, 517px);
+    margin: 27px 30px;
+    /**********
+    passing whole background property
+    through inline styles
+    **********/
+    padding: 9px;
+    color: $white;
+    &-lgtext {
+      margin-top: 32px;
+      font-size: 22px;
+      font-family: $poppins;
+      line-height: 30px;
+    }
+    &-smtext {
+      margin-top: 40px;
+      font-size: 17px;
+      font-family: $futura;
+      font-weight: 500;
+      color: #E2DFDF;
+      line-height: 30px;
+    }
+    &-lgtext, &-smtext {
+      text-align: center;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
