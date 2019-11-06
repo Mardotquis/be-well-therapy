@@ -1,30 +1,13 @@
-$grid-breakpoint: 890px;
-
 .employee_cards {
   display: grid;
-  grid-template-columns: repeat(2, minmax(390px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
   grid-gap: 36px 5%;
   justify-items: center;
   align-items: center;
-  @media (max-width: $grid-breakpoint) {
-    display: block;
-    div {
-      margin: 0 auto 36px auto;
-    }
-  }
   margin: 50px auto 40px auto;
   max-width: 1350px;
   padding: 0 20px;
-    &__first_card {
-      // first card gets the full width
-      grid-column: span 2;
-      div {
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
   &__card {
-    // flex-grow: 2;
     @include rect(592px, 381px);
     // TODO - discuss making dimmensions larger due to text being bigger
     padding: 0;
