@@ -116,7 +116,9 @@ export const hours = [
   },
 ];
 
-export const address = '1923 J N Pease Place Ste. 201';
+export const address = '1935 J N Pease Place Ste. 202';
+
+export const fullAddress = '1935 J N Pease Place Ste 202 Charlotte NC 28262';
 
 export const email = 'something@email.com';// TODO - change later
 
