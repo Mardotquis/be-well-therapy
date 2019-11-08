@@ -2,7 +2,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Logo from './logo';
-import { googleMapsLink, phoneNum } from './constants';
+import {
+  googleMapsLink, phoneNum, fullAddress,
+} from './constants';
 
 export default function Navbar() {
   const [mobileNavContent, toggleMobileNavContent] = useState(false);
@@ -27,7 +29,7 @@ export default function Navbar() {
           </ul>
           <div className="nav__content__info">
             <a className="nav__content__info-text nav__content__info-text-phn" href={`tel:${phoneNum}`}>{phoneNum}</a>
-            <a href={googleMapsLink} className="nav__content__info-text" target="_blank" rel="noopener noreferrer">1923 J N Pease Place Ste. 201 Charlotte, NC</a>
+            <a href={googleMapsLink} className="nav__content__info-text" target="_blank" rel="noopener noreferrer">{fullAddress}</a>
           </div>
         </div>
       </nav>
@@ -40,8 +42,15 @@ export default function Navbar() {
           role="document"
         />
         <Link href="/"><div className="nav_mobile__logo"><Logo /></div></Link>
-        {/* TODO - change name once I figure out what this is... */}
-        <div className="nav_mobile__thing" />
+        {/* TODO - add actual content for these */}
+        <div className="nav_mobile__content__info">
+          <div className="nav_mobile__content__info-location">
+            <span className="nav_mobile__content__info-location-icon" />
+          </div>
+          <div className="nav_mobile__content__info-phn">
+            <span className="nav_mobile__content__info-phn-icon" />
+          </div>
+        </div>
 
         <div className={`nav_mobile__content ${!mobileNavContent && 'nav_mobile__content-hidden'}`}>
           <ul className="nav_mobile__content__links__list">
@@ -58,10 +67,6 @@ export default function Navbar() {
               <li className="nav_mobile__content__links__list-item">Forms</li>
             </Link>
           </ul>
-          <div className="nav_mobile__content__info">
-            <a className="nav_mobile__content__info-text nav_mobile__content__info-text-phn" href={`tel:${phoneNum}`}>{phoneNum}</a>
-            <a href={googleMapsLink} className="nav_mobile__content__info-text" target="_blank" rel="noopener noreferrer">1923 J N Pease Place Ste. 201 Charlotte, NC</a>
-          </div>
         </div>
       </nav>
 
