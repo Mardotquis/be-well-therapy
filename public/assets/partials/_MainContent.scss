@@ -1,16 +1,31 @@
 $modal-background: #65A5AD;
 $line-color: #8DCD89;
 $modal-breakpoint: 800px;
+$cards-med-breakpoint: 1650px;
+$cards-sm-breakpoint: 950px;
 
 .home-maincontent {
   background-color: $sand;
   color: $vidaloca;
+  @media (max-width: $cards-sm-breakpoint) {
+    // TODO - should this happen at a smaller size??
+    background-color: #8DCD89;
+    margin: -14px 7.5px 0 7.5px;
+  }
   &__lgtext {
     padding-top: 43px;
     width: 100%;
     text-transform: lowercase;
     font: 32px $poppins;
     text-align: center;
+    @media (max-width: $cards-sm-breakpoint) {
+      padding: 29px 24.5px 0 24.5px;
+      font-size: 22px;
+      line-height: 35px;
+      color: $white;
+      text-transform: capitalize;
+      text-align: left;
+    }
     &__border_bottom {
       margin-top: 12px;
       color: $iroko;
@@ -18,24 +33,44 @@ $modal-breakpoint: 800px;
       margin-bottom: 5em;
       text-align: center;
       margin: 12px auto 0 auto;
+      @media (max-width: $cards-sm-breakpoint) {
+        display: none;
+      }
     }
   }
 
   &__cards {
     margin-top: 96px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    // TODO - work on later
-    // @media (max-width: 1635px) {
-    //   display: grid;
-    //   grid-template-columns: 1fr 1fr;
-    // }
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    grid-gap: 18px 32px;
+    justify-items: center;
+    align-items: center;
+    @media (max-width: $cards-med-breakpoint) {
+      grid-template-columns: repeat(2, minmax(380px, 1fr));
+    }
+    @media (max-width: $cards-sm-breakpoint) {
+      margin-top: 12px;
+      display: block;
+      &__card {
+        margin: 0 auto 17px auto;
+        &:last-of-type {
+          margin-bottom: 13px;
+        }
+        &-img {
+          @include rect(145px, 303px)
+        }
+      }
+      padding-bottom: 13px;
+    }
     &__card {
-      // border: 3px solid red;
-      margin: 0 32px;
       @include rect(387px, 377px);
-      // TODO - add min
+      @media (max-width: $cards-sm-breakpoint) {
+        // going to need a smaller one too for ex-small
+        // min-width: 290px;
+        @include rect(259px, 300px);
+      }
       position: relative;
       &:hover {
         cursor: pointer;
@@ -52,6 +87,9 @@ $modal-breakpoint: 800px;
         @include rect(265px, 100%);
         background-size: cover;
         border-radius: 10px;
+        @media (max-width: $cards-sm-breakpoint) {
+          @include rect(145px, 100%);
+        }
       }
       &__text_wrapper {
         position: absolute;
@@ -76,6 +114,10 @@ $modal-breakpoint: 800px;
           display: block;
           font: 16px $poppins;
           text-transform: uppercase;
+        }
+        @media (max-width: $cards-sm-breakpoint) {
+          @include rect(144px, 89%);
+          top: 110px;// eyeballed this too...
         }
       }
     }
