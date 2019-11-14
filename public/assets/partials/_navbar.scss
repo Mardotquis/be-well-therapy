@@ -1,4 +1,7 @@
-$lg-break: 1530px; // TODO - change later after revised design
+$lg-breakpoint: 1600px;
+$logo-breakpoint: 800px;
+
+
 .nav {
   background-color: $sand;
   @include rect(140px, 100%);
@@ -7,8 +10,7 @@ $lg-break: 1530px; // TODO - change later after revised design
   font-size: 16px;
   font-family: $futura;
   color: #5A5656;
-  // TODO - update font from Montell
-  &__logo {// TODO - ask Montell if nav is a little too far off?
+  &__logo {
     margin: auto 0 27px 0;
     &:hover {
       cursor: pointer;
@@ -20,7 +22,7 @@ $lg-break: 1530px; // TODO - change later after revised design
     flex-direction: row;
     margin-bottom: 28px;
     align-items: flex-end;
-    @media (max-width: $lg-break) {// TODO - change later after revised design
+    @media (max-width: $lg-breakpoint) {
       flex-direction: column;
       justify-content: flex-end;
        div, ul {
@@ -50,6 +52,86 @@ $lg-break: 1530px; // TODO - change later after revised design
           margin-bottom: 11px;
         }
       }
+    }
+  }
+
+  &_mobile {
+    // only displayed at breakpoint(changed further down)
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+    &__hamburger_icon {
+      margin-left: 23.5px;
+      @include rect(18px, 33px);
+      background-image: url('/img/home/hamburger.svg');
+      background-size: contain;
+      background-position: center;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &__logo {
+      // targetting the actual logo
+      div {
+        @media (max-width: $logo-breakpoint) {
+          @include rect(32px, 180px);
+        }
+
+      }
+    }
+    &__content__info {
+      margin-right: 15px;
+      @include rect(29px, 77px);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      &-location {
+        @include rect(100%, 50%);
+        background-color: $teal;
+        &-icon {
+          background-color: $teal;
+          @include rect(15px, 11px);
+          background-image: url('/img/home/location.svg');
+          background-size: contain;
+          background-position: center;
+        }
+      }
+      &-phn {
+        border: 1px solid $teal;
+        @include rect(100%, 50%);
+        &-icon {
+          @include rect(15px, 11px);
+          background-image: url('/img/home/down.svg');
+          background-size: contain;
+          background-position: center;
+          background-color: $plain;
+        }
+      }
+      &-location, &-phn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    &__content {
+
+
+      &-hidden {
+        visibility: hidden;
+        position: absolute;// TODO - think more about this...
+      }
+    }
+  }
+
+  // removing desktop nav at breakpoint and showing mobile navbar
+  @media (max-width: $lg-breakpoint) {
+    display: none;
+    &_mobile {
+      display: flex;
     }
   }
 }

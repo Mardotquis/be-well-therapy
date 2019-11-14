@@ -1,5 +1,8 @@
 $hero-white: #F4EFEF;
-$hero-breakpoint: 1000px;
+$subcontent-breakpoint: 1000px;
+$hero-img-md-breakpoint: 1345px;
+$hero-img-sm-breakpoint: 875px;
+
 .home-hero {
   @include rect(100vh, 100%);
   max-height: 740px;
@@ -7,11 +10,25 @@ $hero-breakpoint: 1000px;
   background-size: cover;
   background-position: center;
   position: relative;
+  @media (max-width: $hero-img-md-breakpoint) {
+    background-image: url('/img/home/hero-md.jpg');
+    // @include rect(352px, 376px);
+    // background-size: contain;
+    background-position: top;
+    height: 100vh;
+  }
+  // @media (max-width: $hero-img-sm-breakpoint) {
+  //   background-image: url('/img/home/hero-sm.jpg');
+  //   // @include rect(352px, 376px);
+  //   // background-size: contain;
+  //   // background-position: top;
+  //   max-height: 352px;
+  // }
   &__content {
     position: absolute;
     //TODO - ask Montell about percentages
-    top: 290px;
-    left: 15%;
+    top: 225px;
+    left: 10%;
     &__lgtext {
       font-size: 40px;
       font-family: $poppins;
@@ -44,15 +61,18 @@ $hero-breakpoint: 1000px;
     padding-top: 32px;
     font: 32px $poppins ;
     text-transform: lowercase;
-
+    @media (max-width: $subcontent-breakpoint) {
+      padding-top: 23px;
+    }
   }
   &__smtext {
     margin-top: 43px;
     padding: 0 150px 74px 150px;
     font: 20px $futura;
     line-height: 30px;
-    @media (max-width: $hero-breakpoint) {
-      padding: 0 50px 24px 50px;
+    @media (max-width: $subcontent-breakpoint) {
+      margin-top: 18px;
+      padding: 0 8px 28px 8px;
     }
   }
 }
