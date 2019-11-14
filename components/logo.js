@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function Logo({ height, width }) {
+export default function Logo() {
   return (
-    <div className="logo" style={{ height, width }} />
+    <div className="logo" />
   );
 }

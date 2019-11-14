@@ -4,6 +4,7 @@ export const services = [
     header: 'Kids',
     longerHeader: 'Child and Adolescent Therapy',
     backgroundImg: '/img/home/small-girl.png',
+    smBackgroundImg: '/img/home/writing-sm.png',
     rectangleBackgroundImg: '/img/our-services/small-girl-rect.png',
     subheader: '(Child/Teen)',
     homepage: true,
@@ -17,6 +18,7 @@ export const services = [
   {
     header: 'Individual',
     backgroundImg: '/img/home/man-close-up.png',
+    smBackgroundImg: '/img/home/writing-sm.png', // TODO - change later with real pic
     rectangleBackgroundImg: '/img/our-services/man-close-up-rect.png',
     homepage: true,
     mainSentence: 'Stop suffering alone. Heal, educate and empower yourself to change the things that are not working in your life.',
@@ -31,6 +33,7 @@ export const services = [
     header: 'Family',
     longerHeader: 'Relationship, Marriage and Family Therapy',
     backgroundImg: '/img/home/family.png',
+    smBackgroundImg: '/img/home/writing-sm.png', // TODO - change later with real pic
     rectangleBackgroundImg: '/img/our-services/family-rect.png',
     homepage: true,
     mainSentence: 'Connections with spouse, family members and loved ones are often the most fulfilling, yet sometimes, also the most challenging relationships in our lives. Sessions are designed to identify family or relationship patterns that contribute to the problems and help members break those habits.',
@@ -42,6 +45,7 @@ export const services = [
   {
     header: 'Clinical Supervision',
     backgroundImg: '/img/home/writing.png',
+    smBackgroundImg: '/img/home/writing-sm.png', // TODO - change later with real pic
     rectangleBackgroundImg: '/img/our-services/writing-rect.png',
     homepage: true,
     mainSentence: 'Choosing the right supervisor to receive proper training and guidance towards becoming a fully licensed clinician is an important decision.',
@@ -116,7 +120,9 @@ export const hours = [
   },
 ];
 
-export const address = '1923 J N Pease Place Ste. 201';
+export const address = '1935 J N Pease Place Ste. 202';
+
+export const fullAddress = '1935 J N Pease Place Ste. 202 Charlotte, NC';
 
 export const email = 'something@email.com';// TODO - change later
 
