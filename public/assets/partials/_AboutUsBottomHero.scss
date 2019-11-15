@@ -1,5 +1,7 @@
+$bottom-hero-md-breakpoint: 1430px;
+$bottom-hero-sm-breakpoint: 1160px;
+
 .about_us__bottom_hero {
-  margin-top: 36px;
   @include rect(850px, 100%);
   background: linear-gradient(rgba(60, 60, 60, .28),
   rgba(60, 60, 60, .28)),
@@ -34,6 +36,36 @@
     }
     &_list-left {
       margin-right: 294px;
+    }
+  }
+  @media (max-width: $bottom-hero-md-breakpoint) {
+    background: #B5B5B5;
+    height: auto;
+    &_text_wrapper {
+      margin-top: 19px;
+    }
+  }
+  @media (max-width: $bottom-hero-sm-breakpoint) {
+    &_text_wrapper {
+      padding: 0 34px;
+      &-lgtext {
+        font-size: 20px;
+      }
+      &_lists {
+        display: block;
+        margin-left: 0;
+        margin-top: 23px;
+      }
+      &_list-left, &_list-right {
+        margin-top: 0;
+        li {
+          font-size: 14px;
+          line-height: 50px;
+        }
+      }
+      &_list-left {
+        margin: auto;
+      }
     }
   }
 }
