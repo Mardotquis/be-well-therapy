@@ -1,3 +1,5 @@
+$hero-md-breakpoint: 900px;
+
 .about_us__hero {
   @include rect(300px, 100%);
   background: linear-gradient(rgba(13, 13, 13, .3),
@@ -11,5 +13,19 @@
     color: $white;
     margin: auto;
     font-weight: 400;
+  }
+  @media (max-width: $hero-md-breakpoint) {
+    background: linear-gradient(rgba(13, 13, 13, .3),
+  rgba(13, 13, 13, .3)),
+   url('/img/about-us/charlotte-background-sm.jpg');// image is bad quality
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   &-lgtext {
+     font-size: 24px;
+     line-height: 35px;
+     text-align: center;
+     margin-top: 28px;
+   }
   }
 }
