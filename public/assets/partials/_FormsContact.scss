@@ -2,11 +2,14 @@ $form-header-color: #5A5656;
 $forms-input-background: #DDDBDB;
 
 .form__contact {
-  // TODO - make responsive
   background-color: $sand;
   &_content {
     margin: 0 auto;
     max-width: 55%;
+    @media (max-width: $contact-info-md-breakpoint){
+      max-width: initial;
+      padding: 0 32px 0 23px;
+    }
     &-header {
       padding-top: 64px;
       font-family: $poppins;
@@ -14,6 +17,11 @@ $forms-input-background: #DDDBDB;
       font-weight: 400;
       color: $form-header-color;
       text-transform: uppercase;
+      @media (max-width: $contact-info-md-breakpoint) {
+        padding-top: 224px;
+        font-size: 20px;
+        text-align: center;
+      }
     }
     &-smtext {
       margin-top: 25px;
@@ -23,11 +31,18 @@ $forms-input-background: #DDDBDB;
       font-style: normal;
       color: $forms-grey;
       line-height: 24px;
+      @media (max-width: $contact-info-md-breakpoint) {
+        font-size: 15px;// down one
+        text-align: center;
+      }
     }
     &_form_wrapper {
       margin-top: 57px;
       display: flex;
       flex-direction: column;
+      @media (max-width: $contact-info-md-breakpoint) {
+        margin-top: 35px;
+      }
       &_label {
         font-size: 16px;
         font-family: $futura;
@@ -45,6 +60,8 @@ $forms-input-background: #DDDBDB;
         font-family: $futura;
         font-size: 20px;
         font-weight: 400;
+        line-height: 24px;
+        min-width: 320px;
       }
       &_textarea {
         min-height: 110px;

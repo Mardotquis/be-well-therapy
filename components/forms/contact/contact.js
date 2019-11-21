@@ -18,7 +18,7 @@ export default function Contact() {
   return (
     <div className="form__contact">
       <div className="form__contact_content">
-        <h1 className="form__contact_content-header">Have questions for our counselors?</h1>
+        <h2 className="form__contact_content-header">Have questions for our counselors?</h2>
         <p className="form__contact_content-smtext">
           Complete the form fill below to send us any questions, comments or
           concerns you may have about our practice or the

@@ -1,12 +1,18 @@
 .form__contact_info {
-  // 99.5 for the small space on bottom
-  @include rect(99.5%, 380px);
+  // absolute width because desktop and mobile are the same
+  @include rect(630px, 380px);
   background-color: $forms_teal;
   position: absolute;
   top: 0;
   right: 155px;
   border-radius: 10px 10px 0px 0px;
-
+  @media (max-width: $contact-info-md-breakpoint) {
+    width: 325px;
+    top: 300px;// estimated...
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
   &__office_hours {
     &-lgtext {
       font-family: $poppins;

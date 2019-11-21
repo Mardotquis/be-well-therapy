@@ -4,9 +4,9 @@ import Head from 'next/head';
 // allows for dynamic <head> tags
 // TODO - change default info later
 export default function Meta({ title, description }) {
-  const initialTitle = 'Be Well Therapy';
+  const initialTitle = 'Be Well Therapy, PLLC';
   // TODO - update later
-  const initialDescription = 'The home of Be Well Therapy';
+  const initialDescription = 'The home of Be Well Therapy, PLLC';
   return (
     <Head>
       <title>{ title ? `${title} | ${initialTitle}` : initialTitle }</title>

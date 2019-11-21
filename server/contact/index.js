@@ -31,7 +31,7 @@ exports.sendEmail = async function sendEmail(body) {
   `;
 
   const mailOptions = {
-    from: `"Be Well Therapy website", <${EMAIL}>`,
+    from: `"Be Well Therapy, PLLC website", <${EMAIL}>`,
     to: 'marquis0403@gmail.com',
     subject: 'New Contact Request',
     replyTo: `${email}`,
