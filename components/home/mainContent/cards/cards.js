@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Card from './card';
 import { services } from '../../../constants';
-import useResize from './useResize';
+import useResize from '../../../useResize';
 
 const random = require('uuid/v4');
 
@@ -20,6 +20,7 @@ function displayCards(mobile) {
       header={obj.header}
       subheader={obj.subheader}
       backgroundImg={mobile ? obj.smBackgroundImg : obj.backgroundImg}
+      shortName={obj.shortName}
       modalInfo={obj.modalInfo}
       key={random()}
     />
