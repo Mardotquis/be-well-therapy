@@ -1,4 +1,7 @@
 .logo {
   @include rect(72px, 413px);
   background-image: url('/img/home/logo.png');
+  &:hover {
+    cursor: pointer;
+  }
 }
