@@ -1,8 +1,13 @@
+$our-services-cards-md-breakpoint: 600px;
+
 .our_services__cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   // max-width: 1525px;
+  @media (max-width: $our-services-cards-md-breakpoint){
+    margin: 24px auto 40.5px auto;
+  }
   &__card {
     @include rect(287px, 517px);
     margin: 27px 30px;
@@ -12,11 +17,78 @@
     **********/
     padding: 9px;
     color: $white;
+    @media (max-width: $our-services-cards-md-breakpoint){
+      &:first-of-type{
+        margin-top: 0;
+      }
+      @include rect(200px, 325px);
+      margin: 16px auto;
+
+      &_child {
+        h2 {
+          margin-top: 34px;
+        }
+        p {
+          margin-top: 0;
+          line-height: 30px;
+        }
+      }
+      &_individual {
+        h2 {
+          margin-top: 34px;
+        }
+        p {
+          margin-top: 11px;
+          line-height: 17px;
+        }
+      }
+      &_relationship-marriage-family-therapy {
+        h2 {
+          margin-top: 0;
+        }
+        p {
+          margin-top: 0;
+          line-height: 17px;
+        }
+      }
+      &_clinical-supervision {
+        h2 {
+          margin-top: 27px;
+        }
+        p {
+          margin-top: 24px;
+          line-height: 30px;
+        }
+      }
+      &_mindful-yoga {
+        h2 {
+          margin-top: 15px;
+        }
+        p {
+          margin-top: 10.5px;
+          line-height: 16px;
+        }
+      }
+      &_school-counseling {
+        h2 {
+          margin-top: 24px;
+        }
+        p {
+          margin-top: 15.5px;
+          line-height: 30px;
+        }
+      }
+    }
     &-lgtext {
       margin-top: 32px;
       font-size: 22px;
       font-family: $poppins;
       line-height: 30px;
+      @media (max-width: $our-services-cards-md-breakpoint){
+        // margin-top: ;
+        // TODO - figure out custom margin, line-height, and spacing next tinme
+        font-size: 20px;
+      }
     }
     &-smtext {
       margin-top: 40px;
@@ -25,6 +97,11 @@
       font-weight: 500;
       color: #E2DFDF;
       line-height: 30px;
+      @media (max-width: $our-services-cards-md-breakpoint){
+        font-size: 14px;
+        margin-top: 0;
+        line-height: 18px;
+      }
     }
     &-lgtext, &-smtext {
       text-align: center;
