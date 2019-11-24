@@ -1,4 +1,5 @@
 $heading-lg-breakpoint: 1400px;
+$heading-sm-breakpoint: 500px;
 
 .heading {
   @include rect(238px, 100%);
@@ -30,6 +31,12 @@ $heading-lg-breakpoint: 1400px;
       width: 353px;
       background-color: #8DCD89;
       border: none;
+      @media (max-width: $heading-sm-breakpoint){
+        width: 175px;
+      }
+    }
+    @media (max-width: $heading-sm-breakpoint){
+      font-size: 24px;
     }
   }
   &__background-lgtext {
