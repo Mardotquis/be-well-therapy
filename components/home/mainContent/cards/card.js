@@ -4,7 +4,7 @@ import useModal from '../../../modal/useModal';
 import MainContentInfo from '../mainContentInfo/mainContentInfo';
 
 export default function Card({
-  header, subheader, backgroundImg, modalInfo,
+  header, subheader, backgroundImg, shortName, modalInfo,
 }) {
   const parsedBackgroundImg = `url(${backgroundImg})`;
   const { modalOpen, toggleModal } = useModal();
@@ -18,7 +18,7 @@ export default function Card({
         {subheader && <span className="home-maincontent__cards__card__text_wrapper__smtext">{subheader}</span> }
       </div>
       <Modal modalOpen={modalOpen} toggleModal={toggleModal}>
-        <MainContentInfo modalInfo={modalInfo} />
+        <MainContentInfo modalInfo={modalInfo} shortName={shortName} />
       </Modal>
     </div>
   );
