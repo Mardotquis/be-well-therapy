@@ -1,23 +1,36 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import EmployeeCard from './employeeCard';
 import { employees } from '../staffInfo';
+import useResize from '../../useResize';
 
 const random = require('uuid/v4');
 
-const cards = employees.map((employee) => (
-  <EmployeeCard
-    key={random()}
-    name={employee.name}
-    certs={employee.certs}
-    headshotPath={employee.headshotPath}
-    modalInfo={employee.modalInfo}
-  />
-));
-
 export default function EmployeeCards() {
-  return (
-    <section className="employee_cards">
-      {cards}
-    </section>
-  );
+  const { mobile, resizeFunc } = useResize(800);
+  useEffect(() => {
+    /** ********
+     running the function first to find out the
+     initial width
+     ********* */
+    resizeFunc();
+    /** ********
+     then attaching it to an event listener so that it runs
+     whenever the window is resized
+     ********* */
+    window.addEventListener('resize', resizeFunc);
+    return () => {
+      window.removeEventListener('resize', resizeFunc);
+    };
+  }, []);
+
+  const cards = employees.map((employee) => (
+    <EmployeeCard
+      key={random()}
+      name={employee.name}
+      certs={employee.certs}
+      headshotPath={mobile ? employee.smHeadshotPath : employee.headshotPath}
+      modalInfo={employee.modalInfo}
+    />
+  ));
+  return <section className="employee_cards">{cards}</section>;
 }
