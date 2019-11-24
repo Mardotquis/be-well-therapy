@@ -6,7 +6,7 @@ import EmployeeModal from './employeeModal';
 const random = require('uuid/v4');
 
 export default function EmployeeCard({
-  name, certs, modalInfo, headshotPath,
+  name, certs, modalInfo, headshotPath, mobile,
 }) {
   const { modalOpen, toggleModal } = useModal();
 
@@ -22,7 +22,7 @@ export default function EmployeeCard({
         </ul>
         <button className="employee_cards__card__info__button" type="button" onClick={toggleModal}>Learn More</button>
       </div>
-      <Modal modalOpen={modalOpen} toggleModal={toggleModal}><EmployeeModal toggleModal={toggleModal} modalInfo={modalInfo} name={name} /></Modal>
+      <Modal modalOpen={modalOpen} toggleModal={toggleModal}><EmployeeModal toggleModal={toggleModal} modalInfo={modalInfo} name={name} mobile={mobile} /></Modal>
     </div>
   );
 }

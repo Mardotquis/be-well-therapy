@@ -30,6 +30,7 @@ export default function EmployeeCards() {
       certs={employee.certs}
       headshotPath={mobile ? employee.smHeadshotPath : employee.headshotPath}
       modalInfo={employee.modalInfo}
+      mobile={mobile}
     />
   ));
   return <section className="employee_cards">{cards}</section>;
