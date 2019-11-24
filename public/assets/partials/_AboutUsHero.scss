@@ -5,7 +5,7 @@ $hero-md-breakpoint: 900px;
   background: linear-gradient(rgba(13, 13, 13, .3),
   rgba(13, 13, 13, .3)),
    url('/img/about-us/charlotte-background.jpg');
-  background-size: cover;// TODO - figure this out with Montell
+  background-size: cover;
   background-position: center;
   display: flex;
   &-lgtext {
@@ -18,7 +18,7 @@ $hero-md-breakpoint: 900px;
   @media (max-width: $hero-md-breakpoint) {
     background: linear-gradient(rgba(13, 13, 13, .3),
   rgba(13, 13, 13, .3)),
-   url('/img/about-us/charlotte-background-sm.jpg');// image is bad quality
+   url('/img/about-us/charlotte-background-sm.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
