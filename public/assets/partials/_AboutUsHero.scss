@@ -6,6 +6,7 @@ $hero-md-breakpoint: 900px;
   rgba(13, 13, 13, .3)),
    url('/img/about-us/charlotte-background.jpg');
   background-size: cover;// TODO - figure this out with Montell
+  background-position: center;
   display: flex;
   &-lgtext {
     font-family: $poppins;
