@@ -55,7 +55,7 @@ export const services = [
     homepage: true,
     mainSentence: 'Choosing the right supervisor to receive proper training and guidance towards becoming a fully licensed clinician is an important decision.',
     modalInfo: {
-      mainSentence: 'Clinical supervision from the aspect of customizing this experience to enhance the supervisee’s professional development.  We provide a warm and comfortable environment that will allow supervisee to explore their thoughts, feelings, and behaviors as a counselor in order to best serve your client (s) and increase your effectiveness as a counselor.',
+      mainSentence: 'Clinical supervision from the aspect of customizing this experience to enhance the supervisee’s professional development.  We provide a warm and comfortable environment that will allow supervisee to explore their thoughts, feelings, and behaviors as a counselor in order to best serve your client(s) and increase your effectiveness as a counselor.',
     },
   },
   {

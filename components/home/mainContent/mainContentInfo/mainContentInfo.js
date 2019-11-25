@@ -23,7 +23,7 @@ export default function MainContentInfo({ shortName, modalInfo }) {
     return (
       <MainContentInfoWrapper>
         <div className="home-maincontent__info__content">
-          <p className="home-maincontent__info__content_mainsentence">
+          <p className="home-maincontent__info__content_mainsentence home-maincontent__info__content_mainsentence-individual">
             {modalInfo.mainSentence}
           </p>
           <p className="home-maincontent__info__content_listitems-heading">{modalInfo.listItemsHeading}</p>

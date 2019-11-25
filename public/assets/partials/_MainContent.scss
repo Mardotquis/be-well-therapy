@@ -129,8 +129,6 @@ $cards-sm-breakpoint: 950px;
     @media (max-width: 1220px) {
       width: 85vw;
     }
-    background-color: $modal-background;
-    background-image: url('/img/enlarged-logo.png');
     background: $modal-background url('/img/enlarged-logo.png');
     background-size: cover;
     background-position: center;
@@ -141,7 +139,7 @@ $cards-sm-breakpoint: 950px;
     cursor: initial;// overwriting the curser set by &__card
     &-close {
       @include box(20px);
-      background-image: url('/img/close.png');
+      background-image: url('/img/close.svg');
       // overwrititng button styles
       background-color: transparent;
       border: none;
@@ -151,15 +149,21 @@ $cards-sm-breakpoint: 950px;
       &:hover {
         cursor: pointer;
       }
+      @media (max-width: $modal-breakpoint) {
+        top: 32px;// guessed...
+        right: 26px;
+      }
     }
     &__top_lines {
       padding-top: 30px;
+      @media (max-width: $modal-breakpoint) {
+        padding-top: 20px;
+      }
     }
     &__bottom_lines {
       padding-bottom: 30px;
-      > div {
-        // targeting the horizontal line
-        margin: 0 auto 12.5px auto;
+      @media (max-width: $modal-breakpoint) {
+        padding-bottom: 20px;
       }
     }
     &_lines {
@@ -168,12 +172,18 @@ $cards-sm-breakpoint: 950px;
         height: 140px;
         width: 2px;
         background-color: $line-color;
+        @media (max-width: $modal-breakpoint) {
+        height: 44px;
+        }
       }
       &_horizontal {
         margin: 12.5px auto 0 auto;
         height: 2px;
         width: 50%;
         background-color: $line-color;
+        @media (max-width: $modal-breakpoint) {
+        width: 78%;
+        }
       }
     }
     p, li {
@@ -181,30 +191,32 @@ $cards-sm-breakpoint: 950px;
       font-size: 18px;
       font-family: $poppins;
       font-weight: 400;
+      @media (max-width: $modal-breakpoint) {
+        font-size: 13px;
+      }
     }
     &__content {
       margin: auto;
       padding: 0 130px;
       @media (max-width: $modal-breakpoint) {
-        padding: 0 65px;
+        margin-right: 25px;
+        padding: 16px 40px 0 65px;// 40px on right because 65px(normal) - 25px(margin)
       }
       &-short  {
         padding: 0;
       }
       max-height: 500px;
       overflow-y: auto;
-      // TODO - suggest scroll inside for responsiveness
-    &::-webkit-scrollbar {
-      width: 10px;
-      background: $line-color;
-      border-radius: 10px;
-    }
-    &::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
-
-    }
+      @media (max-width: $modal-breakpoint) {
+        max-height: initial;
+      }
+      &::-webkit-scrollbar {
+        width: 5px;
+        background-color: rgb(104,176,141);
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: rgb(141,205,137);
+      }
       &_mainsentence {
         margin: 20px auto;
         line-height: 39px;
@@ -212,7 +224,14 @@ $cards-sm-breakpoint: 950px;
           max-width: 50%;
           line-height: 50px;
           @media (max-width: $modal-breakpoint) {
-            max-width: 80%;
+            max-width: 90%;
+          }
+        }
+        @media (max-width: $modal-breakpoint) {
+          margin: 18px auto 55px auto;
+          margin-top: auto;
+          &-individual {// because Individual doesn't need margin
+            margin-bottom: 0;
           }
         }
       }
@@ -223,7 +242,10 @@ $cards-sm-breakpoint: 950px;
           text-decoration: underline;
           font-size: 20px;
           line-height: 60px;
-
+          @media (max-width: $modal-breakpoint) {
+            margin-top: 7px;
+            text-align: center;
+          }
         }
         li {
           line-height: 55px;
@@ -236,6 +258,9 @@ $cards-sm-breakpoint: 950px;
           }
           @media (max-width: $modal-breakpoint) {
             columns: 1;
+            li {
+              line-height: 24px;
+            }
           }
         }
       }

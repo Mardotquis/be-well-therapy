@@ -42,7 +42,6 @@ $subheader-small-breakpoint: 900px;// same as $contact-info-md-breakpoint
       }
     }
     &__ctas {
-      // TODO - ask Montell about these being offset from the right
       display: flex;
       margin-top: 80px;
       > * {// targetting the individual CTA's
