@@ -25,55 +25,55 @@ $our-services-cards-md-breakpoint: 600px;
       margin: 16px auto;
 
       &_child {
-        h2 {
+        > h2 {
           margin-top: 34px;
         }
-        p {
+        > p {
           margin-top: 0;
           line-height: 30px;
         }
       }
       &_individual {
-        h2 {
+        > h2 {
           margin-top: 34px;
         }
-        p {
+        > p {
           margin-top: 11px;
           line-height: 17px;
         }
       }
       &_relationship-marriage-family-therapy {
-        h2 {
+        > h2 {
           margin-top: 0;
         }
-        p {
+        > p {
           margin-top: 0;
           line-height: 17px;
         }
       }
       &_clinical-supervision {
-        h2 {
+        > h2 {
           margin-top: 27px;
         }
-        p {
+        > p {
           margin-top: 24px;
           line-height: 30px;
         }
       }
       &_mindful-yoga {
-        h2 {
+        > h2 {
           margin-top: 15px;
         }
-        p {
+        > p {
           margin-top: 10.5px;
           line-height: 16px;
         }
       }
       &_school-counseling {
-        h2 {
+        > h2 {
           margin-top: 24px;
         }
-        p {
+        > p {
           margin-top: 15.5px;
           line-height: 30px;
         }
