@@ -110,7 +110,7 @@ $employee-card-md-breakpoint: 800px;
     justify-content: space-between;
     &__close {
       @include box(20px);
-      background-image: url('/img/close.png');
+      background-image: url('/img/close.svg');
       // overwrititng button styles
       background-color: transparent;
       border: none;
