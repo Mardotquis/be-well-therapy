@@ -1,6 +1,7 @@
 $lg-breakpoint: 1600px;
 $logo-breakpoint: 800px;
-
+$brown: #2a1d13;// doublecheck...
+$nav-green: #8DCD89;
 
 .nav {
   background-color: $sand;
@@ -40,6 +41,7 @@ $logo-breakpoint: 800px;
         text-transform: uppercase;
         &:hover{
           cursor: pointer;
+          color: $nav-green;
         }
       }
     }
@@ -61,8 +63,13 @@ $logo-breakpoint: 800px;
     justify-content: space-between;
     align-items: center;
     padding: 16px 0px;
-    &__hamburger_icon {
-      margin-left: 23.5px;
+    height: 105px;
+    z-index: 4;
+    @media (max-width: $logo-breakpoint){
+      height: 65px;
+    }
+    &__hamburger_icon, &__close_icon {
+      margin-left: 25px;
       @include rect(18px, 33px);
       background-image: url('/img/home/hamburger.svg');
       background-size: contain;
@@ -71,11 +78,17 @@ $logo-breakpoint: 800px;
         cursor: pointer;
       }
     }
+    &__hamburger_icon {
+      background-image: url('/img/home/hamburger.svg');
+    }
+    &__close_icon {
+      background-image: url('/img/home/close.svg');
+    }
     &__logo {
       // targetting the actual logo
       div {
         @media (max-width: $logo-breakpoint) {
-          @include rect(32px, 180px);
+          @include rect(32px, 185px);
         }
 
       }
@@ -118,11 +131,40 @@ $logo-breakpoint: 800px;
       }
     }
     &__content {
-
-
+      position: absolute;// TODO - think more about this...
+      z-index: 10;
+      height: calc(105vh - 105px);
+      width: 100vw;
+      top: 105px;
+      display: flex;
+      @media (max-width: $logo-breakpoint){
+        height: calc(105vh - 65px);
+        top: 65px;
+      }
+      &-wrapper {
+        background-color: $brown;
+        @include rect(100%, 255px);
+        margin: 0 auto;
+      }
+      &__links__list {
+        margin-top: 65px;
+        text-align: center;
+        &-item {
+          margin-bottom: 29px;
+          font-family: $poppins;
+          font-size: 14px;
+          &:hover {
+            cursor: pointer;
+            color: $nav-green;
+          }
+        }
+      }
+      &-overlay {
+        flex-grow: 1;// take up remaining width
+        background-color: rgba(0, 0, 0, .3);
+      }
       &-hidden {
         visibility: hidden;
-        position: absolute;// TODO - think more about this...
       }
     }
   }
