@@ -1,13 +1,15 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import ActiveLink from './activeLink';
 import Logo from '../logo';
-// import {
-//   googleMapsLink, phoneNum, fullAddress,
-// } from '../constants';
+import {
+  googleMapsLink, phoneNum, address, city, linkPhoneNum,
+} from '../constants';
 
 export default function MobileNavbar() {
-  const [mobileNavContent, toggleMobileNavContent] = useState(true);
+  const [mobileNavContent, toggleMobileNavContent] = useState(false);
+  const [businessInfo, toggleBusinessInfo] = useState(false);
 
   useEffect(() => {
     // removing scroll for body when navbar is open
@@ -31,17 +33,35 @@ export default function MobileNavbar() {
         {...toggleProps}
       />
       <Link href="/"><div className="nav_mobile__logo"><Logo /></div></Link>
-      {/* TODO - add actual content for these */}
-      <div className="nav_mobile__content__info">
+      <div
+        className="nav_mobile__content__info"
+        onClick={() => toggleBusinessInfo(!businessInfo)}
+        onKeyDown={() => toggleBusinessInfo(!businessInfo)}
+        role="document"
+      >
         <div className="nav_mobile__content__info-location">
           <span className="nav_mobile__content__info-location-icon" />
         </div>
         <div className="nav_mobile__content__info-phn">
           <span className="nav_mobile__content__info-phn-icon" />
         </div>
+        <div className={`nav_mobile__content__info__wrapper ${!businessInfo ? 'nav_mobile-hidden' : ''}`}>
+          <div className="nav_mobile__content__info__wrapper__phn">
+            <span className="nav_mobile__content__info__wrapper__phn-icon" />
+            <a href={`tel:${linkPhoneNum}`}>{phoneNum}</a>
+          </div>
+          <div className="nav_mobile__content__info__wrapper__break" />
+          <div className="nav_mobile__content__info__wrapper__location">
+            <span className="nav_mobile__content__info__wrapper__location-icon" />
+            <a className="nav_mobile__content__info__wrapper__location__text" href={googleMapsLink}>
+              <p>{address}</p>
+              <p>{city}</p>
+            </a>
+          </div>
+        </div>
       </div>
       {/* if the value is false, the content is hidden */}
-      <div className={`nav_mobile__content ${!mobileNavContent && 'nav_mobile__content-hidden'}`}>
+      <div className={`nav_mobile__content ${!mobileNavContent ? 'nav_mobile-hidden' : ''}`}>
         <div className="nav_mobile__content-wrapper">
           <ul className="nav_mobile__content__links__list">
             <ActiveLink href="/" mobile>

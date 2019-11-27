@@ -99,6 +99,7 @@ $nav-green: #8DCD89;
       display: flex;
       justify-content: space-around;
       align-items: center;
+      position: relative;
       &-location {
         @include rect(100%, 50%);
         background-color: $teal;
@@ -127,6 +128,62 @@ $nav-green: #8DCD89;
         justify-content: center;
         &:hover {
           cursor: pointer;
+        }
+      }
+
+      &__wrapper {
+        position: absolute;
+        top: 29px;// height of the main box
+        right: 0;
+        z-index: 5;
+        border: 2px solid $teal;
+        background-color: #5A5656;
+        &__phn, &__location {
+          display: flex;
+          align-items: center;
+          font-family: $futura;
+          font-weight: 500;
+          color: $white;
+          margin-left: 42px;
+          &:hover {
+            cursor: pointer;
+            color: $nav-green;
+          }
+        }
+        &__phn {
+          margin-top: 12px;
+          padding-bottom: 8.8px;
+          font-size: 13px;
+          &-icon {
+            margin-right: 12.5px;
+            @include rect(22px, 18px);
+            background-image: url('/img/home/phone-green.svg');
+            display: block;
+          }
+        }
+        &__location {
+          margin-top: 9px;
+          margin-bottom: 8px;
+          font-size: 9.5px;
+          &-icon {
+            margin-right: 15.5px;
+            @include rect(23px, 17px);
+            background-image: url('/img/home/location-green.svg');
+            display: block;
+          }
+          &__text {
+            line-height: 16px;
+            p {
+              display: block;
+            }
+          }
+        }
+
+
+        &__break {
+          @include rect(1px, 160px);
+          background-color: rgba(112, 112, 112, .5);
+          margin: 0 30px;
         }
       }
     }
@@ -163,9 +220,9 @@ $nav-green: #8DCD89;
         flex-grow: 1;// take up remaining width
         background-color: rgba(0, 0, 0, .3);
       }
-      &-hidden {
-        visibility: hidden;
-      }
+    }
+    &-hidden {
+      visibility: hidden;
     }
   }
 
