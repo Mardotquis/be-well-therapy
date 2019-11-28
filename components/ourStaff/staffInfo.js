@@ -49,6 +49,7 @@ export const employees = [
       ],
       customListItems: ['Addictive Behaviors', 'Teen Issues; Peer Pressure, Self Esteem', 'Parent/Child or Partner Relational Problems', 'Dating Violence/Abuse', 'Self-Harm Behavior', 'Obsessions and Compulsions', 'Mood Disorders', 'Personality Disorders', 'Anxiety Disorders', 'Conduct and Oppositional Defiant Disorders', 'Physical, Sexual, Emotional Abuse', 'Anger and Stress Management', 'Dual Diagnoses', 'Criminal Thinking and Behavior', 'Marriage and Family Therapy',
       ],
+      long: true,
       smallHeadshotPath: '/img/our-staff/nena-el-bey-circle.png',
       extraSmallHeadshotPath: '/img/our-staff/nena-el-bey-sm-circle.png',
     },

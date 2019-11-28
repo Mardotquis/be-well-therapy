@@ -9,16 +9,17 @@ export default function EmployeeModal({
     const {
       info, customInfo, customListItems, long,
     } = modalInfo;
+    const customLineHeight = long && { style: { lineHeight: '30px' } };
     if (customInfo) {
       return (
         < >
-          <p>{customInfo[0]}</p>
+          <p {...customLineHeight}>{customInfo[0]}</p>
           {customListItems.map((item) => <li key={random()}>{item}</li>)}
-          <p>{customInfo[1]}</p>
+          <p {...customLineHeight}>{customInfo[1]}</p>
         </ >
       );
     }
-    return info.map((item) => <p key={random()} style={long && { lineHeight: '30px' }}>{item}</p>);
+    return info.map((item) => <p key={random()} {...customLineHeight}>{item}</p>);
   }
 
   return (
