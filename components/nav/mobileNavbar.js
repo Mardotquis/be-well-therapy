@@ -69,6 +69,7 @@ export default function MobileNavbar() {
       {/* if the value is false, the content is hidden */}
       <div className={`nav_mobile__content ${!mobileNavContent ? 'nav_mobile-hidden' : ''}`}>
         <div className="nav_mobile__content-wrapper">
+          <div className="nav_mobile__content-icon" />
           <ul className="nav_mobile__content__links__list">
             <ActiveLink href="/" mobile>
               <li className="nav_mobile__content__links__list-item">Home</li>

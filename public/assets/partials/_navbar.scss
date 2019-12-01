@@ -201,6 +201,15 @@ $nav-green: #8DCD89;
         height: calc(105vh - 65px);
         top: 65px;
       }
+      &-icon {
+        @include box(23px);
+        top: -12px;
+        left: 33px;
+        background-image: url('/img/home/polygon.png');
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+      }
       &-wrapper {
         background-color: $brown;
         @include rect(100%, 255px);
