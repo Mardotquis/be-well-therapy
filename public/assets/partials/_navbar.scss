@@ -116,7 +116,7 @@ $nav-green: #8DCD89;
         @include rect(100%, 50%);
         &-icon {
           @include rect(15px, 11px);
-          background-image: url('/img/home/down.svg');
+          background-image: url('/img/home/arrow.png');
           background-size: contain;
           background-position: center;
           background-color: $plain;
@@ -159,6 +159,9 @@ $nav-green: #8DCD89;
             @include rect(22px, 18px);
             background-image: url('/img/home/phone-green.svg');
             display: block;
+            &-rotated {
+              transform: rotate(180deg);
+            }
           }
         }
         &__location {

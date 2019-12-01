@@ -9,7 +9,7 @@ import {
 
 export default function MobileNavbar() {
   const [mobileNavContent, toggleMobileNavContent] = useState(false);
-  const [businessInfo, toggleBusinessInfo] = useState(false);
+  const [businessInfo, setBusinessInfo] = useState(false);
 
   useEffect(() => {
     // removing scroll for body when navbar is open
@@ -19,6 +19,12 @@ export default function MobileNavbar() {
       document.body.style.overflow = 'auto';
     }
   }, [mobileNavContent]);
+
+  function toggleBusinessInfo() {
+    const icon = document.querySelector('.nav_mobile__content__info-phn-icon');
+    icon.classList.toggle('nav_mobile__content__info__wrapper__phn-icon-rotated');
+    setBusinessInfo(!businessInfo);
+  }
 
   const toggleProps = {
     onClick: () => toggleMobileNavContent(!mobileNavContent),
@@ -35,8 +41,8 @@ export default function MobileNavbar() {
       <Link href="/"><div className="nav_mobile__logo"><Logo /></div></Link>
       <div
         className="nav_mobile__content__info"
-        onClick={() => toggleBusinessInfo(!businessInfo)}
-        onKeyDown={() => toggleBusinessInfo(!businessInfo)}
+        onClick={() => toggleBusinessInfo()}
+        onKeyDown={() => toggleBusinessInfo()}
         role="document"
       >
         <div className="nav_mobile__content__info-location">
@@ -53,7 +59,7 @@ export default function MobileNavbar() {
           <div className="nav_mobile__content__info__wrapper__break" />
           <div className="nav_mobile__content__info__wrapper__location">
             <span className="nav_mobile__content__info__wrapper__location-icon" />
-            <a className="nav_mobile__content__info__wrapper__location__text" href={googleMapsLink}>
+            <a className="nav_mobile__content__info__wrapper__location__text" href={googleMapsLink} target="_blank" rel="noopener noreferrer">
               <p>{address}</p>
               <p>{city}</p>
             </a>
