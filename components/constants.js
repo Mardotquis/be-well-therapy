@@ -38,7 +38,7 @@ export const services = [
     backgroundImg: '/img/home/family.png',
     smBackgroundImg: '/img/home/family-sm.png', // TODO - change later with real pic
     rectangleBackgroundImg: '/img/our-services/family-rect.png',
-    smRectangleBackgroundImg: '/img/our-services/writing-sm-rect.png', // TODO - change later with real pic
+    smRectangleBackgroundImg: '/img/our-services/family-sm-rect.png', // TODO - change later with real pic
     homepage: true,
     mainSentence: 'Connections with spouse, family members and loved ones are often the most fulfilling, yet sometimes, also the most challenging relationships in our lives. Sessions are designed to identify family or relationship patterns that contribute to the problems and help members break those habits.',
     modalInfo: {
@@ -126,12 +126,16 @@ export const hours = [
   },
 ];
 
-export const address = '1935 J N Pease Place Ste. 202';
+export const address = '1935 J N Pease Place, Ste. 202';
+
+export const city = 'Charlotte, NC 28262';
 
 export const fullAddress = '1935 J N Pease Place Ste. 202 Charlotte, NC';
 
 export const email = 'something@email.com';// TODO - change later
 
 export const phoneNum = '704.334.3170';
+
+export const linkPhoneNum = '704.334.3170';
 
 export const googleMapsLink = 'https://www.google.com/maps/dir//1935+J+N+Pease+Pl+STE+202,+Charlotte,+NC+28262/@35.3203164,-80.8080769,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x88541dc9a49fc7e9:0xdee81c33e1af9574!2m2!1d-80.7730575!2d35.3202514!3e0';

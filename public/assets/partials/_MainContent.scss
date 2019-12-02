@@ -2,13 +2,12 @@ $modal-background: #65A5AD;
 $line-color: #8DCD89;
 $modal-breakpoint: 800px;
 $cards-med-breakpoint: 1650px;
-$cards-sm-breakpoint: 950px;
+// $cards-sm-breakpoint defined earlier(in _Hero.scss partial)
 
 .home-maincontent {
   background-color: $sand;
   color: $vidaloca;
   @media (max-width: $cards-sm-breakpoint) {
-    // TODO - should this happen at a smaller size??
     background-color: #8DCD89;
     margin: -14px 7.5px 0 7.5px;
   }

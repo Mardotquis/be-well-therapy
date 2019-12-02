@@ -1,7 +1,8 @@
 $hero-white: #F4EFEF;
 $subcontent-breakpoint: 1000px;
 $hero-img-md-breakpoint: 1345px;
-$hero-img-sm-breakpoint: 875px;
+$hero-img-sm-breakpoint: 660px;
+$cards-sm-breakpoint: 950px;
 
 .home-hero {
   @include rect(100vh, 100%);
@@ -11,30 +12,37 @@ $hero-img-sm-breakpoint: 875px;
   background-position: center;
   position: relative;
   @media (max-width: $hero-img-md-breakpoint) {
-    background-image: url('/img/home/hero-md.jpg');
-    // @include rect(352px, 376px);
-    // background-size: contain;
-    background-position: top;
-    height: 100vh;
+    // TODO - discuss with Montell
+    background-image: linear-gradient(rgba(0, 0, 0, .4),
+    rgba(0, 0, 0, .4)), url('/img/home/hero-md.jpg');
+    background-position: 80%;
   }
-  // @media (max-width: $hero-img-sm-breakpoint) {
-  //   background-image: url('/img/home/hero-sm.jpg');
-  //   // @include rect(352px, 376px);
-  //   // background-size: contain;
-  //   // background-position: top;
-  //   max-height: 352px;
-  // }
+  @media (max-width: $hero-img-sm-breakpoint) {
+    background: linear-gradient(rgba(0, 0, 0, .4),
+    rgba(0, 0, 0, .4)),
+    url('/img/home/hero-sm.jpg');
+    background-position: 80%;
+    max-height: 352px;
+  }
   &__content {
     position: absolute;
     //TODO - ask Montell about percentages
     top: 225px;
     left: 10%;
+    @media (max-width: $hero-img-sm-breakpoint) {
+      top: 104px;
+      left: 32px;
+      margin-right: 80px;
+    }
     &__lgtext {
       font-size: 40px;
       font-family: $poppins;
       margin-bottom: 30.5px;
       font-weight: 400;
       color: $hero-white;
+      @media (max-width: $hero-img-sm-breakpoint) {
+        font-size: 30px;
+      }
     }
     &__btn {
       background-color: $teal;
@@ -49,6 +57,10 @@ $hero-img-sm-breakpoint: 875px;
       &:hover {
         // TODO - hover styles? - greenish for white, green for teal
       }
+      @media (max-width: $hero-img-sm-breakpoint) {
+        font-size: 12px;
+        padding: 12px 15px;
+      }
     }
   }
 }
@@ -61,9 +73,16 @@ $hero-img-sm-breakpoint: 875px;
     padding-top: 32px;
     font: 32px $poppins ;
     text-transform: lowercase;
+    @media (max-width: $cards-sm-breakpoint) {
+      text-transform: capitalize;
+    }
     @media (max-width: $subcontent-breakpoint) {
       padding-top: 23px;
     }
+    @media (max-width: $hero-img-sm-breakpoint) {
+      font-size: 24px;
+    }
+
   }
   &__smtext {
     margin-top: 43px;
@@ -73,6 +92,10 @@ $hero-img-sm-breakpoint: 875px;
     @media (max-width: $subcontent-breakpoint) {
       margin-top: 18px;
       padding: 0 8px 28px 8px;
+    }
+    @media (max-width: $hero-img-sm-breakpoint) {
+      font-size: 14px;
+      line-height: 20px;
     }
   }
 }

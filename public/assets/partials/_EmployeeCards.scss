@@ -110,7 +110,7 @@ $employee-card-md-breakpoint: 800px;
     justify-content: space-between;
     &__close {
       @include box(20px);
-      background-image: url('/img/close.png');
+      background-image: url('/img/close.svg');
       // overwrititng button styles
       background-color: transparent;
       border: none;
@@ -145,7 +145,7 @@ $employee-card-md-breakpoint: 800px;
       &::-webkit-scrollbar-thumb {
         background-color: rgb(141,205,137);
       }
-      p {
+      p, li {
         // TODO - ask if we should indent the first sentence of each?
         // &::first-letter {
         //   margin-left: 50px;
@@ -162,6 +162,9 @@ $employee-card-md-breakpoint: 800px;
           font-size: 13px;
           line-height: 30px;
         }
+      }
+      li {
+        line-height: 20px;
       }
       @media (max-width: $employee-card-md-breakpoint) {
       max-height: initial;// TODO - think more about this...
