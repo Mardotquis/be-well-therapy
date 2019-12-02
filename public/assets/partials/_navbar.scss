@@ -53,6 +53,9 @@ $nav-green: #8DCD89;
         &-phn {
           margin-bottom: 11px;
         }
+        &:hover {
+          color: $nav-green;
+        }
       }
     }
   }
