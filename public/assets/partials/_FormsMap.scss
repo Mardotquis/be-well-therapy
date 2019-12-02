@@ -1,3 +1,6 @@
 .form__map {
-
+height: 630px;
+@media (max-width: $contact-info-md-breakpoint) {
+  height: 730px;
+}
 }

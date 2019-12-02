@@ -1,5 +1,4 @@
 $footer-breakpoint: 1200px;
-// TODO - ask Montell about this
 
 .footer {
   @include rect(80px, 100%);
@@ -21,7 +20,10 @@ $footer-breakpoint: 1200px;
         margin: 0 8% 0 auto;
       }
     }
+    @media (max-width: 750px) {
+      font-size: 10px;
+    }
   }
-  max-width: $max-width; // TODO - discuss with Montell
+  max-width: $max-width;
 	margin: 0 auto;
 }

@@ -1,4 +1,8 @@
-$lg-break: 1530px; // TODO - change later after revised design
+$lg-breakpoint: 1600px;
+$logo-breakpoint: 800px;
+$brown: #2a1d13;// doublecheck...
+$nav-green: #8DCD89;
+
 .nav {
   background-color: $sand;
   @include rect(140px, 100%);
@@ -7,8 +11,7 @@ $lg-break: 1530px; // TODO - change later after revised design
   font-size: 16px;
   font-family: $futura;
   color: #5A5656;
-  // TODO - update font from Montell
-  &__logo {// TODO - ask Montell if nav is a little too far off?
+  &__logo {
     margin: auto 0 27px 0;
     &:hover {
       cursor: pointer;
@@ -20,7 +23,7 @@ $lg-break: 1530px; // TODO - change later after revised design
     flex-direction: row;
     margin-bottom: 28px;
     align-items: flex-end;
-    @media (max-width: $lg-break) {// TODO - change later after revised design
+    @media (max-width: $lg-breakpoint) {
       flex-direction: column;
       justify-content: flex-end;
        div, ul {
@@ -38,6 +41,7 @@ $lg-break: 1530px; // TODO - change later after revised design
         text-transform: uppercase;
         &:hover{
           cursor: pointer;
+          color: $nav-green;
         }
       }
     }
@@ -49,7 +53,207 @@ $lg-break: 1530px; // TODO - change later after revised design
         &-phn {
           margin-bottom: 11px;
         }
+        &:hover {
+          color: $nav-green;
+        }
       }
+    }
+  }
+
+  &_mobile {
+    // only displayed at breakpoint(changed further down)
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+    height: 105px;
+    z-index: 4;
+    @media (max-width: $logo-breakpoint){
+      height: 65px;
+    }
+    &__hamburger_icon, &__close_icon {
+      margin-left: 25px;
+      @include rect(18px, 33px);
+      background-image: url('/img/home/hamburger.svg');
+      background-size: contain;
+      background-position: center;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &__hamburger_icon {
+      background-image: url('/img/home/hamburger.svg');
+    }
+    &__close_icon {
+      background-image: url('/img/home/close.svg');
+    }
+    &__logo {
+      // targetting the actual logo
+      div {
+        @media (max-width: $logo-breakpoint) {
+          @include rect(32px, 185px);
+        }
+
+      }
+    }
+    &__content__info {
+      margin-right: 15px;
+      @include rect(29px, 77px);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      &-location {
+        @include rect(100%, 50%);
+        background-color: $teal;
+        &-icon {
+          background-color: $teal;
+          @include rect(15px, 11px);
+          background-image: url('/img/home/location.svg');
+          background-size: contain;
+          background-position: center;
+        }
+      }
+      &-phn {
+        border: 1px solid $teal;
+        @include rect(100%, 50%);
+        &-icon {
+          @include rect(15px, 11px);
+          background-image: url('/img/home/arrow.svg');
+          background-size: contain;
+          background-position: center;
+        }
+      }
+      &-location, &-phn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      &__wrapper {
+        position: absolute;
+        top: 29px;// height of the main box
+        right: 0;
+        z-index: 5;
+        border: 2px solid $teal;
+        background-color: #5A5656;
+        // because it needs to sit on top of the brown nav
+        // incase a user opens both at the same time
+        z-index: 11;
+        &__phn, &__location {
+          display: flex;
+          align-items: center;
+          font-family: $futura;
+          font-weight: 500;
+          color: $white;
+          margin-left: 42px;
+          &:hover {
+            cursor: pointer;
+            color: $nav-green;
+          }
+        }
+        &__phn {
+          margin-top: 12px;
+          padding-bottom: 8.8px;
+          font-size: 13px;
+          &-icon {
+            margin-right: 12.5px;
+            @include rect(22px, 18px);
+            background-image: url('/img/home/phone-green.svg');
+            display: block;
+            &-rotated {
+              transform: rotate(180deg);
+            }
+          }
+        }
+        &__location {
+          margin-top: 9px;
+          margin-bottom: 8px;
+          font-size: 9.5px;
+          &-icon {
+            margin-right: 15.5px;
+            @include rect(23px, 17px);
+            background-image: url('/img/home/location-green.svg');
+            display: block;
+          }
+          &__text {
+            line-height: 16px;
+            p {
+              display: block;
+            }
+          }
+        }
+
+
+        &__break {
+          @include rect(1px, 160px);
+          background-color: rgba(112, 112, 112, .5);
+          margin: 0 30px;
+        }
+      }
+    }
+    &__content {
+      position: absolute;// TODO - think more about this...
+      z-index: 10;
+      height: calc(105vh - 105px);
+      width: 100vw;
+      top: 105px;
+      display: flex;
+      @media (max-width: $logo-breakpoint){
+        height: calc(105vh - 65px);
+        top: 65px;
+      }
+      &-icon {
+        @include box(80px);
+        top: -40px;
+        left: 8px;
+        background-image: url('/img/home/polygon.png');// because for some reason, the PNG looks sharper than the SVG version on ACTUAL mobile
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        z-index: -1;
+        @media (max-width: $logo-breakpoint) {
+          @include box(50px);
+          top: -25px;
+          left: 21px;
+        }
+      }
+      &-wrapper {
+        background-color: $brown;
+        @include rect(100%, 255px);
+        margin: 0 auto;
+      }
+      &__links__list {
+        margin-top: 65px;
+        text-align: center;
+        &-item {
+          margin-bottom: 29px;
+          font-family: $poppins;
+          font-size: 14px;
+          &:hover {
+            cursor: pointer;
+            color: $nav-green;
+          }
+        }
+      }
+      &-overlay {
+        flex-grow: 1;// take up remaining width
+        background-color: rgba(0, 0, 0, .3);
+      }
+    }
+    &-hidden {
+      visibility: hidden;
+    }
+  }
+
+  // removing desktop nav at breakpoint and showing mobile navbar
+  @media (max-width: $lg-breakpoint) {
+    display: none;
+    &_mobile {
+      display: flex;
     }
   }
 }

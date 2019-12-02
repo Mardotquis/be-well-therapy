@@ -1,5 +1,8 @@
 $about-us-green: #75BF2A;
+$about-us-md-breakpoint: 925px;
+
 .about_us__mission {
+  background-color: $plain;
   padding-top: 18px;
   display: flex;
   flex-direction: column;
@@ -7,7 +10,7 @@ $about-us-green: #75BF2A;
   &_icon {
     @include box(52px);
     margin: auto;
-    background-image: url('/img/about-us/notepad.png');
+    background-image: url('/img/about-us/notepad.svg');
   }
   &-lgtext {
     font-size: 32px;
@@ -37,5 +40,35 @@ $about-us-green: #75BF2A;
       line-height: 25px;
       max-width: 655px;
     }
+  }
+  // so bottom hero doesn't get beige background color strip
+  padding-bottom: 36px;
+  @media (max-width: $about-us-md-breakpoint) {
+    padding-top: 0;
+    &_icon {
+      margin: -26px 0 0 32px;
+      align-self: flex-start;
+    }
+    &-lgtext {
+      font-size: 24px;
+    }
+    &-medtext {
+      margin-top: 20px;
+      font-size: 20px;
+      max-width: 70%;
+      line-height: 26px;
+    }
+    &_quote {
+      margin-left: 32px;
+      padding: 5px 15px 5px 8px;
+      p:first-of-type {
+        margin-bottom: 22px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    // so bottom hero doesn't get beige background color strip
+    padding-bottom: 11px;
   }
 }

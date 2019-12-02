@@ -1,3 +1,6 @@
+$heading-lg-breakpoint: 1400px;
+$heading-sm-breakpoint: 500px;
+
 .heading {
   @include rect(238px, 100%);
   background-color: #27918D;
@@ -28,6 +31,12 @@
       width: 353px;
       background-color: #8DCD89;
       border: none;
+      @media (max-width: $heading-sm-breakpoint){
+        width: 175px;
+      }
+    }
+    @media (max-width: $heading-sm-breakpoint){
+      font-size: 24px;
     }
   }
   &__background-lgtext {
@@ -38,5 +47,8 @@
     color: $white;
     text-shadow: 0px 3px 87px #00000029;
     text-transform: capitalize;
+    @media (max-width: $heading-lg-breakpoint) {
+      font-size: 22vw;
+    }
   }
 }

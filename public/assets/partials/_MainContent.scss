@@ -1,16 +1,30 @@
 $modal-background: #65A5AD;
 $line-color: #8DCD89;
 $modal-breakpoint: 800px;
+$cards-med-breakpoint: 1650px;
+// $cards-sm-breakpoint defined earlier(in _Hero.scss partial)
 
 .home-maincontent {
   background-color: $sand;
   color: $vidaloca;
+  @media (max-width: $cards-sm-breakpoint) {
+    background-color: #8DCD89;
+    margin: -14px 7.5px 0 7.5px;
+  }
   &__lgtext {
     padding-top: 43px;
     width: 100%;
     text-transform: lowercase;
     font: 32px $poppins;
     text-align: center;
+    @media (max-width: $cards-sm-breakpoint) {
+      padding: 29px 24.5px 0 24.5px;
+      font-size: 22px;
+      line-height: 35px;
+      color: $white;
+      text-transform: capitalize;
+      text-align: left;
+    }
     &__border_bottom {
       margin-top: 12px;
       color: $iroko;
@@ -18,24 +32,44 @@ $modal-breakpoint: 800px;
       margin-bottom: 5em;
       text-align: center;
       margin: 12px auto 0 auto;
+      @media (max-width: $cards-sm-breakpoint) {
+        display: none;
+      }
     }
   }
 
   &__cards {
     margin-top: 96px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    // TODO - work on later
-    // @media (max-width: 1635px) {
-    //   display: grid;
-    //   grid-template-columns: 1fr 1fr;
-    // }
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    grid-gap: 18px 32px;
+    justify-items: center;
+    align-items: center;
+    @media (max-width: $cards-med-breakpoint) {
+      grid-template-columns: repeat(2, minmax(380px, 1fr));
+    }
+    @media (max-width: $cards-sm-breakpoint) {
+      margin-top: 12px;
+      display: block;
+      &__card {
+        margin: 0 auto 17px auto;
+        &:last-of-type {
+          margin-bottom: 13px;
+        }
+        &-img {
+          @include rect(145px, 303px)
+        }
+      }
+      padding-bottom: 13px;
+    }
     &__card {
-      // border: 3px solid red;
-      margin: 0 32px;
       @include rect(387px, 377px);
-      // TODO - add min
+      @media (max-width: $cards-sm-breakpoint) {
+        // going to need a smaller one too for ex-small
+        // min-width: 290px;
+        @include rect(259px, 300px);
+      }
       position: relative;
       &:hover {
         cursor: pointer;
@@ -52,6 +86,9 @@ $modal-breakpoint: 800px;
         @include rect(265px, 100%);
         background-size: cover;
         border-radius: 10px;
+        @media (max-width: $cards-sm-breakpoint) {
+          @include rect(145px, 100%);
+        }
       }
       &__text_wrapper {
         position: absolute;
@@ -77,6 +114,10 @@ $modal-breakpoint: 800px;
           font: 16px $poppins;
           text-transform: uppercase;
         }
+        @media (max-width: $cards-sm-breakpoint) {
+          @include rect(144px, 89%);
+          top: 110px;// eyeballed this too...
+        }
       }
     }
     padding-bottom: 176px;
@@ -87,8 +128,6 @@ $modal-breakpoint: 800px;
     @media (max-width: 1220px) {
       width: 85vw;
     }
-    background-color: $modal-background;
-    background-image: url('/img/enlarged-logo.png');
     background: $modal-background url('/img/enlarged-logo.png');
     background-size: cover;
     background-position: center;
@@ -99,7 +138,7 @@ $modal-breakpoint: 800px;
     cursor: initial;// overwriting the curser set by &__card
     &-close {
       @include box(20px);
-      background-image: url('/img/close.png');
+      background-image: url('/img/close.svg');
       // overwrititng button styles
       background-color: transparent;
       border: none;
@@ -109,15 +148,21 @@ $modal-breakpoint: 800px;
       &:hover {
         cursor: pointer;
       }
+      @media (max-width: $modal-breakpoint) {
+        top: 32px;// guessed...
+        right: 26px;
+      }
     }
     &__top_lines {
       padding-top: 30px;
+      @media (max-width: $modal-breakpoint) {
+        padding-top: 20px;
+      }
     }
     &__bottom_lines {
       padding-bottom: 30px;
-      > div {
-        // targeting the horizontal line
-        margin: 0 auto 12.5px auto;
+      @media (max-width: $modal-breakpoint) {
+        padding-bottom: 20px;
       }
     }
     &_lines {
@@ -126,12 +171,18 @@ $modal-breakpoint: 800px;
         height: 140px;
         width: 2px;
         background-color: $line-color;
+        @media (max-width: $modal-breakpoint) {
+        height: 44px;
+        }
       }
       &_horizontal {
         margin: 12.5px auto 0 auto;
         height: 2px;
         width: 50%;
         background-color: $line-color;
+        @media (max-width: $modal-breakpoint) {
+        width: 78%;
+        }
       }
     }
     p, li {
@@ -139,30 +190,32 @@ $modal-breakpoint: 800px;
       font-size: 18px;
       font-family: $poppins;
       font-weight: 400;
+      @media (max-width: $modal-breakpoint) {
+        font-size: 13px;
+      }
     }
     &__content {
       margin: auto;
       padding: 0 130px;
       @media (max-width: $modal-breakpoint) {
-        padding: 0 65px;
+        margin-right: 25px;
+        padding: 16px 40px 0 65px;// 40px on right because 65px(normal) - 25px(margin)
       }
       &-short  {
         padding: 0;
       }
       max-height: 500px;
       overflow-y: auto;
-      // TODO - suggest scroll inside for responsiveness
-    &::-webkit-scrollbar {
-      width: 10px;
-      background: $line-color;
-      border-radius: 10px;
-    }
-    &::-webkit-scrollbar-thumb {
-      border-radius: 10px;
-      box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
-
-    }
+      @media (max-width: $modal-breakpoint) {
+        max-height: initial;
+      }
+      &::-webkit-scrollbar {
+        width: 5px;
+        background-color: rgb(104,176,141);
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: rgb(141,205,137);
+      }
       &_mainsentence {
         margin: 20px auto;
         line-height: 39px;
@@ -170,7 +223,14 @@ $modal-breakpoint: 800px;
           max-width: 50%;
           line-height: 50px;
           @media (max-width: $modal-breakpoint) {
-            max-width: 80%;
+            max-width: 90%;
+          }
+        }
+        @media (max-width: $modal-breakpoint) {
+          margin: 18px auto 55px auto;
+          margin-top: auto;
+          &-individual {// because Individual doesn't need margin
+            margin-bottom: 0;
           }
         }
       }
@@ -181,7 +241,10 @@ $modal-breakpoint: 800px;
           text-decoration: underline;
           font-size: 20px;
           line-height: 60px;
-
+          @media (max-width: $modal-breakpoint) {
+            margin-top: 7px;
+            text-align: center;
+          }
         }
         li {
           line-height: 55px;
@@ -194,6 +257,9 @@ $modal-breakpoint: 800px;
           }
           @media (max-width: $modal-breakpoint) {
             columns: 1;
+            li {
+              line-height: 24px;
+            }
           }
         }
       }

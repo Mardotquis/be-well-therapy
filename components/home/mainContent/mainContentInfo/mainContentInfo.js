@@ -3,8 +3,8 @@ import MainContentInfoWrapper from './mainContentInfoWrapper';
 
 const random = require('uuid/v4');
 
-export default function MainContentInfo({ modalInfo }) {
-  if (modalInfo.name === 'child-modal') {
+export default function MainContentInfo({ shortName, modalInfo }) {
+  if (shortName === 'child') {
     return (
       <MainContentInfoWrapper>
         <div className="home-maincontent__info__content">
@@ -19,11 +19,11 @@ export default function MainContentInfo({ modalInfo }) {
         </div>
       </MainContentInfoWrapper>
     );
-  } if (modalInfo.name === 'individual-modal') {
+  } if (shortName === 'individual') {
     return (
       <MainContentInfoWrapper>
         <div className="home-maincontent__info__content">
-          <p className="home-maincontent__info__content_mainsentence">
+          <p className="home-maincontent__info__content_mainsentence home-maincontent__info__content_mainsentence-individual">
             {modalInfo.mainSentence}
           </p>
           <p className="home-maincontent__info__content_listitems-heading">{modalInfo.listItemsHeading}</p>

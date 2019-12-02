@@ -1,7 +1,7 @@
 $forms-teal: #498F8C;
 $forms-grey: #908E8E;
 $subheader-large-breakpoint: 1400px;
-$subheader-small-breakpoint: 900px;
+$subheader-small-breakpoint: 900px;// same as $contact-info-md-breakpoint
 
 .forms {
   &__header {
@@ -17,7 +17,10 @@ $subheader-small-breakpoint: 900px;
       text-transform: uppercase;
       border: 1px solid rgba(0, 0, 0, 0);
       @media (max-width: $subheader-small-breakpoint) {
+        margin-left: 31.5px;
         padding: 24px;
+        font-size: 24px;
+        line-height: 56px;
       }
     }
   }
@@ -39,7 +42,6 @@ $subheader-small-breakpoint: 900px;
       }
     }
     &__ctas {
-      // TODO - ask Montell about these being offset from the right
       display: flex;
       margin-top: 80px;
       > * {// targetting the individual CTA's
@@ -55,6 +57,17 @@ $subheader-small-breakpoint: 900px;
         margin: 31px 0 0 8px;
         justify-content: center;
       }
+      @media (max-width: $subheader-small-breakpoint) {
+        flex-direction: column;
+        align-items: center;
+        margin: 6px 0 0 8px;//6px is 31px(total) - 25px(from __subheader-smtext)
+        justify-content: space-evenly;
+        > * {
+          margin-right: 0;
+          margin-bottom: 16px;
+          width: 320px !important;
+        }
+      }
     }
     @media (max-width: $subheader-large-breakpoint) {
       justify-content: space-around;
@@ -65,12 +78,9 @@ $subheader-small-breakpoint: 900px;
     @media (max-width: $subheader-small-breakpoint) {
       flex-direction: column;
       &-smtext {
-        margin-left: 4%;
-        margin-right: 4%;
-      }
-      &__ctas {
-        margin-bottom: 20px;
-        // TODO - add margin for smaller breakpoint
+        font-size: 15px;// down 2px
+        padding: 0 27px;
+        margin: 29px auto 25px auto;
       }
     }
   }
