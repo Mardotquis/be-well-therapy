@@ -14,13 +14,13 @@ $cards-sm-breakpoint: 950px;
   @media (max-width: $hero-img-md-breakpoint) {
     // TODO - discuss with Montell
     background-image: linear-gradient(rgba(0, 0, 0, .4),
-    rgba(0, 0, 0, .4)), url('/img/home/hero-md.png');
+    rgba(0, 0, 0, .4)), url('/img/home/hero-md.jpg');
     background-position: 80%;
   }
   @media (max-width: $hero-img-sm-breakpoint) {
     background: linear-gradient(rgba(0, 0, 0, .4),
     rgba(0, 0, 0, .4)),
-    url('/img/home/hero-sm.png');
+    url('/img/home/hero-sm.jpg');
     background-position: 80%;
     max-height: 352px;
   }
