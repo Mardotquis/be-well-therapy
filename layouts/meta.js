@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import favicon from '../public/img/favicon.png';
 
 // allows for dynamic <head> tags
 // TODO - change default info later
@@ -9,6 +10,7 @@ export default function Meta({ title, description }) {
   const initialDescription = 'The home of Be Well Therapy, PLLC';
   return (
     <Head>
+      <link rel="icon" type="image/png" href={favicon} />
       <title>{ title ? `${title} | ${initialTitle}` : initialTitle }</title>
       <meta name="description" content={description || initialDescription} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,4 +18,3 @@ export default function Meta({ title, description }) {
     </Head>
   );
 }
-// TODO - ask Montell about favicon
