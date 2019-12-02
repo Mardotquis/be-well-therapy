@@ -38,7 +38,7 @@ export const services = [
     backgroundImg: '/img/home/family.png',
     smBackgroundImg: '/img/home/family-sm.png', // TODO - change later with real pic
     rectangleBackgroundImg: '/img/our-services/family-rect.png',
-    smRectangleBackgroundImg: '/img/our-services/writing-sm-rect.png', // TODO - change later with real pic
+    smRectangleBackgroundImg: '/img/our-services/family-sm-rect.png', // TODO - change later with real pic
     homepage: true,
     mainSentence: 'Connections with spouse, family members and loved ones are often the most fulfilling, yet sometimes, also the most challenging relationships in our lives. Sessions are designed to identify family or relationship patterns that contribute to the problems and help members break those habits.',
     modalInfo: {
