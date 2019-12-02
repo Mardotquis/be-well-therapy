@@ -116,10 +116,9 @@ $nav-green: #8DCD89;
         @include rect(100%, 50%);
         &-icon {
           @include rect(15px, 11px);
-          background-image: url('/img/home/arrow.png');
+          background-image: url('/img/home/arrow.svg');
           background-size: contain;
           background-position: center;
-          background-color: $plain;
         }
       }
       &-location, &-phn {
@@ -138,6 +137,9 @@ $nav-green: #8DCD89;
         z-index: 5;
         border: 2px solid $teal;
         background-color: #5A5656;
+        // because it needs to sit on top of the brown nav
+        // incase a user opens both at the same time
+        z-index: 11;
         &__phn, &__location {
           display: flex;
           align-items: center;
@@ -202,13 +204,19 @@ $nav-green: #8DCD89;
         top: 65px;
       }
       &-icon {
-        @include box(23px);
-        top: -12px;
-        left: 33px;
-        background-image: url('/img/home/polygon.png');
+        @include box(80px);
+        top: -40px;
+        left: 8px;
+        background-image: url('/img/home/polygon.png');// because for some reason, the PNG looks sharper than the SVG version on ACTUAL mobile
         background-position: center;
         background-size: cover;
         position: absolute;
+        z-index: -1;
+        @media (max-width: $logo-breakpoint) {
+          @include box(50px);
+          top: -25px;
+          left: 21px;
+        }
       }
       &-wrapper {
         background-color: $brown;
