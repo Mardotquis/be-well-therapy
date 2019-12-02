@@ -8,7 +8,6 @@ $cards-med-breakpoint: 1650px;
   background-color: $sand;
   color: $vidaloca;
   @media (max-width: $cards-sm-breakpoint) {
-    // TODO - should this happen at a smaller size??
     background-color: #8DCD89;
     margin: -14px 7.5px 0 7.5px;
   }
