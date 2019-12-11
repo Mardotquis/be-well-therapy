@@ -17,8 +17,13 @@ export default function Header() {
           {subHeaderText}
         </p>
         <div className="forms__subheader__ctas">
-          <CTA color="#D3D3D3">Placeholder</CTA>
-          <CTA>Placeholder 2</CTA>
+          {/* TODO - maybe add absolute URL here for same origin issue(Firefox) */}
+          <a href="/documents/Be-Well-Client-Form.doc" download="Be Well Client Form.doc">
+            <CTA color="#D3D3D3">Download Forms</CTA>
+          </a>
+          <a href="/documents/Be-Well-Office-Policies.doc" download="Be Well Office Policies.doc">
+            <CTA>Download Office Policies</CTA>
+          </a>
         </div>
       </div>
     </section>
