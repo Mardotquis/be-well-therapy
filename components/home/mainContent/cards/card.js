@@ -12,8 +12,8 @@ export default function Card({
   return (
     // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
     <div className="home-maincontent__cards__card" onClick={toggleModal} role="document" onKeyDown={toggleModal}>
-      <div className="home-maincontent__cards__card-img" style={{ backgroundImage: parsedBackgroundImg }} />
-      <div className="home-maincontent__cards__card__text_wrapper">
+      <div className="home-maincontent__cards__card-img shadow" style={{ backgroundImage: parsedBackgroundImg }} />
+      <div className="home-maincontent__cards__card__text_wrapper shadow">
         <h3 className="home-maincontent__cards__card__text_wrapper__lgtext">{header}</h3>
         {subheader && <span className="home-maincontent__cards__card__text_wrapper__smtext">{subheader}</span> }
       </div>
