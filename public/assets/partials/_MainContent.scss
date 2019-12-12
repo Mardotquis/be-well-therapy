@@ -125,9 +125,7 @@ $cards-med-breakpoint: 1650px;
             box-shadow: 0 0 25px 0 #000;
           // removing box shadow for tablet/mobile devices
           @media (max-width: 800px) {
-            &:hover {
               box-shadow: initial;
-            }
           }
         }
       }
