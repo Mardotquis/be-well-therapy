@@ -1,11 +1,15 @@
 service: be-well-therapy
 
+plugins:
+  - serverless-apigw-binary
+
 custom:
   # setting up a custom variable for the env option passed in
   env: ${opt:env}
-  # pulling domain URLs for APIs
-  secrets: ${file(secrets.json)}
-
+  apigwBinary:
+    #list of mime-types
+    types:
+      - "*/*"
 provider:
   name: aws
   runtime: nodejs10.x
@@ -14,8 +18,6 @@ provider:
     # telling npm this is the production version
     NODE_ENV: production
     CURRENT_STAGE: ${self:custom.env}
-    DEV_DOMAIN: ${self:custom.secrets.DEV_DOMAIN}
-    PROD_DOMAIN: ${self:custom.secrets.PROD_DOMAIN}
   # setting the APIG stage to mimic the custom env variable
   region: us-east-1
 
@@ -26,4 +28,5 @@ functions:
       - http: ANY /
       - http: ANY /{proxy+}
 
-# TODO - add R53 mapping
+# ACM/Route53 was done manually due to some bugs
+# in the plugins
