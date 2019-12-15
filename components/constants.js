@@ -85,44 +85,42 @@ export const hours = [
   {
     day: 'Monday',
     abbr: 'Mon',
-    start: '8:00 AM',
-    end: '4:00 PM',
+    start: '9:00 AM',
+    end: '8:00 PM',
   },
   {
     day: 'Tuesday',
     abbr: 'Tue',
-    start: '8:00 AM',
-    end: '4:00 PM',
+    start: '9:00 AM',
+    end: '8:00 PM',
   },
   {
     day: 'Wednesday',
     abbr: 'Wed',
-    start: '8:00 AM',
-    end: '4:00 PM',
+    start: '9:00 AM',
+    end: '8:00 PM',
   },
   {
     day: 'Thursday',
     abbr: 'Thu',
-    start: '8:00 AM',
-    end: '4:00 PM',
+    start: '9:00 AM',
+    end: '8:00 PM',
   },
   {
     day: 'Friday',
     abbr: 'Fri',
-    start: '8:00 AM',
-    end: '4:00 PM',
+    start: '9:00 AM',
+    end: '8:00 PM',
   },
   {
     day: 'Saturday',
     abbr: 'Sat',
-    start: '8:00 AM',
-    end: '4:00 PM',
+    text: 'by appointment',
   },
   {
     day: 'Sunday',
     abbr: 'Sun',
-    start: '8:00 AM',
-    end: '4:00 PM',
+    text: 'by appointment',
   },
 ];
 
@@ -132,7 +130,7 @@ export const city = 'Charlotte, NC 28262';
 
 export const fullAddress = '1935 J N Pease Place Ste. 202 Charlotte, NC';
 
-export const email = 'something@email.com';// TODO - change later
+export const email = 'bewelltherapy10@gmail.com';// info@bewelltherapy.org?
 
 export const phoneNum = '704.334.3170';
 

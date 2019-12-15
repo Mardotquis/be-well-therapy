@@ -15,7 +15,7 @@ export default function Card({
   rgba(0, 0, 0, .7)), url(${backgroundImg}) center/contain no-repeat`;
   return (
   // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
-    <div className={`our_services__cards__card our_services__cards__card_${shortName}`} style={{ background }} onClick={toggleModal} role="document" onKeyDown={toggleModal}>
+    <div className={`our_services__cards__card our_services__cards__card_${shortName} shadow`} style={{ background }} onClick={toggleModal} role="document" onKeyDown={toggleModal}>
       <h2 className="our_services__cards__card-lgtext">{header}</h2>
       <p className="our_services__cards__card-smtext">{mainSentence}</p>
       <Modal

@@ -44,7 +44,8 @@ $subheader-small-breakpoint: 900px;// same as $contact-info-md-breakpoint
     &__ctas {
       display: flex;
       margin-top: 80px;
-      > * {// targetting the individual CTA's
+      a > * {// targetting the individual CTA's
+        font-size: 18px;
         @media (min-width: $subheader-large-breakpoint) {
           &:first-child {
             margin-left: 8px;
@@ -62,7 +63,7 @@ $subheader-small-breakpoint: 900px;// same as $contact-info-md-breakpoint
         align-items: center;
         margin: 6px 0 0 8px;//6px is 31px(total) - 25px(from __subheader-smtext)
         justify-content: space-evenly;
-        > * {
+        a > * {
           margin-right: 0;
           margin-bottom: 16px;
           width: 320px !important;

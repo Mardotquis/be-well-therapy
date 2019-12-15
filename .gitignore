@@ -3,7 +3,7 @@ node_modules
 jspm_packages
 
 # Serverless directories
-.serverless
+.serverless*
 secrets.json
 
 # Next directories
@@ -13,3 +13,4 @@ out
 # misc
 .DS_Store
 .env
+.vscode

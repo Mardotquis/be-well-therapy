@@ -6,7 +6,17 @@ const random = require('uuid/v4');
 
 function displayHours() {
   return hours.map((info) => (
-    <OfficeHoursListItem day={info.abbr} start={info.start} end={info.end} key={random()} />
+    <OfficeHoursListItem
+      day={info.abbr}
+      start={info.start}
+      end={info.end}
+      /** ********
+      if its a weekend day, then it gets
+       different styles inside the component
+      ********* */
+      text={info.text}
+      key={random()}
+    />
   ));
 }
 

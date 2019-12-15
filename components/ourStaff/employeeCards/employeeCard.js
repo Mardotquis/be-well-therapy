@@ -11,7 +11,7 @@ export default function EmployeeCard({
   const { modalOpen, toggleModal } = useModal();
 
   return (
-    <div className="employee_cards__card">
+    <div className="employee_cards__card shadow">
       <img className="employee_cards__card__img" src={headshotPath} alt={`${name}`} />
       <div className="employee_cards__card__info">
         <h2 className="employee_cards__card__info__name">

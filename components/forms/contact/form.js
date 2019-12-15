@@ -1,6 +1,6 @@
 // import validator from 'validator';
 import Schema from 'validate';
-import { axios } from '../../../config/helpers';
+import axios from 'axios';
 
 export default class Form {
   constructor(formState) {
@@ -20,16 +20,24 @@ export default class Form {
     return true;
   }
 
+  temporarilyDisableButton = () => {
+    const button = document.querySelector('.forms__submit_btn');
+    button.innerHTML = 'Loading...';
+    button.style.backgroundColor = '#908e8e';
+    button.disabled = true;
+  }
+
   sendData = async () => {
     try {
+      this.temporarilyDisableButton();
       await axios.post('/api/contact', this.formState);
       // eslint-disable-next-line no-alert
-      alert('Email sent successfully');// TODO - remove later
-      window.location.reload();
+      alert('Email sent successfully!');// TODO - remove later
     } catch (error) {
       // eslint-disable-next-line no-alert
-      alert('Error occurred while sending email...');// TODO - remove later
+      alert('Error occurred while sending email.');// TODO - remove later
     }
+    window.location.reload();
   }
 
   setupSchema = () => new Schema({
@@ -48,12 +56,12 @@ export default class Form {
     },
     subject: {
       type: String,
-      length: { min: 3, max: 80 },
+      length: { min: 3, max: 100 },
       message: 'The subject must be a minimum of 3 characters long.',
     },
     message: {
       type: String,
-      length: { min: 3, max: 300 },
+      length: { min: 3, max: 5000 },
       message: 'The message must be a minimum of 3 characters long.',
     },
   })
@@ -93,7 +101,7 @@ export default class Form {
   }
 
   filterInvalidErrors = () => {
-    // if not errors exist, stop the function
+    // if no errors exist, stop the function
     if (!this.formErrors.length) return;
     /** ********
     because 'message' and 'subject' aren't "required", but do
