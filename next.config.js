@@ -1,25 +1,11 @@
 const withCSS = require('@zeit/next-css');
 const withSass = require('@zeit/next-sass');
-const withImages = require('next-images');
 const withPlugins = require('next-compose-plugins');
+const withImages = require('next-images');
 
 module.exports = withPlugins(
-  [
-    withImages, withCSS, withSass,
-  ],
+  [withCSS, withSass, withImages],
   {
-    webpack(config, options) {
-      config.module.rules.push({
-        test: /\.(png|jpg|gif|svg)$/,
-        use: {
-          loader: 'url-loader',
-          options: {
-            limit: 100000,
-          },
-        },
-      });
-      return config;
-    },
     exportPathMap() {
       return {
         '/': { page: '/' },
@@ -31,4 +17,3 @@ module.exports = withPlugins(
     },
   },
 );
-// TODO - put assets over a CDN
