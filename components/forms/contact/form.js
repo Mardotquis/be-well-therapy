@@ -32,10 +32,10 @@ export default class Form {
       this.temporarilyDisableButton();
       await axios.post('/api/contact', this.formState);
       // eslint-disable-next-line no-alert
-      alert('Email sent successfully');// TODO - remove later
+      alert('Email sent successfully!');// TODO - remove later
     } catch (error) {
       // eslint-disable-next-line no-alert
-      alert('Error occurred while sending email...');// TODO - remove later
+      alert('Error occurred while sending email.');// TODO - remove later
     }
     window.location.reload();
   }
