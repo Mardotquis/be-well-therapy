@@ -29,7 +29,7 @@ export default function Contact() {
           <Input type="email" name="email" bind={bind} label="Your Email (required)" />
           <Input name="subject" bind={bind} label="Subject" />
           <Input name="message" bind={bind} label="Your Message" textarea />
-          <CTA height="58px" width="100%" type="submit">Send</CTA>
+          <CTA height="58px" width="100%" type="submit" submit>Send</CTA>
         </form>
       </div>
     </div>
