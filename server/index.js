@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
 const expressSanitizer = require('express-sanitizer');
+const cors = require('cors');
 require('dotenv').config();
 
 const dev = process.env.NODE_ENV !== 'production';
@@ -22,15 +23,8 @@ function generateExpressToNext(arr) {
 }
 
 nextApp.prepare().then(() => {
-  // TODO - add back later
-  // server.use((req, res, next) => {
-  //   console.log('hit use');
-  //   res.header('Access-Control-Allow-Origin', 'https://dummy.com');
-  //   console.log('made it past use');
-  //   next();
-  // });
-
-  // TODO - add logging/error handling middleware
+  const originWhitelist = ['http://bewelltherapy.org', 'http://testing.bewelltherapy.org'];
+  server.use(cors({ origin: originWhitelist }));
 
   // body-parser middleware
   server.use(bodyParser.json());
