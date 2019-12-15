@@ -16,7 +16,7 @@ export default function Details() {
         </div>
         <div className="form__contact_info_contact_details_items_item">
           <span className="form__contact_info_contact_details_items_item-icon form__contact_info_contact_details_items_item-icon-email" />
-          <a className="form__contact_info_contact_details_items_item-text" href={`mailto:${email}`}>{email}</a>
+          <a className="form__contact_info_contact_details_items_item-text" href={`mailto:${email}`} target="_blank" rel="noopener noreferrer">{email}</a>
         </div>
         <div className="form__contact_info_contact_details_items_item">
           <span className="form__contact_info_contact_details_items_item-icon form__contact_info_contact_details_items_item-icon-phone" />
