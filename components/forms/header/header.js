@@ -1,11 +1,25 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react';
 import CTA from '../cta/cta';
 
 export default function Header() {
+  // text starts off with "New Clients "
   const subHeaderText = `, to get the most out of your initial appointment, please complete the following
                         forms and bring them to your first session along with your insurance card and any clinical
                         documentation that would be helpful to your Therapist in assisting you with developing
                         solutions.`;
+
+  /** ********
+  because `target="_blank"  attribute isn't treated the same in every browser,
+  you have to explicitly tell the window to open it
+  ********* */
+  function openInNewTab(url) {
+    const win = window.open(url, '_blank');
+    win.focus();
+  }
+
   return (
     <section className="forms">
       <div className="forms__header">
@@ -17,12 +31,11 @@ export default function Header() {
           {subHeaderText}
         </p>
         <div className="forms__subheader__ctas">
-          {/* TODO - maybe add absolute URL here for same origin issue(Firefox) */}
-          <a href="/documents/Be-Well-Client-Form.doc" download="Be Well Client Form.doc">
-            <CTA color="#D3D3D3">Download Forms</CTA>
+          <a onClick={() => openInNewTab('/documents/Be-Well-Client-Form.pdf')}>
+            <CTA color="#D3D3D3">View Forms</CTA>
           </a>
-          <a href="/documents/Be-Well-Office-Policies.doc" download="Be Well Office Policies.doc">
-            <CTA>Download Office Policies</CTA>
+          <a onClick={() => openInNewTab('/documents/Be-Well-Office-Policies.pdf')}>
+            <CTA>View Office Policies</CTA>
           </a>
         </div>
       </div>
