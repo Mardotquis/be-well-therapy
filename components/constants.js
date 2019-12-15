@@ -130,7 +130,7 @@ export const city = 'Charlotte, NC 28262';
 
 export const fullAddress = '1935 J N Pease Place Ste. 202 Charlotte, NC';
 
-export const email = 'something@email.com';// TODO - change later
+export const email = 'bewelltherapy10@gmail.com';// info@bewelltherapy.org?
 
 export const phoneNum = '704.334.3170';
 
