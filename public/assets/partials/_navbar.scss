@@ -1,18 +1,18 @@
-$lg-breakpoint: 1600px;
+$lg-breakpoint: 1300px;
 $logo-breakpoint: 800px;
 $brown: #2a1d13;// doublecheck...
 $nav-green: #8DCD89;
 
 .nav {
   background-color: $sand;
-  @include rect(140px, 100%);
+  @include rect(98px, 100%);
   display: flex;
-  padding: 0 115px 0 146px;
-  font-size: 16px;
+  padding: 0 48px 0 48px;
+  font-size: 14px;
   font-family: $futura;
   color: #5A5656;
   &__logo {
-    margin: auto 0 27px 0;
+    margin: auto 0 20px 0;
     &:hover {
       cursor: pointer;
     }
@@ -21,7 +21,7 @@ $nav-green: #8DCD89;
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
     align-items: flex-end;
     @media (max-width: $lg-breakpoint) {
       flex-direction: column;
@@ -46,7 +46,6 @@ $nav-green: #8DCD89;
       }
     }
     &__info {
-      margin-left: auto;
       &-text {
         display: block;
         text-align: right;
