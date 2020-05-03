@@ -84,4 +84,19 @@ export const employees = [
       extraSmallHeadshotPath: '/img/our-staff/rebecca-schrenker-sm-circle.png',
     },
   },
+  {
+    name: 'Reonetta Holliman, MA, LPCA',
+    certs: [
+      'Licensed Professional Counselor Associate (LPCA)',
+    ],
+    headshotPath: '/img/our-staff/reonetta-holliman.png',
+    smHeadshotPath: '/img/our-staff/reonetta-holliman-sm.png',
+    modalInfo: {
+      info: [
+        'Reonetta Holliman is a Licensed Professional Counselor Associate (LPCA), licensed in North Carolina. She completed her undergraduate studies at North Carolina Agricultural and Technical State University, earning a Bachelor of Arts in Political Science. She holds a Master of Arts degree from Liberty University in Marriage and Family Therapy. Reonetta’s professional counseling experience consists of providing services for depression, anxiety, stress, trauma, relationship challenges, grief and loss, ADHD, career transitions, and other mental health and life concerns.  Reonetta has worked with various populations including children, adolescents, adults, families, and couples. Reonetta has also worked with individuals from numerous cultural backgrounds, sexual orientations, and gender identifications. Reonetta uses solution-focused and cognitive-behavioral techniques to assist individuals in identifying their goals for the future and exploring behaviors and circumstances that have supported a pathway toward those goals. Reonetta views therapy as a collaborative effort. She will assist in achieving personal and interpersonal growth in a safe and supportive environment with the goal of lasting emotional wellness.',
+      ],
+      smallHeadshotPath: '/img/our-staff/reonetta-holliman-circle.png',
+      extraSmallHeadshotPath: '/img/our-staff/reonetta-holliman-sm-circle.png',
+    },
+  },
 ];
