@@ -3,6 +3,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react';
 import CTA from '../cta/cta';
+import Custom from '../custom/custom';
 
 export default function Header() {
   // text starts off with "New Clients "
@@ -31,12 +32,10 @@ export default function Header() {
           {subHeaderText}
         </p>
         <div className="forms__subheader__ctas">
-          <a onClick={() => openInNewTab('/documents/Be-Well-Client-Form.pdf')}>
+          <a onClick={() => openInNewTab('/documents/Be-Well-Therapy-Forms.pdf')}>
             <CTA color="#D3D3D3">View Forms</CTA>
           </a>
-          <a onClick={() => openInNewTab('/documents/Be-Well-Office-Policies.pdf')}>
-            <CTA>View Office Policies</CTA>
-          </a>
+          <Custom />
         </div>
       </div>
     </section>
