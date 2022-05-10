@@ -20,7 +20,7 @@ export const services = [
     header: 'Individual',
     shortName: 'individual',
     backgroundImg: '/img/home/man-close-up.png',
-    smBackgroundImg: '/img/home/man-close-up-sm.png', // TODO - change later with real pic
+    smBackgroundImg: '/img/home/man-close-up-sm.png',
     rectangleBackgroundImg: '/img/our-services/man-close-up-rect.png',
     smRectangleBackgroundImg: '/img/our-services/man-close-up-sm-rect.png',
     homepage: true,
@@ -36,9 +36,9 @@ export const services = [
     shortName: 'relationship-marriage-family-therapy',
     longerHeader: 'Relationship, Marriage and Family Therapy',
     backgroundImg: '/img/home/family.png',
-    smBackgroundImg: '/img/home/family-sm.png', // TODO - change later with real pic
+    smBackgroundImg: '/img/home/family-sm.png',
     rectangleBackgroundImg: '/img/our-services/family-rect.png',
-    smRectangleBackgroundImg: '/img/our-services/family-sm-rect.png', // TODO - change later with real pic
+    smRectangleBackgroundImg: '/img/our-services/family-sm-rect.png',
     homepage: true,
     mainSentence: 'Connections with spouse, family members and loved ones are often the most fulfilling, yet sometimes, also the most challenging relationships in our lives. Sessions are designed to identify family or relationship patterns that contribute to the problems and help members break those habits.',
     modalInfo: {
@@ -49,7 +49,7 @@ export const services = [
     header: 'Clinical Supervision',
     shortName: 'clinical-supervision',
     backgroundImg: '/img/home/writing.png',
-    smBackgroundImg: '/img/home/writing-sm.png', // TODO - change later with real pic
+    smBackgroundImg: '/img/home/writing-sm.png',
     rectangleBackgroundImg: '/img/our-services/writing-rect.png',
     smRectangleBackgroundImg: '/img/our-services/writing-sm-rect.png',
     homepage: true,
@@ -130,7 +130,7 @@ export const city = 'Charlotte, NC 28262';
 
 export const fullAddress = '1935 J N Pease Place Ste. 202 Charlotte, NC';
 
-export const email = 'bewelltherapy41@gmail.com';// info@bewelltherapy.org?
+export const email = 'llayne@bewelltherapy.org';
 
 export const phoneNum = '704.334.3170';
 
