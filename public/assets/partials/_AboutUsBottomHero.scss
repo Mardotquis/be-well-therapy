@@ -5,8 +5,8 @@ $bottom-hero-sm-breakpoint: 1160px;
   @include rect(850px, 100%);
   background: linear-gradient(rgba(60, 60, 60, .28),
   rgba(60, 60, 60, .28)),
-  url('/img/about-us/group-picture.jpeg');
-  background-size: center;
+  url('/img/about-us/group-picture.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -39,13 +39,13 @@ $bottom-hero-sm-breakpoint: 1160px;
     }
   }
   @media (max-width: $bottom-hero-md-breakpoint) {
-    background: #B5B5B5;
     height: auto;
     &_text_wrapper {
       margin-top: 19px;
     }
   }
   @media (max-width: $bottom-hero-sm-breakpoint) {
+    background: #B5B5B5;
     &_text_wrapper {
       padding: 0 34px;
       &-lgtext {
