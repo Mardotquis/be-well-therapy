@@ -3,7 +3,7 @@ import React from 'react';
 const random = require('uuid/v4');
 
 export default function EmployeeModal({
-  modalInfo, toggleModal, name, mobile,
+  modalInfo, toggleModal, headshotPath,
 }) {
   function displayText() {
     const {
@@ -22,10 +22,12 @@ export default function EmployeeModal({
     return info.map((item) => <p key={random()} {...customLineHeight}>{item}</p>);
   }
 
+  const parsedBackgroundImg = `url(${headshotPath})`;
+
   return (
     <div className="employee_cards__modal">
       <button className="employee_cards__modal__close modal-close" onClick={toggleModal} type="button" aria-label="Close modal" />
-      <img src={mobile ? modalInfo.extraSmallHeadshotPath : modalInfo.smallHeadshotPath} alt={name} className="employee_cards__modal-picture" />
+      <div className="employee_cards__modal-picture" style={{ backgroundImage: parsedBackgroundImg }} />
       <div className="employee_cards__modal__text">
         {displayText()}
       </div>

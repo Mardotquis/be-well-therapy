@@ -18,13 +18,18 @@ $employee-card-md-breakpoint: 800px;
     }
   }
   &__card {
-    @include rect(592px, 381px);
+    width: 380px;
     padding: 0;
     box-shadow: 0px 7px 22px #00000029;
     &__img {
+      background-position: center;
       @include rect(390px, 100%);
       padding: 0;
       margin: 0;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
     &__info {
       margin-top: -4px;
@@ -43,6 +48,7 @@ $employee-card-md-breakpoint: 800px;
         margin-top: 15px;
         padding-left: 29px;
         li {
+          line-height: 18px;
           font-size: 16px;
           font-family: $futura;
           font-weight: 500;
@@ -129,6 +135,8 @@ $employee-card-md-breakpoint: 800px;
       margin-top: 25px;
       @include rect(230px, 215px);
       align-self: center;
+      background-position: center;
+      border-radius: 100%;
       @media (max-width: $employee-card-md-breakpoint) {
         margin-top: 10px;
         @include rect(112px, 104px);
