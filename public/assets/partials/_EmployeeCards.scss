@@ -9,28 +9,39 @@ $employee-card-md-breakpoint: 800px;
   margin: 50px auto 40px auto;
   max-width: 1350px;
   padding: 0 20px;
+
   @media (max-width: $employee-card-md-breakpoint) {
     margin-top: 23px;
     padding: 0;
     display: block;
+
     &__card {
       margin: 0 auto 27px auto;
     }
   }
+
   &__card {
-    @include rect(592px, 381px);
+    width: 380px;
     padding: 0;
     box-shadow: 0px 7px 22px #00000029;
+
     &__img {
+      background-position: center;
       @include rect(390px, 100%);
       padding: 0;
       margin: 0;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
+
     &__info {
       margin-top: -4px;
       position: relative;
-      @include rect(204px, 100%);
-      background-color: #593C26;
+      @include rect(238px, 100%);
+      background-color: #593c26;
+
       &__name {
         padding: 29px 0 0 29px;
         font-size: 18px;
@@ -39,20 +50,25 @@ $employee-card-md-breakpoint: 800px;
         font-weight: 700;
         color: $white;
       }
+
       &__certs {
         margin-top: 15px;
         padding-left: 29px;
+
         li {
+          line-height: 18px;
           font-size: 16px;
           font-family: $futura;
           font-weight: 500;
           color: $white;
-          &:first-of-type {
-            margin-bottom: 6px;
+          margin-bottom: 6px;
+
+          &:last-of-type {
+            margin-bottom: 0;
           }
         }
-
       }
+
       &__button {
         position: absolute;
         bottom: 16px;
@@ -68,27 +84,34 @@ $employee-card-md-breakpoint: 800px;
         box-shadow: 0px 5px 1px #0000000D;
       }
     }
+
     @media (max-width: $employee-card-md-breakpoint) {
-      @include rect(505px, 325px);
+      width: 325px;
+
       &__img {
         height: 304px;
         width: 325px;
       }
+
       &__info {
-        @include rect(201px, 100%);
+        @include rect(236px, 100%);
+
         &__name {
           padding: 29px 0 0 30px;
           font-size: 17px;// down 1px
         }
+
         &__certs {
           margin-top: 20px;
           padding-left: 31px;
+
           li {
             font-size: 13px;// down 1px
             line-height: 18px;
             color: $white;
           }
         }
+
         &__button {
           bottom: 17px;
         }
@@ -98,16 +121,18 @@ $employee-card-md-breakpoint: 800px;
 
   &__modal {
     @include rect(90vh, 1065px);
+
     @media (max-width: 1220px) {
       width: 85vw;
     }
     position: relative;
-    background: #2C837F url('/img/enlarged-logo.png');
+    background: #2c837f url('/img/enlarged-logo.png');
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     &__close {
       @include box(20px);
       background-image: url('/img/close.svg');
@@ -117,35 +142,46 @@ $employee-card-md-breakpoint: 800px;
       position: absolute;
       top: 50px;
       right: 80px;
+
       &:hover {
         cursor: pointer;
       }
+
       @media (max-width: $employee-card-md-breakpoint) {
         top: 30px;
         right: 27px;
       }
     }
+
     &-picture {
       margin-top: 25px;
       @include rect(230px, 215px);
       align-self: center;
+      background-position: center;
+      border-radius: 100%;
+
       @media (max-width: $employee-card-md-breakpoint) {
         margin-top: 10px;
         @include rect(112px, 104px);
       }
     }
+
     &__text {
       max-height: 380px;
       overflow-y: auto;
       margin-right: 25px;
+
       &::-webkit-scrollbar {
         width: 5px;
-        background-color: rgb(104,176,141);
+        background-color: rgb(104, 176, 141);
       }
+
       &::-webkit-scrollbar-thumb {
-        background-color: rgb(141,205,137);
+        background-color: rgb(141, 205, 137);
       }
-      p, li {
+
+      p,
+      li {
         // TODO - ask if we should indent the first sentence of each?
         // &::first-letter {
         //   margin-left: 50px;
@@ -163,41 +199,47 @@ $employee-card-md-breakpoint: 800px;
           line-height: 30px;
         }
       }
+
       li {
         line-height: 20px;
       }
+
       @media (max-width: $employee-card-md-breakpoint) {
-      max-height: initial;// TODO - think more about this...
+        max-height: initial;// TODO - think more about this...
       }
     }
 
     &__bottom_lines {
       margin-top: 22px;
       padding-bottom: 30px;
+
       @media (max-width: $employee-card-md-breakpoint) {
-      padding-bottom: 20px;
+        padding-bottom: 20px;
       }
     }
+
     &_line {
       &_vertical {
-        margin: 16px auto 0 auto ;
+        margin: 16px auto 0 auto;
         height: 140px;
         width: 2px;
         background-color: $line-color;
+
         @media (max-width: $employee-card-md-breakpoint) {
           height: 44px;
         }
       }
+
       &_horizontal {
         margin: 12.5px auto 0 auto;
         height: 2px;
         width: 50%;
         background-color: $line-color;
+
         @media (max-width: $employee-card-md-breakpoint) {
           width: 78%;
         }
       }
     }
   }
-
 }

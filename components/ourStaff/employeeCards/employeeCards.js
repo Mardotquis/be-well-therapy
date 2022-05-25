@@ -28,7 +28,7 @@ export default function EmployeeCards() {
       key={random()}
       name={employee.name}
       certs={employee.certs}
-      headshotPath={mobile ? employee.smHeadshotPath : employee.headshotPath}
+      headshotPath={employee.headshotPath}
       modalInfo={employee.modalInfo}
       mobile={mobile}
     />
