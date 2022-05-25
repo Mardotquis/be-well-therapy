@@ -1,16 +1,17 @@
 /* eslint-disable import/prefer-default-export */
 export const employees = [
   {
-    name: 'Rolanda Gabriel, PhD Candidate, LCMHC, LCMHCS',
+    name: 'Rolanda Gabriel, MA, LCMHCS, LCPC, CCTP',
     certs: [
-      'Licensed Clinical Mental Health Counselor (LCMHC)',
-      'Licensed Clinical Mental Health Counselor Supervisor (LCMHCS)',
+      'Licensed Clinical Mental Health Counselor Supervisor',
+      'Licensed Clinical Mental Health Counselor',
+      'Certified Clinical Trauma Professional',
     ],
     headshotPath: '/img/our-staff/rolanda-gabriel.jpg',
     modalInfo: {
       info: [
-        'Rolanda Gabriel is a Licensed Clinical Mental Health Counselor (LCMHC) and Licensed Clinical Mental Health Counselor Supervisor (LCMHCS) and has directed a private group practice for eleven years. She was born and raised in Charlotte, NC and became the first female State Champion at David W. Butler High School. She completed her undergraduate studies at the University of North Carolina at Charlotte, earning a Bachelor of Arts in Criminal Justice and Sociology, where she groomed her desire to assist individuals prior to becoming involved with the Criminal Justice system. Her experiences at UNCC solidified her passion and calling to assist individuals towards wellness, where she then received her Master of Arts degree in Community Mental Health Counseling from Hampton University.',
-        'Rolanda’s professional experience includes sixteen years of providing therapy in the Outpatient, Intensive In-home and Residential settings. She has a gift of understanding the thoughts and feelings of others and allowing others to feel comfortable to talk about difficulties in their life and implementing necessary steps to achieve solutions. She utilizes person-centered, solution-focused and cognitive behavioral techniques. Her experience includes working with individuals of all ages to resolve problems, work through life transitions, and learn to live and experience life in a more successful and pleasurable way. She has the experience to handle a variety of needs, including, but not limited to: life stressors, family conflict, stress and anger management, mood swings, depression, bipolar, anxiety, and attaining personal goals.',
+        'Rolanda Gabriel possesses a Bachelor\'s degree in Criminal Justice and Sociology (University of North Carolina at Charlotte), a Master of Arts degree in Community Mental Health Counseling (Hampton University) and is a PhD candidate for Counseling Education and Supervision (Hampton University).  She is licensed in the state of North Carolina as a Licensed Clinical Mental Health Counselor Supervisor (LCMHCS) and a Licensed Clinical Professional Counselor in other states as well.  Rolanda has directed private mental health group practices for fourteen years and provided direct mental health therapy services for nineteen years. Born and raised in Charlotte, NC, she enjoys healing, uplifting, and educating her clients with professional counseling and therapeutic services.',
+        'Rolanda’s professional experience includes providing counseling and therapy in the Outpatient, Intensive In-home and Residential settings to children, teens, adults, families and couples. She has a gift of understanding the thoughts and feelings of others, allowing others to feel comfortable to talk about difficulties in their life and implementing necessary steps to achieve solutions. She utilizes person-centered, solution-focused and cognitive behavioral techniques. Her experience includes working with individuals of all ages to resolve problems, work through life transitions, and learn to live and experience life in a more successful and pleasurable way. She has the experience to handle a variety of needs, including, but not limited to: life stressors, family conflict, stress and anger management, mood swings, depression, bipolar, anxiety, and attaining personal goals.  She is a Licensed Clinical Mental Health Supervisor in the state of North Carolina and has provided clinical supervision for licensees for nine years.',
       ],
       long: true,
     },
@@ -18,8 +19,8 @@ export const employees = [
   {
     name: 'Latoya Layne, MS, NCC, LCMHC',
     certs: [
-      'National Certified Counselor (NCC)',
-      'Licensed Clinical Mental Health Counselor (LCMHC)',
+      'National Certified Counselor',
+      'Licensed Clinical Mental Health Counselor',
     ],
     headshotPath: '/img/our-staff/latoya-layne.jpg',
     modalInfo: {
@@ -31,15 +32,14 @@ export const employees = [
   {
     name: 'Nena El Bey, MA, LCMHCA',
     certs: [
-      'Licensed Clinical Mental Health Counselor Associate (LCMHCA)',
+      'Licensed Clinical Mental Health Counselor Associate',
     ],
     headshotPath: '/img/our-staff/nena-el-bey.jpg',
     modalInfo: {
       customInfo: [
         `Nena Ahmad El Bey Is a National Certified Counselor who completed her Bachelor’s degree in
         Psychology from University of Phoenix and her Master’s Degree in Marriage and Family Therapy from
-        Grand Canyon University. Nena is a Licensed Clinical Mental Health Counselor, and Certified Marriage
-        Family Therapist. She also attended Delphi University of Spitritual studies where she became a Certified
+        Grand Canyon University. Nena is a Licensed Clinical Mental Health Counselor Associate. She also attended Delphi University of Spitritual studies where she became a Certified
         Spiritual and Meditation Guide Therapist, a Rohan Therapist, and an ordained Minister. Nena works
         passionately to bring creative components that will allow her to connect with her client’s individual and
          family needs to restore peace of mind. 7 years of counseling experience across a variety of treatment
@@ -76,9 +76,9 @@ export const employees = [
     },
   },
   {
-    name: 'Justina Ankrah',
+    name: 'Justina Ankrah, MA, LCMHC',
     certs: [
-      'Licensed Clinical Mental Health Counselor Associate (LCMHCA)',
+      'Licensed Clinical Mental Health Counselor Associate',
     ],
     headshotPath: '/img/our-staff/justina-ankrah.jpg',
     modalInfo: {
@@ -102,9 +102,9 @@ export const employees = [
     },
   },
   {
-    name: 'Stephanie Williams',
+    name: 'Stephanie Williams, MSW, LCSWA',
     certs: [
-      'Licensed Clinical Social Work Associate (LCSWA)',
+      'Licensed Clinical Social Work Associate',
     ],
     headshotPath: '/img/our-staff/stephanie-williams.jpg',
     modalInfo: {
@@ -125,9 +125,9 @@ export const employees = [
     },
   },
   {
-    name: 'Dajah Black',
+    name: 'Dajah Black, MSW, LCSWA',
     certs: [
-      'Licensed Clinical Social Work Associate (LCSWA)',
+      'Licensed Clinical Social Work Associate',
     ],
     headshotPath: '/img/our-staff/dajah-black.jpg',
     modalInfo: {
@@ -145,27 +145,22 @@ export const employees = [
     },
   },
   {
-    name: 'Holly McDonald',
+    name: 'Holly McDonald, MSW',
     certs: [
-      'Licensed Clinical Social Work Associate (LCSWA)',
+      'Licensed Clinical Social Work Associate',
     ],
     headshotPath: '/img/our-staff/holly-mcdonald.jpg',
     modalInfo: {
       info: [
-        `Holly McDonald is the Program Director with an  Undergraduate degree in Sociology and Ethnic
-        Studies and a master's degree in Social Work. Holly's professional counseling experience
-        consists of providing services for depression, anxiety, stress, trauma, relationship issues,grief and
-        loss, developmental disabilities, substance abuse, military family life.supports, career transitions,
-        hospice.. Holly has worked with various populations including children, adolescents, adults,
-        families, and couples. Holly's worked with individuals from a diverse ethnic &amp; cultural
-        population as well as backgrounds, along with sexual orientations, and gender identifications.
-        Holly uses psychodynamic counseling, solution-focused and cognitive-behavioral techniques to
-        assist individuals in identifying their goals and work through their challenges.`,
+        'Holly McDonald is the Elevate for Wellness Program Director.  She possesses an Undergraduate degree in Sociology and Ethnic Studies and a Master\'s degree in Social Work. Holly\'s professional counseling experience consists of providing services for depression, anxiety, stress, trauma, relationship issues,grief and loss, developmental disabilities, substance abuse, military family life supports, career transitions, and hospice. Holly has worked with various populations including children, adolescents, adults, families, and couples. Holly\'s worked with individuals from diverse ethnic and cultural populations, including backgrounds, sexual orientations, and gender identifications. Holly uses psychodynamic counseling, solution-focused and cognitive-behavioral techniques to assist individuals in identifying their goals and work through their challenges.',
       ],
     },
   },
   {
-    name: 'Shaquasha Campbell',
+    name: 'Shaquesha Campbell, MSW, LCSWA',
+    certs: [
+      'Licensed Clinical Social Work Associate',
+    ],
     headshotPath: '/img/our-staff/shaquasha-campbell.jpg',
     modalInfo: {
       info: [
@@ -178,7 +173,7 @@ export const employees = [
     headshotPath: '/img/our-staff/janet-evans.jpg',
     modalInfo: {
       info: [
-        'Janet has a passion for billing, coding and office management.  She has over 22 years of experience working behind the scenes of keeping medical practices operating at their best capacity.',
+        'Janet Evans, Office Manager, is a highly skilled billing and coding professional with over two decades of billing and office management experience.  Her leadership and management skills are an asset to our office.  When you arrive at Be Well Therapy, PLLC, you will be greeted with her smiling face, and pleasant attitude. She plays a critical part in the billing, office administration, and scheduling for Be Well Therapy, PLLC. She is responsible for much of the “behind the scenes” work that allows Be Well Therapy’s therapists to focus on our #1 priority – our clients!',
       ],
     },
   },
