@@ -4,8 +4,6 @@ plugins:
   - serverless-apigw-binary
 
 custom:
-  # setting up a custom variable for the env option passed in
-  env: ${opt:env}
   apigwBinary:
     #list of mime-types
     types:
@@ -13,11 +11,11 @@ custom:
 provider:
   name: aws
   runtime: nodejs14.x
-  stage: ${self:custom.env}
+  stage: ${env:stage, 'dev'}
   environment:
     # telling npm this is the production version
     NODE_ENV: production
-    CURRENT_STAGE: ${self:custom.env}
+    CURRENT_STAGE: ${env:stage, 'dev'}
   # setting the APIG stage to mimic the custom env variable
   region: us-east-1
 
