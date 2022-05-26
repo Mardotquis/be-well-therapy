@@ -4,7 +4,7 @@ export const employees = [
     name: 'Rolanda Gabriel, MA, LCMHCS, LCPC, CCTP',
     certs: [
       'Licensed Clinical Mental Health Counselor Supervisor',
-      'Licensed Clinical Mental Health Counselor',
+      'Licensed Clinical Professional Counselor',
       'Certified Clinical Trauma Professional',
     ],
     headshotPath: '/img/our-staff/rolanda-gabriel.jpg',
@@ -146,9 +146,6 @@ export const employees = [
   },
   {
     name: 'Holly McDonald, MSW',
-    certs: [
-      'Licensed Clinical Social Work Associate',
-    ],
     headshotPath: '/img/our-staff/holly-mcdonald.jpg',
     modalInfo: {
       info: [
