@@ -12,7 +12,7 @@ custom:
       - "*/*"
 provider:
   name: aws
-  runtime: nodejs10.x
+  runtime: nodejs14.x
   stage: ${self:custom.env}
   environment:
     # telling npm this is the production version
