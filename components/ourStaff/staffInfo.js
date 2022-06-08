@@ -76,7 +76,7 @@ export const employees = [
     },
   },
   {
-    name: 'Justina Ankrah, MA, LCMHC',
+    name: 'Justina Ankrah, MA, LCMHCA',
     certs: [
       'Licensed Clinical Mental Health Counselor Associate',
     ],
