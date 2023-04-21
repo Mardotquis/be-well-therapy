@@ -125,47 +125,6 @@ export const employees = [
     },
   },
   {
-    name: 'Dajah Black, MSW, LCSWA',
-    certs: [
-      'Licensed Clinical Social Work Associate',
-    ],
-    headshotPath: '/img/our-staff/dajah-black.jpg',
-    modalInfo: {
-      info: [
-        `Dajah Black graduated with a Master's in Social Work from Johnson C. Smith University in
-        2020 and became a Licensed Clinical Social Worker Associate shortly after. Dajah has
-        experience working with children 6 and up, women, and families. She is trauma informed and
-        utilizes a cognitive behavior therapy, strengths based approach in which we will focus on how
-        thoughts influence feelings, and behaviors as well as your strengths and self determination to
-        meet your desired goals. Although this is an approach Dajah typically utilizes, she understands
-        the importance of being flexible in meeting the client's needs as she will focus on rapport
-        building to ensure comfortability, transparency, and growth. She looks forward to being a
-        support for you!`,
-      ],
-    },
-  },
-  {
-    name: 'Holly McDonald, MSW',
-    headshotPath: '/img/our-staff/holly-mcdonald.jpg',
-    modalInfo: {
-      info: [
-        'Holly McDonald is the Elevate for Wellness Program Director.  She possesses an Undergraduate degree in Sociology and Ethnic Studies and a Master\'s degree in Social Work. Holly\'s professional counseling experience consists of providing services for depression, anxiety, stress, trauma, relationship issues,grief and loss, developmental disabilities, substance abuse, military family life supports, career transitions, and hospice. Holly has worked with various populations including children, adolescents, adults, families, and couples. Holly\'s worked with individuals from diverse ethnic and cultural populations, including backgrounds, sexual orientations, and gender identifications. Holly uses psychodynamic counseling, solution-focused and cognitive-behavioral techniques to assist individuals in identifying their goals and work through their challenges.',
-      ],
-    },
-  },
-  {
-    name: 'Shaquesha Campbell, MSW, LCSWA',
-    certs: [
-      'Licensed Clinical Social Work Associate',
-    ],
-    headshotPath: '/img/our-staff/shaquasha-campbell.jpg',
-    modalInfo: {
-      info: [
-        'Shaquesha Campbell has been practicing social work for nearly 6 years with youth, adolescents, adults, and geriatrics. As a licensed clinical social work therapist, Shaquesha Campbell has been trained in Cognitive Behavioral Therapy (CBT), Dialectical behavioral therapy (DBT), Person Centered Planning, Solution Focused Therapy and Motivational Interviewing skills.  The majority of her practice consists of working with individuals who experience the following: Depression, Sexual Abuse, Suicidal Ideation, Trauma, Post-Traumatic Stress Disorder (PTSD), Bipolar, Substance use, Anxiety, Anger, Panic Attacks, marriage / relationship issues and parenting skills. Mrs. Campbell infuses evidenced based practices with client-centered strategies and techniques to help clients achieve real measurable and lasting change. She works primarily with individuals dealing with depression, anxiety, domestic violence, family conflicts and childhood traumas.',
-      ],
-    },
-  },
-  {
     name: 'Janet Evans',
     headshotPath: '/img/our-staff/janet-evans.jpg',
     modalInfo: {
