@@ -17,62 +17,17 @@ export const employees = [
     },
   },
   {
-    name: 'Latoya Layne, MS, NCC, LCMHC',
+    name: 'Latoya Campos, MS, LCMHC',
     certs: [
-      'National Certified Counselor',
       'Licensed Clinical Mental Health Counselor',
+      'Certified Clinical Trauma Professional',
     ],
     headshotPath: '/img/our-staff/latoya-layne.jpg',
     modalInfo: {
       info: [
-        'Latoya is a National Certified Counselor (NCC) and a Licensed Clinical Mental Health Counselor (LCMHC). She earned a Bachelor of Arts degree in Criminal Justice from Stockton University and a Master of Science degree in Mental Health Counseling from Walden University.', 'Latoya began her work in the counseling profession at a crisis intervention unit, where she provided short-term behavioral health services to adults undergoing significant emotional or psychiatric distress. Latoya has experience working with adolescents, adults, couples, and families. She has provided clinical assessments, individual, couples, family, and group counseling, as well as, addiction recovery services which include, Relapse Prevention, Early Intervention and Intensive Outpatient (IOP).',
+        'Latoya Campos is a Licensed Clinical Mental Health Counselor (LCMHC) and a Certified Clinical Trauma Professional (CCTP). She completed her undergraduate studies at Stockton University, earning a Bachelor of Arts in Criminal Justice. She holds a Master of Science degree from Walden University in Mental Health Counseling.',
+        "Latoya began her work in the counseling profession at a crisis intervention unit, where she provided short-term behavioral health services to adults undergoing significant emotional or psychiatric distress. She has provided services for individuals living with depression, anxiety, stress, trauma, relationship conflicts, women's issues, addiction, and other mental health and life concerns. She has worked with various populations including children, adolescents, adults, families, and couples. She has also worked with individuals from various cultural backgrounds and sexual orientations.  She utilizes solution-focused and person centered techniques to assist individuals in identifying goals and creating lifelong solutions. She is a Qualified Clinical Mental Health Supervisor and is able to provide clinical supervision to licensees."
       ],
-    },
-  },
-  {
-    name: 'Nena El Bey, MA, LCMHCA',
-    certs: [
-      'Licensed Clinical Mental Health Counselor Associate',
-    ],
-    headshotPath: '/img/our-staff/nena-el-bey.jpg',
-    modalInfo: {
-      customInfo: [
-        `Nena Ahmad El Bey Is a National Certified Counselor who completed her Bachelor’s degree in
-        Psychology from University of Phoenix and her Master’s Degree in Marriage and Family Therapy from
-        Grand Canyon University. Nena is a Licensed Clinical Mental Health Counselor Associate. She also attended Delphi University of Spitritual studies where she became a Certified
-        Spiritual and Meditation Guide Therapist, a Rohan Therapist, and an ordained Minister. Nena works
-        passionately to bring creative components that will allow her to connect with her client’s individual and
-         family needs to restore peace of mind. 7 years of counseling experience across a variety of treatment
-        settings include; private practice, and community based services. Nena serves children, adolescents,
-        adults, couples, families, and groups in the following areas:`,
-        `Nena is an eclectic therapist who prides herself on implementing holistic approaches to connect with
-        each client and assist throughout the healing journey. A number of modalities are incorporated in her
-        therapeutic style including Cognitive Behavioral, Motivational Interviewing, Play Therapy, Solution
-        Focused, Reality Based, psycho-education to individuals, energetic cleansing &; balancing, and
-        mindfulness to name a few . A holistic approach is utilized by exploring with and educating clients about
-        how mind, spirit and body are interconnected. Her theory is that when someone is supported and
-        guided to move through life’s challenges, there is a possibility to heal and truly accept, love and
-        celebrate the better version of self they are becoming. In a world with so many traumas, kayos and confusion Nena strives to support and guide her clients to a more positive mental health and wellness
-        experience.`,
-      ],
-      customListItems: [' Addictive Behaviors',
-        ' Teen Issues; Peer Pressure, Self Esteem',
-        ' Parent/Child or Partner Relational Problems',
-        ' Dating Violence/Abuse',
-        ' Self-Harm Behavior',
-        ' Obsessions and Compulsions',
-        ' Mood Disorders',
-        ' Personality Disorders',
-        ' Anxiety Disorders',
-        ' Conduct and Oppositional Defiant Disorders',
-        ' Physical, Sexual, Emotional Abuse',
-        ' Anger and Stress Management',
-        ' Dual Diagnoses',
-        ' Criminal Thinking and Behavior',
-        ' Marriage and Family Therapy',
-        'Grief and transitioning services for individuals and families',
-      ],
-      long: true,
     },
   },
   {
