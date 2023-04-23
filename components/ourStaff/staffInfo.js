@@ -31,28 +31,16 @@ export const employees = [
     },
   },
   {
-    name: 'Justina Ankrah, MA, LCMHCA',
+    name: 'Justina Ankrah, MA, LCMHC',
     certs: [
-      'Licensed Clinical Mental Health Counselor Associate',
+      'Licensed Clinical Mental Health Counselor',
     ],
     headshotPath: '/img/our-staff/justina-ankrah.jpg',
     modalInfo: {
       info: [
-        `Justina Ankrah is a North Carolina Licensed Clinical Mental Health
-        Counselor Associate (LCMHCA), currently working towards full
-        clinical licensure. She earned her master’s degrees in Human
-        Development and Learning, and in Counseling both from The University
-        of North Carolina at Charlotte. She has over twenty-five years of
-        experience working with diverse population in the human services field
-        providing services for individuals and families in need. Justina’s
-        professional counseling experience consist of providing services for
-        relief of stress, trauma, grief and loss, ADHD, anxiety, depression, and
-        other mental health and life challenges. Justina uses a solution-focused
-        and cognitive-behavioral techniques to assist individuals in identifying
-        their goals for the future and exploring behaviors and circumstances that
-        have supported a pathway toward those goals. Justina’s aim as a
-        counselor is to collaborate with the individual and assist in achieving
-        growth with the goal of a lasting emotional and mental wellness.`,
+        `Justina Ankrah is a North Carolina Licensed Clinical Mental Health Counselor (LCMHC). Justina earned her master’s degrees in Human Development and Learning, and in Counseling from The University of North Carolina at Charlotte. She has over twenty-five years of experience working with diverse populations in the human services field providing services for individuals and families in need.`,
+      `Justina’s professional counseling experience consists of providing services for relief of stress, trauma, grief and loss, ADHD, anxiety, depression, and other mental health and life challenges. She uses a solution-focused and cognitive-behavioral techniques to assist individuals in identifying their goals for the future and exploring behaviors and circumstances that have supported a pathway toward
+those goals. Justina’s aim as a counselor is to collaborate with the individual and assist in achieving growth with the goal of lasting emotional and mental wellness.`,
       ],
     },
   },
@@ -85,6 +73,31 @@ export const employees = [
     modalInfo: {
       info: [
         'Janet Evans, Office Manager, is a highly skilled billing and coding professional with over two decades of billing and office management experience.  Her leadership and management skills are an asset to our office.  When you arrive at Be Well Therapy, PLLC, you will be greeted with her smiling face, and pleasant attitude. She plays a critical part in the billing, office administration, and scheduling for Be Well Therapy, PLLC. She is responsible for much of the “behind the scenes” work that allows Be Well Therapy’s therapists to focus on our #1 priority – our clients!',
+      ],
+    },
+  },
+  {
+    name: 'Christa Medley, MSW, LCSWA',
+    certs: [
+      'Licensed Clinical Social Worker Associate',
+    ],
+    headshotPath: '/img/our-staff/',
+    modalInfo: {
+      info: [
+        `Christa's primary focus is to provide compassionate and evidence-based care to children and adolescents who have survived trauma. She has a bachelor’s and master’s degree in social work, with a focus in trauma-informed care. Over the years, she has gained extensive experience working with clients who struggle with a range of mental issues, including depression, anxiety, and trauma. Through her academic and professional experiences, she has developed a deep understanding of trauma and its impact on mental health. Her approach to mental health is grounded in empathy, collaboration, and evidence-based interventions. She believes that every individual has unique strengths. She works collaboratively with her clients, their family, and other supportive adults in their life to create a holistic and trauma-informed approach to care and to help them build on their strengths and overcome their challenges. She feels that therapy should be a safe and supportive space for clients to process their experiences, build resilience, and develop healthy coping skills. She also believes that trust and safety are essential for the therapeutic process, particularly for children who may feel vulnerable and mistrustful of adults. She draws from a range of therapeutic modalities, including cognitive- behavioral therapy, play therapy, and mindfulness practices, to tailor treatment to each client’s unique needs and strengths. As a mental health therapist, she is deeply committed to ongoing education and professional development. Her ultimate goal is to provide the highest quality of care to my clients and help them achieve their therapeutic goals while creating a safe and nurturing therapeutic environment.`,
+      ],
+    },
+  },
+  {
+    name: 'Cierra Clark, MSW, LCSWA',
+    certs: [
+      'Licensed Clinical Social Worker Associate',
+    ],
+    headshotPath: '/img/our-staff/',
+    modalInfo: {
+      info: [
+        `Cierra Clark is a Licensed Clinical Social Work Associate through the North Carolina Social Work Certification and Licensure Board. She earned her Master's in Social Work from The Catholic University of America. She often utilizes a strengths-based approach that assists clients in identifying personal strengths already working in their lives. Her clinical style is person-centered and highly collaborative, with a large focus on building therapeutic relationships that feel empowering, safe, and supportive.`,
+        `Cierra is passionate about working with those experiencing challenges with relationships, depression, life transitions, anxiety, stress management, self-worth and self-compassion, work-life balance, creating and maintaining healthy boundaries, and family issues. She is trained in therapeutic approaches that include, Cognitive Behavioral Therapy, Trauma Informed Care, and Solution-Focused Practice. She is committed to providing clients with comfortability through rapport building while promoting lasting change throughout their healing and wellness journey!`
       ],
     },
   },
