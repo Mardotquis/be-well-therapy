@@ -17,7 +17,7 @@ export const employees = [
     },
   },
   {
-    name: 'Latoya Campos, MS, LCMHC',
+    name: 'Latoya Campos, MS, LCMHC, CCTP',
     certs: [
       'Licensed Clinical Mental Health Counselor',
       'Certified Clinical Trauma Professional',
@@ -26,7 +26,7 @@ export const employees = [
     modalInfo: {
       info: [
         'Latoya Campos is a Licensed Clinical Mental Health Counselor (LCMHC) and a Certified Clinical Trauma Professional (CCTP). She completed her undergraduate studies at Stockton University, earning a Bachelor of Arts in Criminal Justice. She holds a Master of Science degree from Walden University in Mental Health Counseling.',
-        "Latoya began her work in the counseling profession at a crisis intervention unit, where she provided short-term behavioral health services to adults undergoing significant emotional or psychiatric distress. She has provided services for individuals living with depression, anxiety, stress, trauma, relationship conflicts, women's issues, addiction, and other mental health and life concerns. She has worked with various populations including children, adolescents, adults, families, and couples. She has also worked with individuals from various cultural backgrounds and sexual orientations.  She utilizes solution-focused and person centered techniques to assist individuals in identifying goals and creating lifelong solutions. She is a Qualified Clinical Mental Health Supervisor and is able to provide clinical supervision to licensees."
+        "Latoya began her work in the counseling profession at a crisis intervention unit, where she provided short-term behavioral health services to adults undergoing significant emotional or psychiatric distress. She has provided services for individuals living with depression, anxiety, stress, trauma, relationship conflicts, women's issues, addiction, and other mental health and life concerns. She has worked with various populations including children, adolescents, adults, families, and couples. She has also worked with individuals from various cultural backgrounds and sexual orientations.  She utilizes solution-focused and person centered techniques to assist individuals in identifying goals and creating lifelong solutions. She is a Qualified Clinical Mental Health Counseling Supervisor and is able to provide clinical supervision to LCMHC Associates."
       ],
     },
   },
@@ -98,6 +98,34 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
       info: [
         `Cierra Clark is a Licensed Clinical Social Work Associate through the North Carolina Social Work Certification and Licensure Board. She earned her Master's in Social Work from The Catholic University of America. She often utilizes a strengths-based approach that assists clients in identifying personal strengths already working in their lives. Her clinical style is person-centered and highly collaborative, with a large focus on building therapeutic relationships that feel empowering, safe, and supportive.`,
         `Cierra is passionate about working with those experiencing challenges with relationships, depression, life transitions, anxiety, stress management, self-worth and self-compassion, work-life balance, creating and maintaining healthy boundaries, and family issues. She is trained in therapeutic approaches that include, Cognitive Behavioral Therapy, Trauma Informed Care, and Solution-Focused Practice. She is committed to providing clients with comfortability through rapport building while promoting lasting change throughout their healing and wellness journey!`
+      ],
+    },
+  },
+  {
+    name: 'Jada Wright, MSW, LCSW-A',
+    headshotPath: '/img/our-staff/',
+    modalInfo: {
+      info: [
+        `Jada Wright is a two-time graduate of the illustrious Johnson C. Smith University, shortly after graduating Jada received her licensed clinical social worker associate and is diligently working towards becoming fully licensed. Jada has experience working with children six and up, the LGBTQ community, individuals with depression, anxiety, anger, childhood trauma, sexual abuse, and individuals battling substance abuse. Jada is passionate about uplighting and serving under-marginalized communities. Jada uses cognitive behavior therapy, a strengths-based approach, and motivational interviewing skills to assist her clients with their needs and overall improve a client's wellbeing. Jada enjoys building rapport with her clients and becoming social support for individuals and families. Jada looks forward to assisting clients with accomplishing their goals and overcoming their challenges.`,
+      ],
+    },
+  },
+  {
+    name: 'Naila McConnell, MA, LCMHC-A, NCC',
+    headshotPath: '/img/our-staff/',
+    modalInfo: {
+      info: [
+        `Naila is a National Certified Counselor (NCC) and a Licensed Clinical Mental Health Counselor Associate (LCMHCA). She earned a Bachelor of Science degree in Psychology from Lander University and a Master of Education in Clinical Mental Health Counseling Degree from The University of North Carolina at Pembroke.`,
+        `Naila likes to utilize Cognitive Behavioral Therapy, Dialectical Behavioral Therapy, Solution Focused Brief Therapy, and Mindfulness Interventions. She operates from a strength-based approach, which empowers individuals to develop a stronger sense of self. She has experience with crisis intervention, outpatient therapy, individual therapy, family therapy, and group therapy. Naila is passionate about promoting overall wellness and breaking the stigma surrounding mental health. She enjoys her dogs, exercising, traveling, sports, and outdoor activities and adventures.`,
+      ],
+    },
+  },
+  {
+    name: 'Frank Wright, MSW, LCSW-A',
+    headshotPath: '/img/our-staff/',
+    modalInfo: {
+      info: [
+        `Frank Wright has a Bachelors in Psychology from Kean University and a Masters of Social Work from Ramapo College. Frank is originally from New Jersey and worked with children as young as five as well as adults. Frank is proficient in play therapy and Cognitive Behavioral therapy (CBT). Frank shows a passion for working with people in his community.`,
       ],
     },
   },
