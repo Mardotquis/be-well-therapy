@@ -122,7 +122,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   },
   {
     name: 'Frank Wright, MSW, LCSW-A',
-    headshotPath: '/img/our-staff/frank-wright.png',
+    headshotPath: '/img/our-staff/frank-wright.jpeg',
     modalInfo: {
       info: [
         `Frank Wright has a Bachelors in Psychology from Kean University and a Masters of Social Work from Ramapo College. Frank is originally from New Jersey and worked with children as young as five as well as adults. Frank is proficient in play therapy and Cognitive Behavioral therapy (CBT). Frank shows a passion for working with people in his community.`,
