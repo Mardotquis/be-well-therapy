@@ -102,8 +102,11 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Jada Wright, MSW, LCSW-A',
+    name: 'Jada Wright, MSW, LCSWA',
     headshotPath: '/img/our-staff/jada-wright.png',
+    certs: [
+      'Licensed Clinical Social Worker Associate',
+    ],
     modalInfo: {
       info: [
         `Jada Wright is a two-time graduate of the illustrious Johnson C. Smith University, shortly after graduating Jada received her licensed clinical social worker associate and is diligently working towards becoming fully licensed. Jada has experience working with children six and up, the LGBTQ community, individuals with depression, anxiety, anger, childhood trauma, sexual abuse, and individuals battling substance abuse. Jada is passionate about uplighting and serving under-marginalized communities. Jada uses cognitive behavior therapy, a strengths-based approach, and motivational interviewing skills to assist her clients with their needs and overall improve a client's wellbeing. Jada enjoys building rapport with her clients and becoming social support for individuals and families. Jada looks forward to assisting clients with accomplishing their goals and overcoming their challenges.`,
@@ -111,8 +114,11 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Naila McConnell, MA, LCMHC-A, NCC',
+    name: 'Naila McConnell, MA, LCMHCA, NCC',
     headshotPath: '/img/our-staff/naila-mcconnel.png',
+    certs: [
+      'Licensed Clinical Mental Health Counselor Associate',
+    ],
     modalInfo: {
       info: [
         `Naila is a National Certified Counselor (NCC) and a Licensed Clinical Mental Health Counselor Associate (LCMHCA). She earned a Bachelor of Science degree in Psychology from Lander University and a Master of Education in Clinical Mental Health Counseling Degree from The University of North Carolina at Pembroke.`,
@@ -121,8 +127,11 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Frank Wright, MSW, LCSW-A',
+    name: 'Frank Wright, MSW, LCSWA',
     headshotPath: '/img/our-staff/frank-wright.jpeg',
+    certs: [
+      'Licensed Clinical Social Worker Associate',
+    ],
     modalInfo: {
       info: [
         `Frank Wright has a Bachelors in Psychology from Kean University and a Masters of Social Work from Ramapo College. Frank is originally from New Jersey and worked with children as young as five as well as adults. Frank is proficient in play therapy and Cognitive Behavioral therapy (CBT). Frank shows a passion for working with people in his community.`,
