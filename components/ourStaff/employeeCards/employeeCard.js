@@ -8,14 +8,14 @@ import EmployeeModal from './employeeModal';
 const random = require('uuid/v4');
 
 export default function EmployeeCard({
-  name, certs, modalInfo, headshotPath, mobile,
+  name, certs, modalInfo, headshotPath, mobile, headshotPosition
 }) {
   const { modalOpen, toggleModal } = useModal();
   const parsedBackgroundImg = `url(${headshotPath})`;
 
   return (
     <div className="employee_cards__card shadow">
-      <div className="employee_cards__card__img" onClick={toggleModal} style={{ backgroundImage: parsedBackgroundImg }} />
+      <div className="employee_cards__card__img" onClick={toggleModal} style={{ backgroundImage: parsedBackgroundImg, backgroundPosition: headshotPosition }} />
       <div className="employee_cards__card__info">
         <h2 className="employee_cards__card__info__name">
           {name}
