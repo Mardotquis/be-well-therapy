@@ -116,6 +116,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   {
     name: 'Naila McConnell, MA, LCMHCA, NCC',
     headshotPath: '/img/our-staff/naila-mcconnel.png',
+    headshotPosition: 'top',
     certs: [
       'Licensed Clinical Mental Health Counselor Associate',
     ],
@@ -127,8 +128,9 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Frank Wright, MSW, LCSWA',
+    name: 'Frank Wright, MSW, LCSWA', 
     headshotPath: '/img/our-staff/frank-wright.jpeg',
+    headshotPosition: 'top',
     certs: [
       'Licensed Clinical Social Worker Associate',
     ],
