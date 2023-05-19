@@ -29,7 +29,7 @@ export default function EmployeeCard({
         <button className="employee_cards__card__info__button" type="button" onClick={toggleModal} aria-label={`Learn more about ${name.split(',')[0]}`}>Learn More</button>
       </div>
       <Modal modalOpen={modalOpen} toggleModal={toggleModal}>
-        <EmployeeModal toggleModal={toggleModal} modalInfo={modalInfo} name={name} mobile={mobile} headshotPath={headshotPath} />
+        <EmployeeModal toggleModal={toggleModal} modalInfo={modalInfo} name={name} mobile={mobile} headshotPath={headshotPath} headshotPosition={headshotPosition} />
       </Modal>
     </div>
   );
