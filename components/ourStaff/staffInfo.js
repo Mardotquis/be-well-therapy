@@ -3,6 +3,7 @@ export const employees = [
   {
     name: 'Dr. Rolanda Gabriel, LCMHCS, LCPC',
     certs: [
+      'Founder and CEO',
       'Licensed Clinical Mental Health Counselor Supervisor',
       'Licensed Clinical Professional Counselor'
     ],
@@ -21,7 +22,7 @@ export const employees = [
       'Licensed Clinical Mental Health Counselor',
       'Certified Clinical Trauma Professional',
     ],
-    headshotPath: '/img/our-staff/trenita-crouch.jpg',
+    headshotPath: '/img/our-staff/trenita-crouch.jpeg',
     modalInfo: {
       info: [
         `The executive specialist, Dr. Trenita Crouch holds a doctorate in human services with a focus in leadership & organizational management. Dr. Crouch has more than 25 years of experience in the field of mental & behavioral health. Twenty of those years have been spent supplying organizations with knowledge and direction for tasks including stability, restructuring, expansion, training, and financial management.`,
@@ -116,7 +117,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   },
   {
     name: 'Janet Evans, Office Manager',
-    headshotPath: '/img/our-staff/janet-evans.jpg',
+    headshotPath: '/img/our-staff/janet-evans.jpeg',
     modalInfo: {
       info: [
         'Janet Evans, Office Manager, is a highly skilled billing and coding professional with over two decades of billing and office management experience.  Her leadership and management skills are an asset to our office.  When you arrive at Be Well Therapy, PLLC, you will be greeted with her smiling face, and pleasant attitude. She plays a critical part in the billing, office administration, and scheduling for Be Well Therapy, PLLC. She is responsible for much of the “behind the scenes” work that allows Be Well Therapy’s therapists to focus on our #1 priority – our clients!',
