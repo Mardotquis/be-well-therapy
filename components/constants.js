@@ -59,13 +59,13 @@ export const services = [
     },
   },
   {
-    header: 'Mindful Yoga and Meditation Program',
-    shortName: 'mindful-yoga',
+    header: 'BeFIT Program',
+    shortName: 'befit-program',
     rectangleBackgroundImg: '/img/our-services/yoga-rect.png',
     smRectangleBackgroundImg: '/img/our-services/yoga-sm-rect.png',
     mainSentence: 'Equipping students on how to regulate their emotions in a healthy way and improve cognitive focus is paramount to healthy development.',
     modalInfo: {
-      mainSentence: 'Mindfulness, Yoga, Deep Breathing and Meditation intervention implemented by Counselors and Certified Yoga Instructors to decrease students’ behavioral problems that result in In-School Suspension, increase cognitive focus, ability to pay attention, increase ability to calm down when upset, and make better decisions.',
+      mainSentence: "A Social-Emotional learning (SEL) intervention that combines mental health techniques, yoga, and meditation to equip students with skills to regulate their emotions in a healthy way and improve cognitive focus.",
     },
   },
   {
@@ -76,6 +76,16 @@ export const services = [
     mainSentence: 'We provide licensed counselors for charter schools, private schools and after school programs.',
     modalInfo: {
       mainSentence: 'Our counselors enhance existing educational programs by providing the therapeutic component of equipping the “whole” child.',
+    },
+  },
+    {
+    header: 'Elevate Your Wellness',
+    shortName: 'elevate-wellness',
+    rectangleBackgroundImg: '/img/our-services/woman-sitting.png',
+    smRectangleBackgroundImg: '/img/our-services/woman-sitting.png',
+    mainSentence: 'Virtual Therapy, Spiritual Support, Yoga & Meditation,  Personal Training',
+    modalInfo: {
+      mainSentence: 'Elevate Your mind, body, and spirit all in one place.  Elevate Your Wellness is an online wellness platform that connects clients with licensed therapists, spiritual practitioners, certified yoga instructors, and certified personal trainers for virtual sessions.',
     },
   },
 ];
