@@ -19,8 +19,7 @@ export const employees = [
   {
     name: 'Dr. Trenita Crouch',
     certs: [
-      'Licensed Clinical Mental Health Counselor',
-      'Certified Clinical Trauma Professional',
+      'Executive Director',
     ],
     headshotPath: '/img/our-staff/trenita-crouch.jpeg',
     modalInfo: {
@@ -28,21 +27,21 @@ export const employees = [
         `The executive specialist, Dr. Trenita Crouch holds a doctorate in human services with a focus in leadership & organizational management. Dr. Crouch has more than 25 years of experience in the field of mental & behavioral health. Twenty of those years have been spent supplying organizations with knowledge and direction for tasks including stability, restructuring, expansion, training, and financial management.`,
         `Dr. Crouch has a wealth of knowledge when it comes to identifying internal and external issues that threaten business stability and recommending best practices for change management. In addition to developing operational plans with goals and objectives that complement the company's strategic direction, Dr. Crouch's knowledge also extends to analyzing quantitative and qualitative data to develop insights and produce quantifiable results.`,
         `Dr. Crouch has a demonstrated history of success in inspiring others to provide seamless, high-quality customer experiences, developing self-assurance, skill development, and an outstanding reputation through collaboration and partnership with internal and external stakeholders.`,
-        `Dr. Crouch was born in Charlotte, North Carolina. a Capella University alumna and a sister of the prestigious Alpha Kappa Alpha Sorority, Inc. Dr. Crouch is eager to join the Be Well Therapy team and contribute to extending the organization's reach both locally and internationally as it continues to offer high-quality services.`
+        `Dr. Crouch was born in Charlotte, North Carolina. A Capella University alumna and a sister of the prestigious Alpha Kappa Alpha Sorority, Inc. Dr. Crouch is eager to join the Be Well Therapy team and contribute to extending the organization's reach both locally and internationally as it continues to offer high-quality services.`
       ],
     },
   },
    {
-    name: 'Nena El Bey, MA, LCMHCA',
+    name: 'Nena El Bey, MA, LCMHC',
     certs: [
-      'Licensed Clinical Mental Health Counselor Associate',
+      'Licensed Clinical Mental Health Counselor',
     ],
     headshotPath: '/img/our-staff/nena-el-bey.jpg',
     modalInfo: {
       customInfo: [
         `Nena Ahmad El Bey Is a National Certified Counselor who completed her Bachelor’s degree in
         Psychology from University of Phoenix and her Master’s Degree in Marriage and Family Therapy from
-        Grand Canyon University. Nena is a Licensed Clinical Mental Health Counselor Associate. She also attended Delphi University of Spitritual studies where she became a Certified
+        Grand Canyon University. Nena is a Licensed Clinical Mental Health Counselor. She also attended Delphi University of Spitritual studies where she became a Certified
         Spiritual and Meditation Guide Therapist, a Rohan Therapist, and an ordained Minister. Nena works
         passionately to bring creative components that will allow her to connect with her client’s individual and
          family needs to restore peace of mind. 7 years of counseling experience across a variety of treatment
