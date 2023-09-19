@@ -2,9 +2,8 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import GoogleTagManagerHead from '../components/GoogleTagManagerHead';
 
-export default function Document () {
+export default function Document() {
 
-  render() {
     return (
       <Html>
         <Head>
@@ -16,5 +15,4 @@ export default function Document () {
         </body>
       </Html>
     );
-  }
 }
