@@ -1,8 +1,9 @@
 import Script from 'next/script';
 
-const GoogleTagManagerHead = () => (
-const measurementId = 'UA-180172827-1';
+const GoogleTagManagerHead = () => {
+  const measurementId = 'UA-180172827-1';
 
+  return (
   <>
     <Script src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`} strategy="beforeInteractive" />
     <Script strategy="beforeInteractive">{`
@@ -14,6 +15,6 @@ const measurementId = 'UA-180172827-1';
       gtag('config', '${measurementId}');
     `}</Script>
   </>
-);
+)};
 
 export default GoogleTagManagerHead;
