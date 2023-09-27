@@ -29,6 +29,7 @@ export default function EmployeeCards() {
       name={employee.name}
       certs={employee.certs}
       headshotPath={employee.headshotPath}
+      headshotPosition={employee?.headshotPosition}
       modalInfo={employee.modalInfo}
       mobile={mobile}
     />

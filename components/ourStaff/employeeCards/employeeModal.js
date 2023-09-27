@@ -3,7 +3,7 @@ import React from 'react';
 const random = require('uuid/v4');
 
 export default function EmployeeModal({
-  modalInfo, toggleModal, headshotPath,
+  modalInfo, toggleModal, headshotPath, headshotPosition
 }) {
   function displayText() {
     const {
@@ -27,7 +27,7 @@ export default function EmployeeModal({
   return (
     <div className="employee_cards__modal">
       <button className="employee_cards__modal__close modal-close" onClick={toggleModal} type="button" aria-label="Close modal" />
-      <div className="employee_cards__modal-picture" style={{ backgroundImage: parsedBackgroundImg }} />
+      <div className="employee_cards__modal-picture" style={{ backgroundImage: parsedBackgroundImg, backgroundPosition: headshotPosition }} />
       <div className="employee_cards__modal__text">
         {displayText()}
       </div>
