@@ -115,7 +115,10 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Janet Evans, Office Manager',
+    name: 'Janet Evans',
+    certs: [
+      'Office Manager',
+    ],
     headshotPath: '/img/our-staff/janet-evans.jpeg',
     modalInfo: {
       info: [
