@@ -44,7 +44,7 @@ export default function MainContentInfo({ shortName, modalInfo }) {
           {modalInfo.mainSentence}
         </p>
         <p className="home-maincontent__info__content_mainsentence home-maincontent__info__content_mainsentence-short">
-          Visit the website to learn more: <a href={modalInfo.website} target="_blank">{modalInfo.website}</a>
+          Learn more: <a href={modalInfo.website} target="_blank">{modalInfo.website}</a>
         </p>
       </div>
     </MainContentInfoWrapper>
