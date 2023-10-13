@@ -86,7 +86,7 @@ export const services = [
     mainSentence: 'Virtual Therapy, Spiritual Support, Yoga & Meditation,  Personal Training',
     modalInfo: {
       mainSentence: 'Elevate Your mind, body, and spirit all in one place.  Elevate Your Wellness is an online wellness platform that connects clients with licensed therapists, spiritual practitioners, certified yoga instructors, and certified personal trainers for virtual sessions.',
-      website: 'https://www.elevateyourwellness.org/'
+      website: 'https://www.elevateyourwellness.org'
     },
   },
 ];
