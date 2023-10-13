@@ -86,6 +86,7 @@ export const services = [
     mainSentence: 'Virtual Therapy, Spiritual Support, Yoga & Meditation,  Personal Training',
     modalInfo: {
       mainSentence: 'Elevate Your mind, body, and spirit all in one place.  Elevate Your Wellness is an online wellness platform that connects clients with licensed therapists, spiritual practitioners, certified yoga instructors, and certified personal trainers for virtual sessions.',
+      website: 'http://www.elevateyourwellness.org/'
     },
   },
 ];
@@ -140,7 +141,7 @@ export const city = 'Charlotte, NC 28262';
 
 export const fullAddress = '1935 J N Pease Place Ste. 202 Charlotte, NC';
 
-export const email = 'llayne@bewelltherapy.org';
+export const email = 'tcrouch@bewelltherapy.org';
 
 export const phoneNum = '704.334.3170';
 
