@@ -36,6 +36,21 @@ export default function MainContentInfo({ shortName, modalInfo }) {
       </MainContentInfoWrapper>
     );
   }
+  if (shortName === 'elevate-wellness') {
+  return (
+    <MainContentInfoWrapper>
+      <div className="home-maincontent__info__content home-maincontent__info__content-short">
+        <p className="home-maincontent__info__content_mainsentence home-maincontent__info__content_mainsentence-short">
+          {modalInfo.mainSentence}
+        </p>
+        <p className="home-maincontent__info__content_mainsentence home-maincontent__info__content_mainsentence-short">
+          Learn more: <a href={modalInfo.website} target="_blank">{modalInfo.website}</a>
+        </p>
+      </div>
+    </MainContentInfoWrapper>
+    );
+  }
+  
   return (
     <MainContentInfoWrapper>
       <div className="home-maincontent__info__content home-maincontent__info__content-short">
