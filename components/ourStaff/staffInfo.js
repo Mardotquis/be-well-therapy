@@ -167,7 +167,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   {
     name: 'Norena Gutierrez, MSW, LCSWA',
     headshotPath: '/img/our-staff/norena-gutierrez.jpg',
-    // headshotPosition: 'top',
+    headshotPosition: 'top',
     certs: [
       'Licensed Clinical Social Worker Associate',
     ],
@@ -199,7 +199,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   {
     name: 'Brittany Fox, MSW, LCSWA',
     headshotPath: '/img/our-staff/brittany-fox.jpg',
-    // headshotPosition: 'top',
+    headshotPosition: 'top',
     certs: [
       'Licensed Clinical Social Worker Associate',
     ],
