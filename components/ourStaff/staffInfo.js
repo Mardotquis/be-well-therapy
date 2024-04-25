@@ -31,7 +31,7 @@ export const employees = [
       ],
     },
   },
-   {
+  {
     name: 'Nena El Bey, MA, LCMHC',
     certs: [
       'Licensed Clinical Mental Health Counselor',
@@ -86,7 +86,7 @@ export const employees = [
     modalInfo: {
       info: [
         `Justina Ankrah is a North Carolina Licensed Clinical Mental Health Counselor (LCMHC). Justina earned her master’s degrees in Human Development and Learning, and in Counseling from The University of North Carolina at Charlotte. She has over twenty-five years of experience working with diverse populations in the human services field providing services for individuals and families in need.`,
-      `Justina’s professional counseling experience consists of providing services for relief of stress, trauma, grief and loss, ADHD, anxiety, depression, and other mental health and life challenges. She uses a solution-focused and cognitive-behavioral techniques to assist individuals in identifying their goals for the future and exploring behaviors and circumstances that have supported a pathway toward
+        `Justina’s professional counseling experience consists of providing services for relief of stress, trauma, grief and loss, ADHD, anxiety, depression, and other mental health and life challenges. She uses a solution-focused and cognitive-behavioral techniques to assist individuals in identifying their goals for the future and exploring behaviors and circumstances that have supported a pathway toward
 those goals. Justina’s aim as a counselor is to collaborate with the individual and assist in achieving growth with the goal of lasting emotional and mental wellness.`,
       ],
     },
@@ -94,12 +94,12 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   {
     name: 'Stephanie Williams, MSW, LCSWA',
     certs: [
-      'Licensed Clinical Social Work Associate',
+      'Licensed Clinical Social Worker Associate',
     ],
     headshotPath: '/img/our-staff/stephanie-williams.jpg',
     modalInfo: {
       info: [
-        `Stephanie is a Licensed Clinical Social Work Associate through the North Carolina Social Work
+        `Stephanie is a Licensed Clinical Social Worker Associate through the North Carolina Social Work
         Certification and Licensure Board. She earned her Master’s degree in Social Work from The University of
         Alabama. She operates from a strengths-based approach, empowering individuals to develop a stronger
         sense of well-being. She has recently spent some time providing intensive in-home therapy services to
@@ -134,7 +134,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     headshotPath: '/img/our-staff/cierra-clark.jpg',
     modalInfo: {
       info: [
-        `Cierra Clark is a Licensed Clinical Social Work Associate through the North Carolina Social Work Certification and Licensure Board. She earned her Master's in Social Work from The Catholic University of America. She often utilizes a strengths-based approach that assists clients in identifying personal strengths already working in their lives. Her clinical style is person-centered and highly collaborative, with a large focus on building therapeutic relationships that feel empowering, safe, and supportive.`,
+        `Cierra Clark is a Licensed Clinical Social Worker Associate through the North Carolina Social Work Certification and Licensure Board. She earned her Master's in Social Work from The Catholic University of America. She often utilizes a strengths-based approach that assists clients in identifying personal strengths already working in their lives. Her clinical style is person-centered and highly collaborative, with a large focus on building therapeutic relationships that feel empowering, safe, and supportive.`,
         `Cierra is passionate about working with those experiencing challenges with relationships, depression, life transitions, anxiety, stress management, self-worth and self-compassion, work-life balance, creating and maintaining healthy boundaries, and family issues. She is trained in therapeutic approaches that include, Cognitive Behavioral Therapy, Trauma Informed Care, and Solution-Focused Practice. She is committed to providing clients with comfortability through rapport building while promoting lasting change throughout their healing and wellness journey!`
       ],
     },
@@ -152,15 +152,60 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Frank Wright, MSW, LCSWA', 
+    name: 'Frank Wright, MSW, LCSWA',
     headshotPath: '/img/our-staff/frank-wright.jpg',
-    headshotPosition: 'top',
+    // headshotPosition: 'top', // TODO: check after link gen
     certs: [
       'Licensed Clinical Social Worker Associate',
     ],
     modalInfo: {
       info: [
         `Frank Wright has a Bachelors in Psychology from Kean University and a Masters of Social Work from Ramapo College. Frank is originally from New Jersey and worked with children as young as five as well as adults. Frank is proficient in play therapy and Cognitive Behavioral therapy (CBT). Frank shows a passion for working with people in his community.`,
+      ],
+    },
+  },
+  {
+    name: 'Norena Gutierrez, MSW, LCSWA',
+    headshotPath: '/img/our-staff/norena-gutierrez.jpg',
+    // headshotPosition: 'top',
+    certs: [
+      'Licensed Clinical Social Worker Associate',
+    ],
+    modalInfo: {
+      info: [
+        `Norena specializes in working with LGBTQ+ and multiracial individuals, couples, and families as they navigate uncharted waters. She utilizes a collaborative, no-blame approach to help every member in the relationship who is struggling with loss of connection, misunderstandings, or previous trauma. Together, we figure out how to strengthen and rebuild relationships.
+
+        Norena has helped clients struggling with anxiety, depression, loss, and major life transitions. She walks with her clients always providing a safe and nonjudgmental environment. Norena offers evening appointments to work with your schedule. She also works with individuals who have been touched by adoption: birth parents, adoptive parents, and adoptees in need of support.
+        
+        Norena is an adoptive single parent of two grown sons. Her passion is giving back to her community. She is a member of the board for the Holiday Wish Foundation serving the LGBTQ community. When not serving clients, you can find her at the theater, a museum, or a musical festival in town. She is an avid swimmer and swims daily at the local YMCA.
+        
+        Norena has a Masters in Clinical Mental Health and a Masters in Marriage and Family from Texas A & M University – Corpus Christi.`,
+      ],
+    },
+  },
+  {
+    name: 'Carshia Capraro, LCSW',
+    headshotPath: '/img/our-staff/carshia_capraro.jpg',
+    // headshotPosition: 'top',
+    certs: [
+      'Licensed Clinical Social Worker',
+    ],
+    modalInfo: {
+      info: [
+        `Carshia Capraro is a Licensed Clinical Social Worker (LCSW). She has over 20 years of experience working with children, families, and individuals in various settings of the mental health field. Her educational background includes an undergraduate and graduate degree in Social Work. Areas of noted clinical interest include anxiety, attention deficit, depression, mood disorders, stress, and personal development. Treatment approaches include solution-focused work with an emphasis on building actionable plans for use. Her passion for working with and helping others is superseded by the desire to enhance her professional skills and provide effective therapy.`,
+      ],
+    },
+  },
+  {
+    name: 'Brittany Fox, MSW, LCSWA',
+    headshotPath: '/img/our-staff/brittany-fox.jpg',
+    // headshotPosition: 'top',
+    certs: [
+      'Licensed Clinical Social Worker Associate',
+    ],
+    modalInfo: {
+      info: [
+        `My name is Brittany Foxx, MSW, LCSWA and I am a professional therapist with Be Well Therapy. I am currently working towards becoming fully licensed in the social work practice. Since gaining a Bachelor’s degree of Arts in Sociology. I have had the pleasure of working in a variety of areas within the mental health/behavioral health field. After much hard work and dedication, I also obtained a Master of Arts degree in Social Work. Over the years, I have worked with a variety of individuals of various backgrounds and diagnoses, and I have found my passion in the mental health/behavioral health field. I have 4 years of experience in individual therapy. Furthermore, I have worked in an agency and private practice settings which have provided me with the tools necessary for me to meet the unique needs of my clients. My clinical interests are anxiety, depression, trauma, mood disorder, stress, schizophrenia, etc. My therapeutic style is eclectic and involves me using a solution focused perspective and cognitive behavioral interventions to help clients to focus on how beliefs and thoughts effect our actions. I am always striving to expand my knowledge and ensure that my clients are given the best and most effective therapy that I can provide.`,
       ],
     },
   },
