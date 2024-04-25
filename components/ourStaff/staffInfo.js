@@ -21,7 +21,7 @@ export const employees = [
     certs: [
       'Executive Director',
     ],
-    headshotPath: '/img/our-staff/trenita-crouch.jpeg',
+    headshotPath: '/img/our-staff/trenita-crouch.jpg',
     modalInfo: {
       info: [
         `The executive specialist, Dr. Trenita Crouch holds a doctorate in human services with a focus in leadership & organizational management. Dr. Crouch has more than 25 years of experience in the field of mental & behavioral health. Twenty of those years have been spent supplying organizations with knowledge and direction for tasks including stability, restructuring, expansion, training, and financial management.`,
@@ -153,7 +153,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   },
   {
     name: 'Frank Wright, MSW, LCSWA', 
-    headshotPath: '/img/our-staff/frank-wright.jpeg',
+    headshotPath: '/img/our-staff/frank-wright.jpg',
     headshotPosition: 'top',
     certs: [
       'Licensed Clinical Social Worker Associate',
