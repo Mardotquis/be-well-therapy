@@ -83,6 +83,7 @@ export const employees = [
       'Licensed Clinical Mental Health Counselor',
     ],
     headshotPath: '/img/our-staff/justina-ankrah.jpg',
+    headshotPosition: 'top',
     modalInfo: {
       info: [
         `Justina Ankrah is a North Carolina Licensed Clinical Mental Health Counselor (LCMHC). Justina earned her master’s degrees in Human Development and Learning, and in Counseling from The University of North Carolina at Charlotte. She has over twenty-five years of experience working with diverse populations in the human services field providing services for individuals and families in need.`,

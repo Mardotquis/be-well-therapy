@@ -7,32 +7,38 @@ $about-us-md-breakpoint: 925px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
   &_icon {
     @include box(52px);
     margin: auto;
     background-image: url('/img/about-us/notepad.svg');
   }
+
   &-lgtext {
     font-size: 32px;
     font-family: $poppins;
     color: $about-us-green;
   }
+
   &-medtext {
     margin-top: 16px;
     font-size: 25px;
     font-family: $futura;
     font-weight: 500;
     line-height: 35px;
-    max-width: 888px;// TODO - change later
+    max-width: 888px; // TODO - change later
     color: $scorpion;
   }
+
   &_quote {
     margin-top: 25px;
     border-left: 2px solid rgba(112, 112, 112, .45);
     padding: 15px 27px;
+
     p:first-of-type {
       margin-bottom: 39px;
     }
+
     p {
       color: #5A5656;
       font-size: 17px;
@@ -41,33 +47,49 @@ $about-us-md-breakpoint: 925px;
       max-width: 655px;
     }
   }
+
   // so bottom hero doesn't get beige background color strip
   padding-bottom: 36px;
+
   @media (max-width: $about-us-md-breakpoint) {
     padding-top: 0;
+
     &_icon {
       margin: -26px 0 0 32px;
       align-self: flex-start;
     }
+
     &-lgtext {
       font-size: 24px;
     }
+
     &-medtext {
       margin-top: 20px;
       font-size: 20px;
       max-width: 70%;
       line-height: 26px;
     }
+
     &_quote {
       margin-left: 32px;
       padding: 5px 15px 5px 8px;
+
       p:first-of-type {
         margin-bottom: 22px;
       }
+
       p {
         font-size: 16px;
       }
     }
+
+    &_team_photo {
+      height: auto;
+      width: 100%;
+      max-width: 400px;
+      padding: 1rem;
+    }
+
     // so bottom hero doesn't get beige background color strip
     padding-bottom: 11px;
   }
