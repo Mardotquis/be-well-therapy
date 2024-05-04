@@ -48,6 +48,13 @@ $about-us-md-breakpoint: 925px;
     }
   }
 
+  &_team_photo {
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+  }
+
   // so bottom hero doesn't get beige background color strip
   padding-bottom: 36px;
 
@@ -82,14 +89,6 @@ $about-us-md-breakpoint: 925px;
         font-size: 16px;
       }
     }
-
-    &_team_photo {
-      height: auto;
-      width: 100%;
-      max-width: 400px;
-      padding: 1rem;
-    }
-
     // so bottom hero doesn't get beige background color strip
     padding-bottom: 11px;
   }
