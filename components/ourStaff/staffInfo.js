@@ -7,7 +7,7 @@ export const employees = [
       'Licensed Clinical Mental Health Counselor Supervisor',
       'Licensed Clinical Professional Counselor'
     ],
-    headshotPath: '/img/our-staff/rolanda-gabriel.jpg',
+    headshotPath: '/img/our-staff/rolanda-gabriel.jpeg',
     modalInfo: {
       info: [
         `Dr. Rolanda Gabriel earned a doctorate degree in Counselor Education and Supervision and a Master of Arts degree in Counseling with a concentration in Community Mental Health Counseling, both from Hampton University, and a Bachelor's degree in Criminal Justice and Sociology from the University of North Carolina at Charlotte.  She also pursued post-Master studies in Counseling at UNC-Charlotte and obtained North Carolina licensure as a Licensed Clinical Mental Health Counselor Supervisor in the state of North Carolina, and licensure as a Licensed Clinical Professional Counselor in the state of Maryland. She is the Founder and CEO of two private mental health group practices for over 15 years and has 20 years of counseling experience in the Outpatient, Intensive In-Home, and Residential settings.  Her experience includes working with individuals to resolve problems, work through life transitions, and learn to live and experience life more successfully and pleasurable.  Her area of special interest is working with adolescents, adults, and families that face a variety of problems ranging from emotional adjustment, school, peer, and family relationships to adults with mood disorders and trauma. In addition, she has also offered psycho-educational groups, which focus on empowerment, self-esteem, anger management, healthy relationships, coping, and stress management, and has over a decade of experience working with clients who suffer from ADHD, mood disorders, behavior disorders, eating disorders, anxiety disorders, trauma, grief and loss, family conflict, sexual abuse and offending, and crisis interventions.`,
@@ -30,52 +30,6 @@ export const employees = [
         `Dr. Crouch has a demonstrated history of success in inspiring others to provide seamless, high-quality customer experiences, developing self-assurance, skill development, and an outstanding reputation through collaboration and partnership with internal and external stakeholders.`,
         `Dr. Crouch was born in Charlotte, North Carolina. A Capella University alumna and a sister of the prestigious Alpha Kappa Alpha Sorority, Inc. Dr. Crouch is eager to join the Be Well Therapy team and contribute to extending the organization's reach both locally and internationally as it continues to offer high-quality services.`
       ],
-    },
-  },
-  {
-    name: 'Nena El Bey, MA, LCMHC',
-    certs: [
-      'Licensed Clinical Mental Health Counselor',
-    ],
-    headshotPath: '/img/our-staff/nena-el-bey.jpg',
-    modalInfo: {
-      customInfo: [
-        `Nena Ahmad El Bey Is a National Certified Counselor who completed her Bachelor’s degree in
-        Psychology from University of Phoenix and her Master’s Degree in Marriage and Family Therapy from
-        Grand Canyon University. Nena is a Licensed Clinical Mental Health Counselor. She also attended Delphi University of Spitritual studies where she became a Certified
-        Spiritual and Meditation Guide Therapist, a Rohan Therapist, and an ordained Minister. Nena works
-        passionately to bring creative components that will allow her to connect with her client’s individual and
-         family needs to restore peace of mind. 7 years of counseling experience across a variety of treatment
-        settings include; private practice, and community based services. Nena serves children, adolescents,
-        adults, couples, families, and groups in the following areas:`,
-        `Nena is an eclectic therapist who prides herself on implementing holistic approaches to connect with
-        each client and assist throughout the healing journey. A number of modalities are incorporated in her
-        therapeutic style including Cognitive Behavioral, Motivational Interviewing, Play Therapy, Solution
-        Focused, Reality Based, psycho-education to individuals, energetic cleansing &; balancing, and
-        mindfulness to name a few . A holistic approach is utilized by exploring with and educating clients about
-        how mind, spirit and body are interconnected. Her theory is that when someone is supported and
-        guided to move through life’s challenges, there is a possibility to heal and truly accept, love and
-        celebrate the better version of self they are becoming. In a world with so many traumas, kayos and confusion Nena strives to support and guide her clients to a more positive mental health and wellness
-        experience.`,
-      ],
-      customListItems: [' Addictive Behaviors',
-        ' Teen Issues; Peer Pressure, Self Esteem',
-        ' Parent/Child or Partner Relational Problems',
-        ' Dating Violence/Abuse',
-        ' Self-Harm Behavior',
-        ' Obsessions and Compulsions',
-        ' Mood Disorders',
-        ' Personality Disorders',
-        ' Anxiety Disorders',
-        ' Conduct and Oppositional Defiant Disorders',
-        ' Physical, Sexual, Emotional Abuse',
-        ' Anger and Stress Management',
-        ' Dual Diagnoses',
-        ' Criminal Thinking and Behavior',
-        ' Marriage and Family Therapy',
-        'Grief and transitioning services for individuals and families',
-      ],
-      long: true,
     },
   },
   {
@@ -117,31 +71,6 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Janet Evans',
-    certs: [
-      'Office Manager',
-    ],
-    headshotPath: '/img/our-staff/janet-evans.jpeg',
-    modalInfo: {
-      info: [
-        'Janet Evans, Business Specialist, is a highly skilled billing and coding professional with over two decades of billing and office management experience. Her leadership and management skills are an asset to our office.  She plays a critical part in the billing, and is responsible for much of the "behind the scenes" work that allows Be Well Therapy’s therapists to focus on our #1 priority – our clients!',
-      ],
-    },
-  },
-  {
-    name: 'Cierra Clark, MSW, LCSWA',
-    certs: [
-      'Licensed Clinical Social Worker Associate',
-    ],
-    headshotPath: '/img/our-staff/cierra-clark.jpg',
-    modalInfo: {
-      info: [
-        `Cierra Clark is a Licensed Clinical Social Worker Associate through the North Carolina Social Work Certification and Licensure Board. She earned her Master's in Social Work from The Catholic University of America. She often utilizes a strengths-based approach that assists clients in identifying personal strengths already working in their lives. Her clinical style is person-centered and highly collaborative, with a large focus on building therapeutic relationships that feel empowering, safe, and supportive.`,
-        `Cierra is passionate about working with those experiencing challenges with relationships, depression, life transitions, anxiety, stress management, self-worth and self-compassion, work-life balance, creating and maintaining healthy boundaries, and family issues. She is trained in therapeutic approaches that include, Cognitive Behavioral Therapy, Trauma Informed Care, and Solution-Focused Practice. She is committed to providing clients with comfortability through rapport building while promoting lasting change throughout their healing and wellness journey!`
-      ],
-    },
-  },
-  {
     name: 'Jada Wright, MSW, LCSWA',
     headshotPath: '/img/our-staff/jada-wright.png',
     certs: [
@@ -167,11 +96,11 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Norena Gutierrez, MSW, LCSWA',
+    name: 'Norena Gutierrez, MS, LCMHCA',
     headshotPath: '/img/our-staff/norena-gutierrez.jpg',
     headshotPosition: '15%',
     certs: [
-      'Licensed Clinical Social Worker Associate',
+      'License Clinical Mental Health Counselor Associate',
     ],
     modalInfo: {
       info: [
@@ -186,7 +115,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Carshia Capraro, LCSW',
+    name: 'Carshia Capraro, MSW, LCSW',
     headshotPath: '/img/our-staff/carshia_capraro.jpg',
     // headshotPosition: 'top',
     certs: [
@@ -208,6 +137,24 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     modalInfo: {
       info: [
         `My name is Brittany Foxx, MSW, LCSWA and I am a professional therapist with Be Well Therapy. I am currently working towards becoming fully licensed in the social work practice. Since gaining a Bachelor’s degree of Arts in Sociology. I have had the pleasure of working in a variety of areas within the mental health/behavioral health field. After much hard work and dedication, I also obtained a Master of Arts degree in Social Work. Over the years, I have worked with a variety of individuals of various backgrounds and diagnoses, and I have found my passion in the mental health/behavioral health field. I have 4 years of experience in individual therapy. Furthermore, I have worked in an agency and private practice settings which have provided me with the tools necessary for me to meet the unique needs of my clients. My clinical interests are anxiety, depression, trauma, mood disorder, stress, schizophrenia, etc. My therapeutic style is eclectic and involves me using a solution focused perspective and cognitive behavioral interventions to help clients to focus on how beliefs and thoughts effect our actions. I am always striving to expand my knowledge and ensure that my clients are given the best and most effective therapy that I can provide.`,
+      ],
+    },
+  },
+  {
+    name: 'Janieyah Collins, LCSW, LCAS',
+    headshotPath: '/img/our-staff/janieyah-collins-2.jpeg',
+    headshotPosition: 'top',
+    certs: [
+      'Licensed Clinical Social Worker',
+      'Licensed Clinical Addictions Specialist'
+    ],
+    modalInfo: {
+      info: [
+        `Janieyah is a Licensed Clinical Social Worker and a Licensed Clinical Addictions Specialist in North Carolina. After earning her Bachelor of Social Work degree from East Carolina University, she pursued her Master of Social Work degree and a certificate in substance use disorders also from East Carolina University.  
+
+        Her experience includes working with children and adolescents who have suffered trauma, have internalized and/or externalized behavioral difficulties, experience mental health crisis, and/or are at risk of displacement. She also has experience working with the adult population, who have trouble coping with life stressors, especially those that are living with substance use disorders.  
+        
+        She emphasizes building rapport with clients and strengthening the therapeutic alliance to facilitate change. She utilizes evidenced based practices such as Cognitive Behavioral Therapy, Dialectical Behavioral Therapy, Motivational Interviewing, and emphasizes a strengths-based approach. In addition to mental health services, Janieyah is also a Clinical Supervisor for associate level licensed clinical social workers. In her free time, she enjoys exercising, cooking, and traveling.`,
       ],
     },
   },
