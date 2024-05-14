@@ -3,6 +3,11 @@ const withImages = require('next-images');
 
 module.exports = withPlugins(
   [withImages],
+  images: {
+    domains: [
+      "bewelltherapy.org",
+    ],
+  },
   {
     exportPathMap() {
       return {
