@@ -38,7 +38,7 @@ export const employees = [
     certs: [
       'Licensed Clinical Mental Health Counselor',
     ],
-    headshotPath: '/img/our-staff/justina-ankrah.jpg',
+    headshotPath: '/img/our-staff/justina_ankrah.jpg',
     headshotPosition: 'top',
     modalInfo: {
       info: [
