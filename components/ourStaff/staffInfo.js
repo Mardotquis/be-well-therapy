@@ -160,3 +160,5 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
 ];
+
+// FOR FUTURE: new images have to be under ~4.3mb or they'll 500 :)
