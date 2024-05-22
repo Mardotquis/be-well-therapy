@@ -5,7 +5,7 @@ $bottom-hero-sm-breakpoint: 1160px;
   @include rect(850px, 100%);
   background: linear-gradient(rgba(60, 60, 60, .28),
   rgba(60, 60, 60, .28)),
-  url('/img/about-us/group-picture.jpg');
+  url('/img/our-staff/group-picture.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -45,7 +45,7 @@ $bottom-hero-sm-breakpoint: 1160px;
     }
   }
   @media (max-width: $bottom-hero-sm-breakpoint) {
-    background: #B5B5B5;
+    // background: #B5B5B5;
     &_text_wrapper {
       padding: 0 34px;
       &-lgtext {
