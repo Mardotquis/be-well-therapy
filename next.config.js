@@ -1,7 +1,8 @@
 const withPlugins = require('next-compose-plugins');
 const withImages = require('next-images');
 
-module.exports = withPlugins(
+module.exports = {
+  ...withPlugins(
   [withImages],
   {
     exportPathMap() {
@@ -14,4 +15,10 @@ module.exports = withPlugins(
       };
     },
   },
-);
+),
+  images: {
+    domains: [
+      "bewelltherapy.org",
+    ],
+  }
+};
