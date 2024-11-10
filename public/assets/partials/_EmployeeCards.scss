@@ -162,7 +162,8 @@ $employee-card-md-breakpoint: 800px;
 
       @media (max-width: $employee-card-md-breakpoint) {
         margin-top: 10px;
-        @include rect(112px, 104px);
+        @include rect(100%, 104px);
+        max-height: 130px;
       }
     }
 
