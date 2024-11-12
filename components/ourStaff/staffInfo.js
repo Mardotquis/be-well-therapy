@@ -159,6 +159,19 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
       ],
     },
   },
+  {
+    name: 'Kaylee Jones, MSW, LCSWA', 
+    headshotPath: '/img/our-staff/kaylee-jones.jpeg',
+    headshotPosition: 'top',
+    certs: [
+      'Licensed Clinical Social Worker Associate',
+    ],
+    modalInfo: {
+      info: [
+        `My name is Kaylee Jones, MSW, LCSWA and I am a professional therapist with Be Well Therapy. I am currently working towards becoming fully licensed in the social work practice. I hold a Bachelor's degree in Peace and Conflict Studies in which I gained experience in mediation and advocation for the needs of others. While working on my Master's degree in Social Work, I had the opportunity to work with individuals who experience chronic mental illnesses, have advanced substance use training, and provide psychoeducation programs for the community. I have a passion for empowering those around me, especially women and seek to provide education related to mental and behavioral experiences.`,
+      ],
+    },
+  },
 ];
 
 // FOR FUTURE: new images have to be under ~4.3mb or they'll 500 :)
