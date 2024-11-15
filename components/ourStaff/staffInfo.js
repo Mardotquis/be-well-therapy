@@ -172,6 +172,19 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
       ],
     },
   },
+    {
+    name: 'Airico Williams, MSW, LCSWA', 
+    headshotPath: '/img/our-staff/airico-williams.jpeg',
+    headshotPosition: 'top',
+    certs: [
+      'Licensed Clinical Social Worker Associate',
+    ],
+    modalInfo: {
+      info: [
+        `Airico Williams graduated from The University of North Carolina at Pembroke with a Bachelor’s degree in Social Work and a minor in Sociology. She furthered her education by obtaining her Master’s degree in Social Work from North Carolina Central University. Airico is a Licensed Clinical Social Worker Associate and is pursuing her Social Work journey to becoming fully licensed. She enjoys working with children and adolescents. In addition, she has experience working with children/adolescents who suffer from depression, trauma, anxiety, anger, and sexual/substance abuse. Airico focuses on a strengths-based perspective to assist clients with improving the quality of their life. She is full of energy, and loves using her creative skills, motivational interviewing, and evidence-based interventions to keep clients fully engaged in sessions.`,
+      ],
+    },
+  },
 ];
 
 // FOR FUTURE: new images have to be under ~4.3mb or they'll 500 :)
