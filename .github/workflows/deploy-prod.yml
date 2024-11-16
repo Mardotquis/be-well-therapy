@@ -38,7 +38,7 @@ jobs:
     - name: Deploy to production
       # same command, but no profile declaration - for EC2
       # run: npm run deploy:prod
-      run: next build && sls deploy --stage production
+      run: npx next build && sls deploy --stage production
 
   deploy-dev:
     if: github.event_name == 'pull_request'
@@ -69,4 +69,4 @@ jobs:
     - name: Deploy to development
       # same command, but no profile declaration - for EC2
       # run: npm run deploy:dev
-      run: next build && sls deploy --stage development
+      run: npx next build && sls deploy --stage development
