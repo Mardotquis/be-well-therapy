@@ -36,7 +36,9 @@ jobs:
         aws-region: us-east-1
 
     - name: Deploy to production
-      run: npm run deploy:prod
+      # same command, but no profile declaration - for EC2
+      # run: npm run deploy:prod
+      run: next build && sls deploy --stage production
 
   deploy-dev:
     if: github.event_name == 'pull_request'
@@ -65,4 +67,6 @@ jobs:
         aws-region: us-east-1
 
     - name: Deploy to development
-      run: npm run deploy:dev
+      # same command, but no profile declaration - for EC2
+      # run: npm run deploy:dev
+      run: next build && sls deploy --stage development
