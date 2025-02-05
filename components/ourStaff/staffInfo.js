@@ -73,7 +73,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   },
   {
     name: 'Jada Wright, MSW, LCSWA',
-    headshotPath: '/img/our-staff/jada-wright.png',
+    headshotPath: '/img/our-staff/jada-wright.jpeg',
     certs: [
       'Licensed Clinical Social Worker Associate',
     ],
