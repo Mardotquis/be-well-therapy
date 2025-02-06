@@ -73,7 +73,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   },
   {
     name: 'Jada Wright, MSW, LCSWA',
-    headshotPath: '/img/our-staff/jada-wright.png',
+    headshotPath: '/img/our-staff/jada-wright.jpeg',
     certs: [
       'Licensed Clinical Social Worker Associate',
     ],
@@ -160,15 +160,28 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Kaylee Jones, MSW, LCSWA', 
-    headshotPath: '/img/our-staff/kaylee-jones.jpeg',
+    name: 'Isley Bell, LCMHCA', 
+    headshotPath: '/img/our-staff/isley-bell.jpeg',
+    headshotPosition: 'top',
+    certs: [
+      'License Clinical Mental Health Counselor Associate',
+    ],
+    modalInfo: {
+      info: [
+        `Isley Bell is a compassionate and dedicated mental health professional who graduated cum laude with a Bachelor's degree in Psychology and a minor in Art from North Carolina Central University. She furthered her education by earning a Master's in Clinical Mental Health Counseling from the University of North Carolina Greensboro. With a deep commitment to supporting individuals from diverse and marginalized identities, She brings an empathetic approach to counseling. By utilizing evidence-based therapeutic techniques like Cognitive-Behavioral-Therapy and integrating her background in couples/family counseling and creative expression to foster healing and personal growth. She aims to create spaces where all clients feel seen, valued, and heard.`,
+      ],
+    },
+  },
+  {
+    name: 'Reginald "Reggie" Howard, Jr., LCSWA', 
+    headshotPath: '/img/our-staff/reginald-howard.jpeg',
     headshotPosition: 'top',
     certs: [
       'Licensed Clinical Social Worker Associate',
     ],
     modalInfo: {
       info: [
-        `My name is Kaylee Jones, MSW, LCSWA and I am a professional therapist with Be Well Therapy. I am currently working towards becoming fully licensed in the social work practice. I hold a Bachelor's degree in Peace and Conflict Studies in which I gained experience in mediation and advocation for the needs of others. While working on my Master's degree in Social Work, I had the opportunity to work with individuals who experience chronic mental illnesses, have advanced substance use training, and provide psychoeducation programs for the community. I have a passion for empowering those around me, especially women and seek to provide education related to mental and behavioral experiences.`,
+        `I'm here to guide you into a healthier state of well-being. I will provide a nonjudgmental, safe space for individuals to grow into a version of themselves that promotes healthy self-esteem. I specialize in person-centered practice, and respect your story and your life experiences. Two years of practice working with individuals and families have helped prepare me to provide impactful practice. I'm excited to work with you on your journey to a healthy state of well-being. `,
       ],
     },
   },
