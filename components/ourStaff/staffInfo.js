@@ -160,7 +160,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Isley Bell, LCMHCA', 
+    name: 'Isley Bell, LCMHCA',
     headshotPath: '/img/our-staff/isley-bell.jpeg',
     headshotPosition: 'top',
     certs: [
@@ -173,7 +173,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Reginald "Reggie" Howard, Jr., LCSWA', 
+    name: 'Reginald "Reggie" Howard, Jr., LCSWA',
     headshotPath: '/img/our-staff/reginald-howard.jpeg',
     headshotPosition: 'top',
     certs: [
@@ -185,8 +185,8 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
       ],
     },
   },
-    {
-    name: 'Airico Williams, MSW, LCSWA', 
+  {
+    name: 'Airico Williams, MSW, LCSWA',
     headshotPath: '/img/our-staff/airico-williams.jpeg',
     headshotPosition: 'top',
     certs: [
@@ -195,6 +195,20 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     modalInfo: {
       info: [
         `Airico Williams graduated from The University of North Carolina at Pembroke with a Bachelor’s degree in Social Work and a minor in Sociology. She furthered her education by obtaining her Master’s degree in Social Work from North Carolina Central University. Airico is a Licensed Clinical Social Worker Associate and is pursuing her Social Work journey to becoming fully licensed. She enjoys working with children and adolescents. In addition, she has experience working with children/adolescents who suffer from depression, trauma, anxiety, anger, and sexual/substance abuse. Airico focuses on a strengths-based perspective to assist clients with improving the quality of their life. She is full of energy, and loves using her creative skills, motivational interviewing, and evidence-based interventions to keep clients fully engaged in sessions.`,
+      ],
+    },
+  },
+  {
+    name: 'Lori Sampson, LMFTA',
+    headshotPath: '/img/our-staff/lori-sampson.jpeg',
+    headshotPosition: 'top',
+    certs: [
+      'Licensed Marriage and Family Therapist Associate',
+    ],
+    modalInfo: {
+      info: [
+        `Lori Sampson is a Registered Licensed Professional Counseling Associate (Oregon), a Certified Drug and Alcohol-I (North Carolina), and a Licensed Marriage and Family Therapist Associate (North Carolina). Lori earned her Master of Divinity and Master of Science in Clinical Mental Health Counseling, with an emphasis in Marriage and Family Therapy from Grand Canyon University. She is also enrolled for her Doctor of Psychology in Counseling Psychology at National University. She has been working in the field assisting in case management and crisis work for two years and conducting groups for DWI and substance abuse. For 5 years Lori has been working in the field of education assisting students on their path to understanding which careers they would be best suited and assisting them to learning how to achieve those goals.`,
+        `The types of population Lori serves has been from a diverse population and she focuses on cognitive behavioral therapy, dialectical behavioral therapy, emotionally focused therapy, and motivational interviewing, but adjusts to the needs of the client; the types of services include anxiety, depression, behavioral issues, conflict resolution, and a range of other mental health and relationship areas. Lori takes a holistic approach to counseling focusing on the mind, body, and spirit to ensure that the whole person is addressed in order to achieve autonomy and overall wellness. She serves families, children, couples, and individuals. Lori’s goal is to assist her clients in recognizing how to move towards achieving their goals, feeling at ease, and understanding how to regulate their emotions and live a balanced life.`,
       ],
     },
   },
