@@ -73,7 +73,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   },
   {
     name: 'Jada Wright, MSW, LCSWA',
-    headshotPath: '/img/our-staff/jada-wright.png',
+    headshotPath: '/img/our-staff/jada-wright.jpeg',
     certs: [
       'Licensed Clinical Social Worker Associate',
     ],
@@ -165,6 +165,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     headshotPosition: 'top',
     certs: [
       'License Clinical Mental Health Counselor Associate',
+    ],
     modalInfo: {
       info: [
         `Isley Bell is a compassionate and dedicated mental health professional who graduated cum laude with a Bachelor's degree in Psychology and a minor in Art from North Carolina Central University. She furthered her education by earning a Master's in Clinical Mental Health Counseling from the University of North Carolina Greensboro. With a deep commitment to supporting individuals from diverse and marginalized identities, She brings an empathetic approach to counseling. By utilizing evidence-based therapeutic techniques like Cognitive-Behavioral-Therapy and integrating her background in couples/family counseling and creative expression to foster healing and personal growth. She aims to create spaces where all clients feel seen, valued, and heard.`,
