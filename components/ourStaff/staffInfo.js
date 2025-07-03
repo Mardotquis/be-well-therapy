@@ -195,7 +195,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   },
   {
     name: 'Michelle Anthony',
-    headshotPath: '/img/our-staff/michelle-anthony.jpg',
+    headshotPath: '/img/our-staff/michelle-anthony.JPG',
     // headshotPosition: '',
     certs: [
       'Placeholder text',
