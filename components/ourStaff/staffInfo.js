@@ -198,10 +198,16 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     headshotPath: '/img/our-staff/michelle-anthony.JPG',
     headshotPosition: 'top',
     certs: [
-      'Placeholder text',
+      'Licensed Clinical Social Worker Associate (LCSWA)',
     ],
     modalInfo: {
-      info: [`Placeholder text`],
+      info: [
+        `Michelle Anthony is a dedicated Licensed Clinical Social Worker Associate (LCSWA) with a strong passion for supporting individuals and families in overcoming life’s challenges. With a deep commitment to advocacy and mental health, Michelle has spent years working within the Charlotte-Mecklenburg Schools (CMS) system, where she serves as a School Social Worker.`,
+      
+      `As a social worker, Michelle provides vital resources, guidance, and interventions to help students and families navigate difficulties such as housing instability, mental health concerns, academic barriers, and family dynamics. She collaborates with school staff, community organizations, and families to create tailored support plans promoting student success and well-being. She also partners with Families Forward Charlotte, reinforcing her commitment to uplifting underserved families.`,
+      
+      `With her diverse background in education, business, and clinical social work, Michelle Anthony continues to make a meaningful impact, offering compassionate care and advocacy to those in need.`
+    ],
     },
   },
 ];
