@@ -97,25 +97,6 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Norena Gutierrez, MS, LCMHCA',
-    headshotPath: '/img/our-staff/norena-gutierrez.jpg',
-    headshotPosition: '15%',
-    certs: [
-      'License Clinical Mental Health Counselor Associate',
-    ],
-    modalInfo: {
-      info: [
-        `Norena specializes in working with LGBTQ+ and multiracial individuals, couples, and families as they navigate uncharted waters. She utilizes a collaborative, no-blame approach to help every member in the relationship who is struggling with loss of connection, misunderstandings, or previous trauma. Together, we figure out how to strengthen and rebuild relationships.
-
-        Norena has helped clients struggling with anxiety, depression, loss, and major life transitions. She walks with her clients always providing a safe and nonjudgmental environment. Norena offers evening appointments to work with your schedule. She also works with individuals who have been touched by adoption: birth parents, adoptive parents, and adoptees in need of support.
-        
-        Norena is an adoptive single parent of two grown sons. Her passion is giving back to her community. She is a member of the board for the Holiday Wish Foundation serving the LGBTQ community. When not serving clients, you can find her at the theater, a museum, or a musical festival in town. She is an avid swimmer and swims daily at the local YMCA.
-        
-        Norena has a Masters in Clinical Mental Health and a Masters in Marriage and Family from Texas A & M University – Corpus Christi.`,
-      ],
-    },
-  },
-  {
     name: 'Carshia Capraro, MSW, LCSW',
     headshotPath: '/img/our-staff/carshia_capraro.jpg',
     // headshotPosition: 'top',
@@ -210,6 +191,23 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
         `Lori Sampson is a Registered Licensed Professional Counseling Associate (Oregon), a Certified Drug and Alcohol-I (North Carolina), and a Licensed Marriage and Family Therapist Associate (North Carolina). Lori earned her Master of Divinity and Master of Science in Clinical Mental Health Counseling, with an emphasis in Marriage and Family Therapy from Grand Canyon University. She is also enrolled for her Doctor of Psychology in Counseling Psychology at National University. She has been working in the field assisting in case management and crisis work for two years and conducting groups for DWI and substance abuse. For 5 years Lori has been working in the field of education assisting students on their path to understanding which careers they would be best suited and assisting them to learning how to achieve those goals.`,
         `The types of population Lori serves has been from a diverse population and she focuses on cognitive behavioral therapy, dialectical behavioral therapy, emotionally focused therapy, and motivational interviewing, but adjusts to the needs of the client; the types of services include anxiety, depression, behavioral issues, conflict resolution, and a range of other mental health and relationship areas. Lori takes a holistic approach to counseling focusing on the mind, body, and spirit to ensure that the whole person is addressed in order to achieve autonomy and overall wellness. She serves families, children, couples, and individuals. Lori’s goal is to assist her clients in recognizing how to move towards achieving their goals, feeling at ease, and understanding how to regulate their emotions and live a balanced life.`,
       ],
+    },
+  },
+  {
+    name: 'Michelle Anthony',
+    headshotPath: '/img/our-staff/michelle-anthony.JPG',
+    headshotPosition: 'top',
+    certs: [
+      'Licensed Clinical Social Worker Associate (LCSWA)',
+    ],
+    modalInfo: {
+      info: [
+        `Michelle Anthony is a dedicated Licensed Clinical Social Worker Associate (LCSWA) with a strong passion for supporting individuals and families in overcoming life’s challenges. With a deep commitment to advocacy and mental health, Michelle has spent years working within the Charlotte-Mecklenburg Schools (CMS) system, where she serves as a School Social Worker.`,
+      
+      `As a social worker, Michelle provides vital resources, guidance, and interventions to help students and families navigate difficulties such as housing instability, mental health concerns, academic barriers, and family dynamics. She collaborates with school staff, community organizations, and families to create tailored support plans promoting student success and well-being. She also partners with Families Forward Charlotte, reinforcing her commitment to uplifting underserved families.`,
+      
+      `With her diverse background in education, business, and clinical social work, Michelle Anthony continues to make a meaningful impact, offering compassionate care and advocacy to those in need.`
+    ],
     },
   },
 ];
