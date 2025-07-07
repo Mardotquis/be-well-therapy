@@ -194,7 +194,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Michelle Anthony',
+    name: 'Michelle Anthony, LCSWA',
     headshotPath: '/img/our-staff/michelle-anthony.JPG',
     headshotPosition: 'top',
     certs: [
