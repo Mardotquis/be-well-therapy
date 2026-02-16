@@ -92,6 +92,7 @@ export const services = [
   {
     header: 'Residential Behavioral Health Services',
     shortName: 'residential-behavioral-health',
+    // TODO: Replace placeholder image paths with actual residential services images when available
     rectangleBackgroundImg: '/img/our-services/residential-rect.png',
     smRectangleBackgroundImg: '/img/our-services/residential-sm-rect.png',
     mainSentence: 'Our Level III Residential Treatment Program (therapeutic group home model) offers 24-hour supervised care for adolescents who need structured behavioral health support outside the home.',
