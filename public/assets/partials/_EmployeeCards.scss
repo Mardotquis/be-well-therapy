@@ -54,6 +54,10 @@ $employee-card-md-breakpoint: 800px;
       &__certs {
         margin-top: 15px;
         padding-left: 29px;
+        max-height: 90px;
+        overflow-y: auto;
+        word-break: break-word;
+        padding-right: 10px; // for scrollbar
 
         li {
           line-height: 18px;
@@ -62,6 +66,7 @@ $employee-card-md-breakpoint: 800px;
           font-weight: 500;
           color: $white;
           margin-bottom: 6px;
+          word-break: break-word;
 
           &:last-of-type {
             margin-bottom: 0;
@@ -104,11 +109,16 @@ $employee-card-md-breakpoint: 800px;
         &__certs {
           margin-top: 20px;
           padding-left: 31px;
+          max-height: 90px;
+          overflow-y: auto;
+          word-break: break-word;
+          padding-right: 10px;
 
           li {
             font-size: 13px;// down 1px
             line-height: 18px;
             color: $white;
+            word-break: break-word;
           }
         }
 
