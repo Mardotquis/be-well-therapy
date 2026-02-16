@@ -24,6 +24,10 @@ $employee-card-md-breakpoint: 800px;
     width: 380px;
     padding: 0;
     box-shadow: 0px 7px 22px #00000029;
+    height: 470px; // Increased height for more certs
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 
     &__img {
       background-position: center;
@@ -39,8 +43,11 @@ $employee-card-md-breakpoint: 800px;
     &__info {
       margin-top: -4px;
       position: relative;
-      @include rect(238px, 100%);
+      height: 280px; // Increased height for info section
       background-color: #593c26;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
 
       &__name {
         padding: 29px 0 0 29px;
@@ -54,46 +61,42 @@ $employee-card-md-breakpoint: 800px;
       &__certs {
         margin-top: 15px;
         padding-left: 29px;
-        max-height: 90px;
-        overflow-y: auto;
         word-break: break-word;
-        padding-right: 10px; // for scrollbar
+        padding-right: 10px;
 
-        li {
-          line-height: 18px;
-          font-size: 16px;
-          font-family: $futura;
-          font-weight: 500;
-          color: $white;
-          margin-bottom: 6px;
-          word-break: break-word;
+        width: 325px;
 
-          &:last-of-type {
-            margin-bottom: 0;
+        &__img {
+          height: 304px;
+          width: 325px;
+        }
+
+        &__info {
+          height: 280px;
+
+          &__name {
+            padding: 29px 0 0 30px;
+            font-size: 17px;// down 1px
+          }
+
+          &__certs {
+            margin-top: 20px;
+            padding-left: 31px;
+            word-break: break-word;
+            padding-right: 10px;
+
+            li {
+              font-size: 13px;// down 1px
+              line-height: 18px;
+              color: $white;
+              word-break: break-word;
+            }
+          }
+          &__button {
+            bottom: 17px;
           }
         }
       }
-
-      &__button {
-        position: absolute;
-        bottom: 16px;
-        right: 31px;
-        padding: 15px 30px;
-        background-color: $teal;
-        border: none;
-        color: $plain;
-        font-size: 16px;
-        font-family: $futura;
-        font-weight: 500;
-        border-radius: 4px;
-        box-shadow: 0px 5px 1px #0000000D;
-      }
-    }
-
-    @media (max-width: $employee-card-md-breakpoint) {
-      width: 325px;
-
-      &__img {
         height: 304px;
         width: 325px;
       }
