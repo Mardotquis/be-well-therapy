@@ -21,6 +21,11 @@ export const employees = [
     name: 'Jamal Ward, MA, LCMHCS, LCAS, CCS-I, LPC, LPCS',
     certs: [
       'Executive Director',
+      'Licensed Clinical Mental Health Counselor Supervisor (LCMHCS)',
+      'Licensed Clinical Addictions Specialist (LCAS)',
+      'Certified Clinical Supervisor Intern (CCS-I)',
+      'Licensed Professional Counselor (LPC)',
+      'Licensed Professional Counselor Supervisor (LPCS)',
     ],
     headshotPath: '/img/our-staff/jamal-ward.jpg',
     headshotPosition: 'top',
