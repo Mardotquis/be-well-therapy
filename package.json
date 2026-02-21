@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next -p 8080",
     "start": "nodemon server.js",
-    "build": "next build",
+    "build": "NODE_OPTIONS='--max_old_space_size=4096' next build",
     "export": "next export",
     "deploy:dev": "next build && sls deploy --stage development --aws-profile bewelltherapy",
     "deploy:prod": "next build && sls deploy --stage production --aws-profile bewelltherapy",
