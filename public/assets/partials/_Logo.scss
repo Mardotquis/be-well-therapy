@@ -1,3 +1,5 @@
+@use "./index" as *;
+
 .logo {
   @include rect(51px, 293px);
   background-image: url('/img/home/logo.png');

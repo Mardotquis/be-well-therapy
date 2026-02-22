@@ -1,3 +1,5 @@
+@use "./index" as *;
+
 $employee-card-md-breakpoint: 800px;
 
 .employee_cards {
