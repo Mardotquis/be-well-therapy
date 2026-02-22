@@ -12,24 +12,29 @@ export const employees = [
     modalInfo: {
       info: [
         `Dr. Rolanda Gabriel earned a doctorate degree in Counselor Education and Supervision and a Master of Arts degree in Counseling with a concentration in Community Mental Health Counseling, both from Hampton University, and a Bachelor's degree in Criminal Justice and Sociology from the University of North Carolina at Charlotte.  She also pursued post-Master studies in Counseling at UNC-Charlotte and obtained North Carolina licensure as a Licensed Clinical Mental Health Counselor Supervisor in the state of North Carolina, and licensure as a Licensed Clinical Professional Counselor in the state of Maryland. She is the Founder and CEO of two private mental health group practices for over 15 years and has 20 years of counseling experience in the Outpatient, Intensive In-Home, and Residential settings.  Her experience includes working with individuals to resolve problems, work through life transitions, and learn to live and experience life more successfully and pleasurable.  Her area of special interest is working with adolescents, adults, and families that face a variety of problems ranging from emotional adjustment, school, peer, and family relationships to adults with mood disorders and trauma. In addition, she has also offered psycho-educational groups, which focus on empowerment, self-esteem, anger management, healthy relationships, coping, and stress management, and has over a decade of experience working with clients who suffer from ADHD, mood disorders, behavior disorders, eating disorders, anxiety disorders, trauma, grief and loss, family conflict, sexual abuse and offending, and crisis interventions.`,
-        `Dr. Gabriel has provided clinical supervision for associate-level professional counselors for ten years and approaches clinical supervision from the aspect of customizing the experience to enhance the licensee's professional development.  She values spending time examining professional ethics, conceptualizing clients’ cases, professional behavior, and counseling skills. She has also founded and developed two specialized wellness programs, BeFIT and Elevate Your Wellness.`,
+        `Dr. Gabriel has provided clinical supervision for associate-level professional counselors for ten years and approaches clinical supervision from the aspect of customizing the experience to enhance the licensee's professional development.  She values spending time examining professional ethics, conceptualizing clients’ cases, professional behavior, and counseling skills. She has also founded and developed two specialized wellness programs, BeCALM and Elevate Your Wellness.`,
       ],
       long: true,
     },
   },
   {
-    name: 'Dr. Trenita Crouch',
+    name: 'Jamal Ward, MA, LCMHCS, LCAS, CCS-I, LPC, LPCS',
     certs: [
       'Executive Director',
+      'Licensed Clinical Mental Health Counselor Supervisor (LCMHCS)',
+      'Licensed Clinical Addictions Specialist (LCAS)',
+      'Certified Clinical Supervisor Intern (CCS-I)',
+      'Licensed Professional Counselor (LPC)',
+      'Licensed Professional Counselor Supervisor (LPCS)',
     ],
-    headshotPath: '/img/our-staff/trenita-crouch.jpg',
+    headshotPath: '/img/our-staff/jamal-ward.jpg',
     headshotPosition: 'top',
     modalInfo: {
       info: [
-        `The executive specialist, Dr. Trenita Crouch holds a doctorate in human services with a focus in leadership & organizational management. Dr. Crouch has more than 25 years of experience in the field of mental & behavioral health. Twenty of those years have been spent supplying organizations with knowledge and direction for tasks including stability, restructuring, expansion, training, and financial management.`,
-        `Dr. Crouch has a wealth of knowledge when it comes to identifying internal and external issues that threaten business stability and recommending best practices for change management. In addition to developing operational plans with goals and objectives that complement the company's strategic direction, Dr. Crouch's knowledge also extends to analyzing quantitative and qualitative data to develop insights and produce quantifiable results.`,
-        `Dr. Crouch has a demonstrated history of success in inspiring others to provide seamless, high-quality customer experiences, developing self-assurance, skill development, and an outstanding reputation through collaboration and partnership with internal and external stakeholders.`,
-        `Dr. Crouch was born in Charlotte, North Carolina. A Capella University alumna and a sister of the prestigious Alpha Kappa Alpha Sorority, Inc. Dr. Crouch is eager to join the Be Well Therapy team and contribute to extending the organization's reach both locally and internationally as it continues to offer high-quality services.`
+        `Jamal Ward serves as Executive Director and is dually licensed in mental health and substance use counseling. He is an approved clinical supervisor in both disciplines and holds supervisory licensure in South Carolina.`,
+        `He began his career providing direct clinical care as a substance use counselor and psychotherapist, working with individuals experiencing complex mental health and co-occurring behavioral health challenges. Over time, he advanced into progressive leadership roles including Clinical Supervisor, Program Director, Clinical Director, and Operations Director, where he led multidisciplinary teams and managed complex behavioral health service systems.`,
+        `His leadership experience spans multiple levels of care, including substance use treatment programs, Medication-Assisted Treatment (MAT) clinics, Psychiatric Residential Treatment Facilities (PRTFs), and Outpatient behavioral health services.`,
+        `As Executive Director, Jamal provides strategic oversight of clinical operations, regulatory compliance, program development, and service implementation — aligning high-quality, client-centered care focused on sustainable organizational growth.`
       ],
     },
   },
@@ -119,24 +124,6 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     modalInfo: {
       info: [
         `My name is Brittany Foxx, MSW, LCSWA and I am a professional therapist with Be Well Therapy. I am currently working towards becoming fully licensed in the social work practice. Since gaining a Bachelor’s degree of Arts in Sociology. I have had the pleasure of working in a variety of areas within the mental health/behavioral health field. After much hard work and dedication, I also obtained a Master of Arts degree in Social Work. Over the years, I have worked with a variety of individuals of various backgrounds and diagnoses, and I have found my passion in the mental health/behavioral health field. I have 4 years of experience in individual therapy. Furthermore, I have worked in an agency and private practice settings which have provided me with the tools necessary for me to meet the unique needs of my clients. My clinical interests are anxiety, depression, trauma, mood disorder, stress, schizophrenia, etc. My therapeutic style is eclectic and involves me using a solution focused perspective and cognitive behavioral interventions to help clients to focus on how beliefs and thoughts effect our actions. I am always striving to expand my knowledge and ensure that my clients are given the best and most effective therapy that I can provide.`,
-      ],
-    },
-  },
-  {
-    name: 'Janieyah Collins, LCSW, LCAS',
-    headshotPath: '/img/our-staff/janieyah-collins-2.jpeg',
-    headshotPosition: 'top',
-    certs: [
-      'Licensed Clinical Social Worker',
-      'Licensed Clinical Addictions Specialist'
-    ],
-    modalInfo: {
-      info: [
-        `Janieyah is a Licensed Clinical Social Worker and a Licensed Clinical Addictions Specialist in North Carolina. After earning her Bachelor of Social Work degree from East Carolina University, she pursued her Master of Social Work degree and a certificate in substance use disorders also from East Carolina University.  
-
-        Her experience includes working with children and adolescents who have suffered trauma, have internalized and/or externalized behavioral difficulties, experience mental health crisis, and/or are at risk of displacement. She also has experience working with the adult population, who have trouble coping with life stressors, especially those that are living with substance use disorders.  
-        
-        She emphasizes building rapport with clients and strengthening the therapeutic alliance to facilitate change. She utilizes evidenced based practices such as Cognitive Behavioral Therapy, Dialectical Behavioral Therapy, Motivational Interviewing, and emphasizes a strengths-based approach. In addition to mental health services, Janieyah is also a Clinical Supervisor for associate level licensed clinical social workers. In her free time, she enjoys exercising, cooking, and traveling.`,
       ],
     },
   },

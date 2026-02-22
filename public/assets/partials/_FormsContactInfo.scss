@@ -1,3 +1,5 @@
+@use "./index" as *;
+
 .form__contact_info {
   // absolute width because desktop and mobile are the same
   @include rect(630px, 380px);

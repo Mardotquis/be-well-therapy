@@ -1,3 +1,5 @@
+@use "./index" as *;
+
 $hero-md-breakpoint: 900px;
 
 .about_us__hero {

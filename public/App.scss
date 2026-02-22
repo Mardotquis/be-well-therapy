@@ -1,46 +1,46 @@
 // essentials
-@import "./assets/partials/reset.scss";
+@use "./assets/partials/reset.scss";
 
-@import "./assets/partials/fonts.scss";
+@use "./assets/partials/fonts.scss";
 
-@import "./assets/partials/variables.scss";
+@use "./assets/partials/variables.scss";
 
-@import "./assets/partials/mixins.scss";
+@use "./assets/partials/mixins.scss";
 
 // page content
-@import "./assets/partials/navbar.scss";
+@use "./assets/partials/navbar.scss";
 
-@import "./assets/partials/footer.scss";
+@use "./assets/partials/footer.scss";
 
 // components
-@import "./assets/partials/Logo.scss";
+@use "./assets/partials/Logo.scss";
 
-@import "./assets/partials/Hero.scss";
+@use "./assets/partials/Hero.scss";
 
-@import "./assets/partials/MainContent.scss";
+@use "./assets/partials/MainContent.scss";
 
-@import "./assets/partials/Modal.scss";
+@use "./assets/partials/Modal.scss";
 
-@import "./assets/partials/Header.scss";
+@use "./assets/partials/Header.scss";
 
-@import "./assets/partials/FormsHeader.scss";
+@use "./assets/partials/FormsHeader.scss";
 
-@import "./assets/partials/FormsCTA.scss";
+@use "./assets/partials/FormsCTA.scss";
 
-@import "./assets/partials/FormsContent.scss";
+@use "./assets/partials/FormsContent.scss";
 
-@import "./assets/partials/FormsMap.scss";
+@use "./assets/partials/FormsMap.scss";
 
-@import "./assets/partials/FormsContactInfo.scss";
+@use "./assets/partials/FormsContactInfo.scss";
 
-@import "./assets/partials/FormsContact.scss";
+@use "./assets/partials/FormsContact.scss";
 
-@import "./assets/partials/AboutUsHero.scss";
+@use "./assets/partials/AboutUsHero.scss";
 
-@import "./assets/partials/AboutUsMission.scss";
+@use "./assets/partials/AboutUsMission.scss";
 
-@import "./assets/partials/AboutUsBottomHero.scss";
+@use "./assets/partials/AboutUsBottomHero.scss";
 
-@import "./assets/partials/EmployeeCards.scss";
+@use "./assets/partials/EmployeeCards.scss";
 
-@import "./assets/partials/OurServicesCards.scss";
+@use "./assets/partials/OurServicesCards.scss";

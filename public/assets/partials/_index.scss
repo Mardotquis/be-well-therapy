@@ -1,0 +1,5 @@
+// Central entry point for shared Sass dependencies
+// Use `@use "./index" as *;` in partials to access variables and mixins
+
+@forward "variables";
+@forward "mixins";
