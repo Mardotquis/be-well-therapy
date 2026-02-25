@@ -8,5 +8,7 @@ environment = { NODE_OPTIONS = "--max_old_space_size=8192" }
 [functions]
 # Add any Netlify functions settings here
 
-[plugins]
-# Add any Netlify plugin settings here
+[[plugins]]
+# Add Netlify plugin settings here
+# Example:
+# package = "netlify-plugin-one"
