@@ -16,3 +16,7 @@ $futura-bold: futura-pt-bold, sans-serif;
 
 // sizes
 $max-width: 1920px;
+
+// shared breakpoints (used across multiple files)
+$cards-sm-breakpoint: 950px;
+$contact-info-md-breakpoint: 900px;
