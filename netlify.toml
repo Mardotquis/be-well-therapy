@@ -1,6 +1,10 @@
 [build]
 command = "npm run netlify-deploy"
-environment = { NODE_OPTIONS = "--max_old_space_size=4096" }
+
+[build.environment]
+NODE_VERSION = "16.20.2"
+NODE_OPTIONS = "--max_old_space_size=4096"
+CI = "false"
 
 [context]
 # Add any Netlify context-specific settings here
