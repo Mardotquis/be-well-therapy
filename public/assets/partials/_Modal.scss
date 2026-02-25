@@ -1,3 +1,5 @@
+@use "./index" as *;
+
 .modal {
   overflow: hidden;
   @include rect(100vh, 100vw);

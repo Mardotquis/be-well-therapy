@@ -1,4 +1,4 @@
-$contact-info-md-breakpoint: 900px;
+@use "./index" as *;
 
 .form__content {
   position: relative;

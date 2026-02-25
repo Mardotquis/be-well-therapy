@@ -1,8 +1,9 @@
+@use "./index" as *;
+
 $hero-white: #F4EFEF;
 $subcontent-breakpoint: 1000px;
 $hero-img-md-breakpoint: 1345px;
 $hero-img-sm-breakpoint: 660px;
-$cards-sm-breakpoint: 950px;
 
 .home-hero {
   @include rect(100vh, 100%);

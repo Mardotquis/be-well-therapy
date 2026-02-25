@@ -1,7 +1,9 @@
+@use "./index" as *;
+
 .form__contact_info {
   // absolute width because desktop and mobile are the same
   @include rect(630px, 380px);
-  background-color: $forms_teal;
+  background-color: $teal;
   position: absolute;
   top: 0;
   right: 155px;

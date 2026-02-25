@@ -15,8 +15,6 @@
   "author": "Marquis Mitchell <marquis0403@gmail.com> (https://hellomarquis.com)",
   "license": "ISC",
   "dependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "@zeit/next-sass": "^1.0.1",
     "axios": "^0.19.2",
     "babel-loader": "^8.1.0",
     "body-parser": "^1.19.0",
@@ -25,9 +23,7 @@
     "express": "^4.17.1",
     "express-sanitizer": "^1.0.5",
     "next": "^9.3.6",
-    "next-compose-plugins": "^2.2.0",
     "next-images": "^1.4.0",
-    "node-sass": "npm:sass@^1.85.0",
     "nodemailer": "^6.4.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
