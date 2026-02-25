@@ -10,7 +10,7 @@
     "export": "next export",
     "deploy:dev": "next build && sls deploy --stage development --aws-profile bewelltherapy",
     "deploy:prod": "next build && sls deploy --stage production --aws-profile bewelltherapy",
-    "netlify-deploy": "NODE_OPTIONS='--max_old_space_size=8192' npm run build && npm run export"
+    "netlify-deploy": "npm run build && npm run export"
   },
   "author": "Marquis Mitchell <marquis0403@gmail.com> (https://hellomarquis.com)",
   "license": "ISC",
@@ -27,7 +27,7 @@
     "nodemailer": "^6.4.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "sass": "^1.85.0",
+    "sass": "1.52.1",
     "serverless-http": "^2.3.2",
     "uuid": "^3.4.0",
     "validate": "^5.1.0"
