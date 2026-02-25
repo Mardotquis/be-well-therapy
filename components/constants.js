@@ -93,8 +93,8 @@ export const services = [
     header: 'Residential Behavioral Health Services',
     shortName: 'residential-behavioral-health',
     // TODO: Replace placeholder image paths with actual residential services images when available
-    rectangleBackgroundImg: '/img/our-services/residential-rect.png',
-    smRectangleBackgroundImg: '/img/our-services/residential-sm-rect.png',
+    rectangleBackgroundImg: '/img/our-services/residential-rect.jpg',
+    smRectangleBackgroundImg: '/img/our-services/residential-rect.jpg',
     mainSentence: 'Our Level III Residential Treatment Program (therapeutic group home model) offers 24-hour supervised care for adolescents who need structured behavioral health support outside the home.',
     modalInfo: {
       mainSentence: 'Our Level III Residential Treatment Program (therapeutic group home model) offers 24-hour supervised care for adolescents who need structured behavioral health support outside the home. Our program includes clinical assessments, individualized treatment plans, counseling services, skill-building groups, and coordinated care with families, schools, and referral partners. We focus on stabilization, accountability, emotional regulation, and transition readiness through consistent structure and therapeutic engagement.',
