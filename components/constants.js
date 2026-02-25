@@ -59,8 +59,8 @@ export const services = [
     },
   },
   {
-    header: 'BeFIT Program',
-    shortName: 'befit-program',
+    header: 'BeCALM Program',
+    shortName: 'becalm-program',
     rectangleBackgroundImg: '/img/our-services/yoga-rect.png',
     smRectangleBackgroundImg: '/img/our-services/yoga-sm-rect.png',
     mainSentence: 'Equipping students on how to regulate their emotions in a healthy way and improve cognitive focus is paramount to healthy development.',
@@ -87,6 +87,19 @@ export const services = [
     modalInfo: {
       mainSentence: 'Elevate Your mind, body, and spirit all in one place.  Elevate Your Wellness is an online wellness platform that connects clients with licensed therapists, spiritual practitioners, certified yoga instructors, and certified personal trainers for virtual sessions.',
       website: 'https://www.elevateyourwellness.org'
+    },
+  },
+  {
+    header: 'Residential Behavioral Health Services',
+    shortName: 'residential-behavioral-health',
+    // TODO: Replace placeholder image paths with actual residential services images when available
+    rectangleBackgroundImg: '/img/our-services/residential-rect.png',
+    smRectangleBackgroundImg: '/img/our-services/residential-sm-rect.png',
+    mainSentence: 'Our Level III Residential Treatment Program (therapeutic group home model) offers 24-hour supervised care for adolescents who need structured behavioral health support outside the home.',
+    modalInfo: {
+      mainSentence: 'Our Level III Residential Treatment Program (therapeutic group home model) offers 24-hour supervised care for adolescents who need structured behavioral health support outside the home. Our program includes clinical assessments, individualized treatment plans, counseling services, skill-building groups, and coordinated care with families, schools, and referral partners. We focus on stabilization, accountability, emotional regulation, and transition readiness through consistent structure and therapeutic engagement.',
+      listItemsHeading: 'Clinical & Support Services Include:',
+      listItems: ['Comprehensive clinical assessments', 'Individual counseling and group therapy', 'Substance use support (if applicable)', 'Trauma-informed care', 'Case management', 'Discharge and transition planning'],
     },
   },
 ];
@@ -140,8 +153,6 @@ export const address = '1935 J N Pease Place, Ste. 202';
 export const city = 'Charlotte, NC 28262';
 
 export const fullAddress = '1935 J N Pease Place Ste. 202 Charlotte, NC';
-
-export const email = 'tcrouch@bewelltherapy.org';
 
 export const phoneNum = '704.334.3170';
 
