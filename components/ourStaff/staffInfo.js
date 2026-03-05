@@ -59,6 +59,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
       'Licensed Clinical Social Worker Associate',
     ],
     headshotPath: '/img/our-staff/stephanie-williams.jpg',
+    headshotPosition: 'top',
     modalInfo: {
       info: [
         `Stephanie is a Licensed Clinical Social Worker Associate through the North Carolina Social Work
@@ -91,7 +92,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
   {
     name: 'Frank Wright, MSW, LCSWA',
     headshotPath: '/img/our-staff/frank-wright.jpg',
-    // headshotPosition: 'top', // TODO: check after link gen
+    headshotPosition: 'top', // TODO: check after link gen
     certs: [
       'Licensed Clinical Social Worker Associate',
     ],
