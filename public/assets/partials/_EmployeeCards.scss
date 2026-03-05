@@ -24,10 +24,17 @@ $employee-card-md-breakpoint: 800px;
     width: 380px;
     padding: 0;
     box-shadow: 0px 7px 22px #00000029;
+    height: 476px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 
     &__img {
       background-position: center;
-      @include rect(390px, 100%);
+      background-size: cover;
+      width: 100%;
+      height: 200px;
+      flex-shrink: 0;
       padding: 0;
       margin: 0;
 
@@ -39,8 +46,11 @@ $employee-card-md-breakpoint: 800px;
     &__info {
       margin-top: -4px;
       position: relative;
-      @include rect(238px, 100%);
+      height: 280px;
       background-color: #593c26;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
 
       &__name {
         padding: 29px 0 0 29px;
@@ -54,6 +64,10 @@ $employee-card-md-breakpoint: 800px;
       &__certs {
         margin-top: 15px;
         padding-left: 29px;
+        padding-right: 10px;
+        max-height: 140px;
+        overflow-y: auto;
+        word-break: break-word;
 
         li {
           line-height: 18px;
@@ -62,6 +76,7 @@ $employee-card-md-breakpoint: 800px;
           font-weight: 500;
           color: $white;
           margin-bottom: 6px;
+          word-break: break-word;
 
           &:last-of-type {
             margin-bottom: 0;
@@ -87,14 +102,17 @@ $employee-card-md-breakpoint: 800px;
 
     @media (max-width: $employee-card-md-breakpoint) {
       width: 325px;
+      height: auto;
 
       &__img {
-        height: 304px;
+        height: 200px;
         width: 325px;
+        background-size: cover;
+        flex-shrink: 0;
       }
 
       &__info {
-        @include rect(236px, 100%);
+        height: 260px;
 
         &__name {
           padding: 29px 0 0 30px;
@@ -104,11 +122,16 @@ $employee-card-md-breakpoint: 800px;
         &__certs {
           margin-top: 20px;
           padding-left: 31px;
+          padding-right: 10px;
+          max-height: 120px;
+          overflow-y: auto;
+          word-break: break-word;
 
           li {
             font-size: 13px;// down 1px
             line-height: 18px;
             color: $white;
+            word-break: break-word;
           }
         }
 

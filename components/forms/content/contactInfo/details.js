@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  address, phoneNum, email, googleMapsLink,
+  address, phoneNum, googleMapsLink,
 } from '../../../constants';
 
 export default function Details() {
@@ -13,10 +13,6 @@ export default function Details() {
         <div className="form__contact_info_contact_details_items_item">
           <span className="form__contact_info_contact_details_items_item-icon form__contact_info_contact_details_items_item-icon-location" />
           <a href={googleMapsLink} className="form__contact_info_contact_details_items_item-text form__contact_info_contact_details_items_item-text_location" target="_blank" rel="noopener noreferrer">{address}</a>
-        </div>
-        <div className="form__contact_info_contact_details_items_item">
-          <span className="form__contact_info_contact_details_items_item-icon form__contact_info_contact_details_items_item-icon-email" />
-          <a className="form__contact_info_contact_details_items_item-text" href={`mailto:${email}`} target="_blank" rel="noopener noreferrer">{email}</a>
         </div>
         <div className="form__contact_info_contact_details_items_item">
           <span className="form__contact_info_contact_details_items_item-icon form__contact_info_contact_details_items_item-icon-phone" />
