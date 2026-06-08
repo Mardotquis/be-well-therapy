@@ -169,11 +169,11 @@ those goals. Justina's aim as a counselor is to collaborate with the individual 
     },
   },
   {
-    name: 'Miah Tedder, MSW',
+    name: 'Miah Tedder, MSW, LCSWA',
     headshotPath: '/img/our-staff/miah-tedder.jpg',
     headshotPosition: 'top',
     certs: [
-      'Therapist',
+      'Licensed Clinical Social Worker Associate (LCSWA)',
     ],
     modalInfo: {
       info: [
