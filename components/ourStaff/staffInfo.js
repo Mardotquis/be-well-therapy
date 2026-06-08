@@ -54,15 +54,15 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Stephanie Williams, MSW, LCSWA',
+    name: 'Stephanie Williams, MSW, LCSW',
     certs: [
-      'Licensed Clinical Social Worker Associate',
+      'Licensed Clinical Social Worker',
     ],
     headshotPath: '/img/our-staff/stephanie-williams.jpg',
     headshotPosition: 'top',
     modalInfo: {
       info: [
-        `Stephanie is a Licensed Clinical Social Worker Associate through the North Carolina Social Work
+        `Stephanie is a Licensed Clinical Social Worker through the North Carolina Social Work
         Certification and Licensure Board. She earned her Master’s degree in Social Work from The University of
         Alabama. She operates from a strengths-based approach, empowering individuals to develop a stronger
         sense of well-being. She has recently spent some time providing intensive in-home therapy services to
@@ -90,11 +90,11 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Frank Wright, MSW, LCSWA',
+    name: 'Frank Wright, MSW, LCSW',
     headshotPath: '/img/our-staff/frank-wright.jpg',
     headshotPosition: 'top', // TODO: check after link gen
     certs: [
-      'Licensed Clinical Social Worker Associate',
+      'Licensed Clinical Social Worker',
     ],
     modalInfo: {
       info: [
@@ -169,16 +169,16 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Lori Sampson, LMFTA',
-    headshotPath: '/img/our-staff/lori-sampson.jpeg',
-    headshotPosition: 'top',
+    name: ‘Miah Tedder, MSW’,
+    headshotPath: ‘/img/our-staff/miah-tedder.jpg’,
+    headshotPosition: ‘top’,
     certs: [
-      'Licensed Marriage and Family Therapist Associate',
+      ‘Therapist’,
     ],
     modalInfo: {
       info: [
-        `Lori Sampson is a Registered Licensed Professional Counseling Associate (Oregon), a Certified Drug and Alcohol-I (North Carolina), and a Licensed Marriage and Family Therapist Associate (North Carolina). Lori earned her Master of Divinity and Master of Science in Clinical Mental Health Counseling, with an emphasis in Marriage and Family Therapy from Grand Canyon University. She is also enrolled for her Doctor of Psychology in Counseling Psychology at National University. She has been working in the field assisting in case management and crisis work for two years and conducting groups for DWI and substance abuse. For 5 years Lori has been working in the field of education assisting students on their path to understanding which careers they would be best suited and assisting them to learning how to achieve those goals.`,
-        `The types of population Lori serves has been from a diverse population and she focuses on cognitive behavioral therapy, dialectical behavioral therapy, emotionally focused therapy, and motivational interviewing, but adjusts to the needs of the client; the types of services include anxiety, depression, behavioral issues, conflict resolution, and a range of other mental health and relationship areas. Lori takes a holistic approach to counseling focusing on the mind, body, and spirit to ensure that the whole person is addressed in order to achieve autonomy and overall wellness. She serves families, children, couples, and individuals. Lori’s goal is to assist her clients in recognizing how to move towards achieving their goals, feeling at ease, and understanding how to regulate their emotions and live a balanced life.`,
+        `Miah earned her bachelor’s degree in Psychology from the University of North Carolina at Pembroke and later completed her master’s degree in Social Work at North Carolina Central University. She has a true passion for working with children and adolescents, helping them feel supported, understood, and capable of overcoming challenges. Miah’s approach focuses on building trust, encouraging growth, and giving young people the tools they need to manage emotions, build confidence, and thrive in everyday life. She believes in meeting each child where they are and walking alongside families through the process.`,
+        `Her favorite quote is, "Today I do, tomorrow I will," which reflects her belief that small steps forward can create lasting change. When she’s not working, Miah enjoys finding ways to stay connected, creative, and inspired so she can bring her best self into her practice each day.`,
       ],
     },
   },
