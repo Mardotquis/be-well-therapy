@@ -18,6 +18,7 @@ jobs:
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
+            export AWS_DEFAULT_REGION=us-east-1
             export NVM_DIR="$HOME/.nvm"
             [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
             cd /home/ec2-user/code/be-well-therapy
