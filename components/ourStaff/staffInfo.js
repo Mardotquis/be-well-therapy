@@ -12,7 +12,7 @@ export const employees = [
     modalInfo: {
       info: [
         `Dr. Rolanda Gabriel earned a doctorate degree in Counselor Education and Supervision and a Master of Arts degree in Counseling with a concentration in Community Mental Health Counseling, both from Hampton University, and a Bachelor's degree in Criminal Justice and Sociology from the University of North Carolina at Charlotte.  She also pursued post-Master studies in Counseling at UNC-Charlotte and obtained North Carolina licensure as a Licensed Clinical Mental Health Counselor Supervisor in the state of North Carolina, and licensure as a Licensed Clinical Professional Counselor in the state of Maryland. She is the Founder and CEO of two private mental health group practices for over 15 years and has 20 years of counseling experience in the Outpatient, Intensive In-Home, and Residential settings.  Her experience includes working with individuals to resolve problems, work through life transitions, and learn to live and experience life more successfully and pleasurable.  Her area of special interest is working with adolescents, adults, and families that face a variety of problems ranging from emotional adjustment, school, peer, and family relationships to adults with mood disorders and trauma. In addition, she has also offered psycho-educational groups, which focus on empowerment, self-esteem, anger management, healthy relationships, coping, and stress management, and has over a decade of experience working with clients who suffer from ADHD, mood disorders, behavior disorders, eating disorders, anxiety disorders, trauma, grief and loss, family conflict, sexual abuse and offending, and crisis interventions.`,
-        `Dr. Gabriel has provided clinical supervision for associate-level professional counselors for ten years and approaches clinical supervision from the aspect of customizing the experience to enhance the licensee's professional development.  She values spending time examining professional ethics, conceptualizing clients’ cases, professional behavior, and counseling skills. She has also founded and developed two specialized wellness programs, BeCALM and Elevate Your Wellness.`,
+        `Dr. Gabriel has provided clinical supervision for associate-level professional counselors for ten years and approaches clinical supervision from the aspect of customizing the experience to enhance the licensee's professional development.  She values spending time examining professional ethics, conceptualizing clients' cases, professional behavior, and counseling skills. She has also founded and developed two specialized wellness programs, BeCALM and Elevate Your Wellness.`,
       ],
       long: true,
     },
@@ -47,23 +47,23 @@ export const employees = [
     headshotPosition: 'top',
     modalInfo: {
       info: [
-        `Justina Ankrah is a North Carolina Licensed Clinical Mental Health Counselor (LCMHC). Justina earned her master’s degrees in Human Development and Learning, and in Counseling from The University of North Carolina at Charlotte. She has over twenty-five years of experience working with diverse populations in the human services field providing services for individuals and families in need.`,
-        `Justina’s professional counseling experience consists of providing services for relief of stress, trauma, grief and loss, ADHD, anxiety, depression, and other mental health and life challenges. She uses a solution-focused and cognitive-behavioral techniques to assist individuals in identifying their goals for the future and exploring behaviors and circumstances that have supported a pathway toward
-those goals. Justina’s aim as a counselor is to collaborate with the individual and assist in achieving growth with the goal of lasting emotional and mental wellness.`,
+        `Justina Ankrah is a North Carolina Licensed Clinical Mental Health Counselor (LCMHC). Justina earned her master's degrees in Human Development and Learning, and in Counseling from The University of North Carolina at Charlotte. She has over twenty-five years of experience working with diverse populations in the human services field providing services for individuals and families in need.`,
+        `Justina's professional counseling experience consists of providing services for relief of stress, trauma, grief and loss, ADHD, anxiety, depression, and other mental health and life challenges. She uses a solution-focused and cognitive-behavioral techniques to assist individuals in identifying their goals for the future and exploring behaviors and circumstances that have supported a pathway toward
+those goals. Justina's aim as a counselor is to collaborate with the individual and assist in achieving growth with the goal of lasting emotional and mental wellness.`,
       ],
     },
   },
   {
-    name: 'Stephanie Williams, MSW, LCSWA',
+    name: 'Stephanie Williams, MSW, LCSW',
     certs: [
-      'Licensed Clinical Social Worker Associate',
+      'Licensed Clinical Social Worker',
     ],
     headshotPath: '/img/our-staff/stephanie-williams.jpg',
     headshotPosition: 'top',
     modalInfo: {
       info: [
-        `Stephanie is a Licensed Clinical Social Worker Associate through the North Carolina Social Work
-        Certification and Licensure Board. She earned her Master’s degree in Social Work from The University of
+        `Stephanie is a Licensed Clinical Social Worker through the North Carolina Social Work
+        Certification and Licensure Board. She earned her Master's degree in Social Work from The University of
         Alabama. She operates from a strengths-based approach, empowering individuals to develop a stronger
         sense of well-being. She has recently spent some time providing intensive in-home therapy services to
         at-risk youth and families. She has experience with providing case management services, crisis
@@ -90,11 +90,11 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     },
   },
   {
-    name: 'Frank Wright, MSW, LCSWA',
+    name: 'Frank Wright, MSW, LCSW',
     headshotPath: '/img/our-staff/frank-wright.jpg',
     headshotPosition: 'top', // TODO: check after link gen
     certs: [
-      'Licensed Clinical Social Worker Associate',
+      'Licensed Clinical Social Worker',
     ],
     modalInfo: {
       info: [
@@ -124,7 +124,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     ],
     modalInfo: {
       info: [
-        `My name is Brittany Foxx, MSW, LCSWA and I am a professional therapist with Be Well Therapy. I am currently working towards becoming fully licensed in the social work practice. Since gaining a Bachelor’s degree of Arts in Sociology. I have had the pleasure of working in a variety of areas within the mental health/behavioral health field. After much hard work and dedication, I also obtained a Master of Arts degree in Social Work. Over the years, I have worked with a variety of individuals of various backgrounds and diagnoses, and I have found my passion in the mental health/behavioral health field. I have 4 years of experience in individual therapy. Furthermore, I have worked in an agency and private practice settings which have provided me with the tools necessary for me to meet the unique needs of my clients. My clinical interests are anxiety, depression, trauma, mood disorder, stress, schizophrenia, etc. My therapeutic style is eclectic and involves me using a solution focused perspective and cognitive behavioral interventions to help clients to focus on how beliefs and thoughts effect our actions. I am always striving to expand my knowledge and ensure that my clients are given the best and most effective therapy that I can provide.`,
+        `My name is Brittany Foxx, MSW, LCSWA and I am a professional therapist with Be Well Therapy. I am currently working towards becoming fully licensed in the social work practice. Since gaining a Bachelor's degree of Arts in Sociology. I have had the pleasure of working in a variety of areas within the mental health/behavioral health field. After much hard work and dedication, I also obtained a Master of Arts degree in Social Work. Over the years, I have worked with a variety of individuals of various backgrounds and diagnoses, and I have found my passion in the mental health/behavioral health field. I have 4 years of experience in individual therapy. Furthermore, I have worked in an agency and private practice settings which have provided me with the tools necessary for me to meet the unique needs of my clients. My clinical interests are anxiety, depression, trauma, mood disorder, stress, schizophrenia, etc. My therapeutic style is eclectic and involves me using a solution focused perspective and cognitive behavioral interventions to help clients to focus on how beliefs and thoughts effect our actions. I am always striving to expand my knowledge and ensure that my clients are given the best and most effective therapy that I can provide.`,
       ],
     },
   },
@@ -164,21 +164,21 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     ],
     modalInfo: {
       info: [
-        `Airico Williams graduated from The University of North Carolina at Pembroke with a Bachelor’s degree in Social Work and a minor in Sociology. She furthered her education by obtaining her Master’s degree in Social Work from North Carolina Central University. Airico is a Licensed Clinical Social Worker Associate and is pursuing her Social Work journey to becoming fully licensed. She enjoys working with children and adolescents. In addition, she has experience working with children/adolescents who suffer from depression, trauma, anxiety, anger, and sexual/substance abuse. Airico focuses on a strengths-based perspective to assist clients with improving the quality of their life. She is full of energy, and loves using her creative skills, motivational interviewing, and evidence-based interventions to keep clients fully engaged in sessions.`,
+        `Airico Williams graduated from The University of North Carolina at Pembroke with a Bachelor's degree in Social Work and a minor in Sociology. She furthered her education by obtaining her Master's degree in Social Work from North Carolina Central University. Airico is a Licensed Clinical Social Worker Associate and is pursuing her Social Work journey to becoming fully licensed. She enjoys working with children and adolescents. In addition, she has experience working with children/adolescents who suffer from depression, trauma, anxiety, anger, and sexual/substance abuse. Airico focuses on a strengths-based perspective to assist clients with improving the quality of their life. She is full of energy, and loves using her creative skills, motivational interviewing, and evidence-based interventions to keep clients fully engaged in sessions.`,
       ],
     },
   },
   {
-    name: 'Lori Sampson, LMFTA',
-    headshotPath: '/img/our-staff/lori-sampson.jpeg',
+    name: 'Miah Tedder, LCMHCA',
+    headshotPath: '/img/our-staff/miah-tedder.jpg',
     headshotPosition: 'top',
     certs: [
-      'Licensed Marriage and Family Therapist Associate',
+      'Licensed Clinical Mental Health Counselor Associate',
     ],
     modalInfo: {
       info: [
-        `Lori Sampson is a Registered Licensed Professional Counseling Associate (Oregon), a Certified Drug and Alcohol-I (North Carolina), and a Licensed Marriage and Family Therapist Associate (North Carolina). Lori earned her Master of Divinity and Master of Science in Clinical Mental Health Counseling, with an emphasis in Marriage and Family Therapy from Grand Canyon University. She is also enrolled for her Doctor of Psychology in Counseling Psychology at National University. She has been working in the field assisting in case management and crisis work for two years and conducting groups for DWI and substance abuse. For 5 years Lori has been working in the field of education assisting students on their path to understanding which careers they would be best suited and assisting them to learning how to achieve those goals.`,
-        `The types of population Lori serves has been from a diverse population and she focuses on cognitive behavioral therapy, dialectical behavioral therapy, emotionally focused therapy, and motivational interviewing, but adjusts to the needs of the client; the types of services include anxiety, depression, behavioral issues, conflict resolution, and a range of other mental health and relationship areas. Lori takes a holistic approach to counseling focusing on the mind, body, and spirit to ensure that the whole person is addressed in order to achieve autonomy and overall wellness. She serves families, children, couples, and individuals. Lori’s goal is to assist her clients in recognizing how to move towards achieving their goals, feeling at ease, and understanding how to regulate their emotions and live a balanced life.`,
+        `Miah earned her bachelor's degree in Psychology from the University of North Carolina at Pembroke and later completed her master's degree in Social Work at North Carolina Central University. She has a true passion for working with children and adolescents, helping them feel supported, understood, and capable of overcoming challenges. Miah's approach focuses on building trust, encouraging growth, and giving young people the tools they need to manage emotions, build confidence, and thrive in everyday life. She believes in meeting each child where they are and walking alongside families through the process.`,
+        `Her favorite quote is, "Today I do, tomorrow I will," which reflects her belief that small steps forward can create lasting change. When she's not working, Miah enjoys finding ways to stay connected, creative, and inspired so she can bring her best self into her practice each day.`,
       ],
     },
   },
@@ -191,7 +191,7 @@ those goals. Justina’s aim as a counselor is to collaborate with the individua
     ],
     modalInfo: {
       info: [
-        `Michelle Anthony is a dedicated Licensed Clinical Social Worker Associate (LCSWA) with a strong passion for supporting individuals and families in overcoming life’s challenges. With a deep commitment to advocacy and mental health, Michelle has spent years working within the Charlotte-Mecklenburg Schools (CMS) system, where she serves as a School Social Worker.`,
+        `Michelle Anthony is a dedicated Licensed Clinical Social Worker Associate (LCSWA) with a strong passion for supporting individuals and families in overcoming life's challenges. With a deep commitment to advocacy and mental health, Michelle has spent years working within the Charlotte-Mecklenburg Schools (CMS) system, where she serves as a School Social Worker.`,
       
       `As a social worker, Michelle provides vital resources, guidance, and interventions to help students and families navigate difficulties such as housing instability, mental health concerns, academic barriers, and family dynamics. She collaborates with school staff, community organizations, and families to create tailored support plans promoting student success and well-being. She also partners with Families Forward Charlotte, reinforcing her commitment to uplifting underserved families.`,
       
