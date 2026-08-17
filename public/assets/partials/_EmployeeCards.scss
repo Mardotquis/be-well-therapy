@@ -5,7 +5,7 @@ $employee-card-md-breakpoint: 800px;
   grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
   grid-gap: 36px 5%;
   justify-items: center;
-  align-items: center;
+  align-items: stretch;
   margin: 50px auto 40px auto;
   max-width: 1350px;
   padding: 0 20px;
@@ -24,7 +24,7 @@ $employee-card-md-breakpoint: 800px;
     width: 380px;
     padding: 0;
     box-shadow: 0px 7px 22px #00000029;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -45,12 +45,8 @@ $employee-card-md-breakpoint: 800px;
 
     &__info {
       margin-top: -4px;
-      position: relative;
-      height: 270px;
+      flex: 1;
       background-color: #593c26;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -93,9 +89,10 @@ $employee-card-md-breakpoint: 800px;
       }
 
       &__button {
-        position: absolute;
-        bottom: 16px;
-        right: 31px;
+        align-self: flex-end;
+        margin-top: auto;
+        margin-right: 31px;
+        margin-bottom: 16px;
         padding: 15px 30px;
         background-color: $teal;
         border: none;
@@ -110,7 +107,6 @@ $employee-card-md-breakpoint: 800px;
 
     @media (max-width: $employee-card-md-breakpoint) {
       width: 325px;
-      height: 460px;
 
       &__img {
         height: 228px;
@@ -122,8 +118,6 @@ $employee-card-md-breakpoint: 800px;
       }
 
       &__info {
-        height: 236px;
-
         &__name {
           padding: 29px 0 0 30px;
           font-size: 17px;// down 1px
@@ -136,22 +130,13 @@ $employee-card-md-breakpoint: 800px;
           max-height: 120px;
           overflow-y: auto;
           word-break: break-word;
-          padding-right: 10px;
-          max-height: 120px;
-          overflow-y: auto;
-          word-break: break-word;
 
           li {
             font-size: 13px;// down 1px
             line-height: 18px;
             color: $white;
             word-break: break-word;
-            word-break: break-word;
           }
-        }
-
-        &__button {
-          bottom: 17px;
         }
       }
     }
