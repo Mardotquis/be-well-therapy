@@ -18,27 +18,6 @@ export const employees = [
     },
   },
   {
-    name: 'Jamal Ward, MA, LCMHCS, LCAS, CCS-I, LPC, LPCS',
-    certs: [
-      'Executive Director',
-      'Licensed Clinical Mental Health Counselor Supervisor (LCMHCS)',
-      'Licensed Clinical Addictions Specialist (LCAS)',
-      'Certified Clinical Supervisor Intern (CCS-I)',
-      'Licensed Professional Counselor (LPC)',
-      'Licensed Professional Counselor Supervisor (LPCS)',
-    ],
-    headshotPath: '/img/our-staff/jamal-ward.jpg',
-    headshotPosition: 'top',
-    modalInfo: {
-      info: [
-        `Jamal Ward serves as Executive Director and is dually licensed in mental health and substance use counseling. He is an approved clinical supervisor in both disciplines and holds supervisory licensure in South Carolina.`,
-        `He began his career providing direct clinical care as a substance use counselor and psychotherapist, working with individuals experiencing complex mental health and co-occurring behavioral health challenges. Over time, he advanced into progressive leadership roles including Clinical Supervisor, Program Director, Clinical Director, and Operations Director, where he led multidisciplinary teams and managed complex behavioral health service systems.`,
-        `His leadership experience spans multiple levels of care, including substance use treatment programs, Medication-Assisted Treatment (MAT) clinics, Psychiatric Residential Treatment Facilities (PRTFs), and Outpatient behavioral health services.`,
-        `As Executive Director, Jamal provides strategic oversight of clinical operations, regulatory compliance, program development, and service implementation — aligning high-quality, client-centered care focused on sustainable organizational growth.`
-      ],
-    },
-  },
-  {
     name: 'Justina Ankrah, MA, LCMHC',
     certs: [
       'Licensed Clinical Mental Health Counselor',
@@ -152,33 +131,6 @@ those goals. Justina's aim as a counselor is to collaborate with the individual 
     modalInfo: {
       info: [
         `I'm here to guide you into a healthier state of well-being. I will provide a nonjudgmental, safe space for individuals to grow into a version of themselves that promotes healthy self-esteem. I specialize in person-centered practice, and respect your story and your life experiences. Two years of practice working with individuals and families have helped prepare me to provide impactful practice. I'm excited to work with you on your journey to a healthy state of well-being. `,
-      ],
-    },
-  },
-  {
-    name: 'Airico Williams, MSW, LCSWA',
-    headshotPath: '/img/our-staff/airico-williams.jpeg',
-    headshotPosition: 'top',
-    certs: [
-      'Licensed Clinical Social Worker Associate',
-    ],
-    modalInfo: {
-      info: [
-        `Airico Williams graduated from The University of North Carolina at Pembroke with a Bachelor's degree in Social Work and a minor in Sociology. She furthered her education by obtaining her Master's degree in Social Work from North Carolina Central University. Airico is a Licensed Clinical Social Worker Associate and is pursuing her Social Work journey to becoming fully licensed. She enjoys working with children and adolescents. In addition, she has experience working with children/adolescents who suffer from depression, trauma, anxiety, anger, and sexual/substance abuse. Airico focuses on a strengths-based perspective to assist clients with improving the quality of their life. She is full of energy, and loves using her creative skills, motivational interviewing, and evidence-based interventions to keep clients fully engaged in sessions.`,
-      ],
-    },
-  },
-  {
-    name: 'Miah Tedder, LCMHCA',
-    headshotPath: '/img/our-staff/miah-tedder.jpg',
-    headshotPosition: 'top',
-    certs: [
-      'Licensed Clinical Mental Health Counselor Associate',
-    ],
-    modalInfo: {
-      info: [
-        `Miah earned her bachelor's degree in Psychology from the University of North Carolina at Pembroke and later completed her master's degree in Social Work at North Carolina Central University. She has a true passion for working with children and adolescents, helping them feel supported, understood, and capable of overcoming challenges. Miah's approach focuses on building trust, encouraging growth, and giving young people the tools they need to manage emotions, build confidence, and thrive in everyday life. She believes in meeting each child where they are and walking alongside families through the process.`,
-        `Her favorite quote is, "Today I do, tomorrow I will," which reflects her belief that small steps forward can create lasting change. When she's not working, Miah enjoys finding ways to stay connected, creative, and inspired so she can bring her best self into her practice each day.`,
       ],
     },
   },
