@@ -14,5 +14,3 @@ out
 .DS_Store
 .env
 .vscode
-# Claude Code local worktrees / session state
-.claude/
